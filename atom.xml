@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-03T12:37:52.935Z</updated>
+  <updated>2017-09-03T13:24:04.983Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,10 +20,10 @@
     <link href="http://yoursite.com/2017/09/03/%E5%A6%A5%E5%96%84%E8%A7%A3%E5%86%B3win10%E5%90%84%E7%A7%8D%E5%8D%A1%E9%A1%BF%E9%97%AE%E9%A2%98/"/>
     <id>http://yoursite.com/2017/09/03/妥善解决win10各种卡顿问题/</id>
     <published>2017-09-03T09:16:42.000Z</published>
-    <updated>2017-09-03T12:37:52.935Z</updated>
+    <updated>2017-09-03T13:24:04.983Z</updated>
     
     <content type="html"><![CDATA[<p>方案一</p>
-<pre><code>关闭windows search后台偷偷运行。控制面板-管理工具-服务-windows search禁用，别禁防火墙，可以在高级设置里的“属性”把“域配置文件”“专属配置文件”“公用配置文件”改为关闭状态。
+<pre><code>关闭windows search后台偷偷运行。控制面板-管理工具-服务-windows search禁用，别禁防火墙，可以在高级设置里的“属性”把“域配置文&lt;!--more--&gt;件”“专属配置文件”“公用配置文件”改为关闭状态。
 </code></pre><p>方案二</p>
 <pre><code>关闭家庭组，该功能导致硬盘与cpu处于高负荷状态。控制中心-管理工具-服务-Homecroup listener和Homegroup Provider禁用。使用优化软件后win10开不了机的原因是禁用了三个服务，使用优化软件开启：dmwappushsvc. diagnsticsTracking service. coreMessaging.
 </code></pre><p>方案三</p>
@@ -51,8 +51,7 @@
     <summary type="html">
     
       &lt;p&gt;方案一&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;关闭windows search后台偷偷运行。控制面板-管理工具-服务-windows search禁用，别禁防火墙，可以在高级设置里的“属性”把“域配置文件”“专属配置文件”“公用配置文件”改为关闭状态。
-&lt;/code&gt;&lt;/pre&gt;&lt;
+&lt;pre&gt;&lt;code&gt;关闭windows search后台偷偷运行。控制面板-管理工具-服务-windows search禁用，别禁防火墙，可以在高级设置里的“属性”把“域配置文&amp;lt;!--more--&amp;gt;件”“专属配置文件”“公用配置文件”改为关闭状
     
     </summary>
     
