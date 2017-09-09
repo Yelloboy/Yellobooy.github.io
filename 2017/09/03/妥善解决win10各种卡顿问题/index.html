@@ -97,17 +97,17 @@
 
 
 
-<meta name="description" content="方案一 关闭windows search后台偷偷运行。控制面板-管理工具-服务-windows search禁用，别禁防火墙， 可以在高级设置里的“属性”把“域配置文件”“专属配置文件”“公用配置文件”改为关闭状态。 方案二">
+<meta name="description" content="方案一    关闭windows search后台偷偷运行。控制面板-管理工具-服务-windows search禁用，别禁防火墙，可以在高级设置里的“属性”把“域配置文件”“专属配置文件”“公用配置文件”改为关闭状态。 方案二   关闭家庭组，该功能导致硬盘与cpu处于高负荷状态。控制中心-管理工具-服务-Homecroup listener和Homegroup Provider禁用。使用优化软">
 <meta property="og:type" content="article">
 <meta property="og:title" content="妥善解决win10各种卡顿问题">
 <meta property="og:url" content="http://yoursite.com/2017/09/03/妥善解决win10各种卡顿问题/index.html">
 <meta property="og:site_name" content="一鸣のCuteXin">
-<meta property="og:description" content="方案一 关闭windows search后台偷偷运行。控制面板-管理工具-服务-windows search禁用，别禁防火墙， 可以在高级设置里的“属性”把“域配置文件”“专属配置文件”“公用配置文件”改为关闭状态。 方案二">
+<meta property="og:description" content="方案一    关闭windows search后台偷偷运行。控制面板-管理工具-服务-windows search禁用，别禁防火墙，可以在高级设置里的“属性”把“域配置文件”“专属配置文件”“公用配置文件”改为关闭状态。 方案二   关闭家庭组，该功能导致硬盘与cpu处于高负荷状态。控制中心-管理工具-服务-Homecroup listener和Homegroup Provider禁用。使用优化软">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-03T13:27:49.514Z">
+<meta property="og:updated_time" content="2017-09-09T13:47:28.426Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="妥善解决win10各种卡顿问题">
-<meta name="twitter:description" content="方案一 关闭windows search后台偷偷运行。控制面板-管理工具-服务-windows search禁用，别禁防火墙， 可以在高级设置里的“属性”把“域配置文件”“专属配置文件”“公用配置文件”改为关闭状态。 方案二">
+<meta name="twitter:description" content="方案一    关闭windows search后台偷偷运行。控制面板-管理工具-服务-windows search禁用，别禁防火墙，可以在高级设置里的“属性”把“域配置文件”“专属配置文件”“公用配置文件”改为关闭状态。 方案二   关闭家庭组，该功能导致硬盘与cpu处于高负荷状态。控制中心-管理工具-服务-Homecroup listener和Homegroup Provider禁用。使用优化软">
 
 
 
@@ -308,31 +308,22 @@
 
       
         <p>方案一</p>
-<pre><code>关闭windows search后台偷偷运行。控制面板-管理工具-服务-windows search禁用，别禁防火墙，
-</code></pre><p>可以在高级设置里的“属性”把“域配置文件”“专属配置文件”“公用配置文件”改为关闭状态。</p>
-<p>方案二<a id="more"></a></p>
-<pre><code>关闭家庭组，该功能导致硬盘与cpu处于高负荷状态。控制中心-管理工具-服务-Homecroup listener和Homegroup Provider禁用。使用优化软件后win10开不了机的原因是禁用了三个服务，使用优化软件开启：dmwappushsvc. diagnsticsTracking service. coreMessaging.
-</code></pre><p>方案三</p>
-<pre><code>清理产生的windows.old文件夹。
-</code></pre><p>方案四</p>
-<pre><code>设置好Superfetch服务，服务Superfetch启动类型改成延迟启动或者禁用，可避免频繁对硬盘的访问。控制中心-管 理服务-Superfetch-启动类型-自动。
-</code></pre><p>方案五</p>
-<pre><code>关闭ipv6，部分网卡驱动开启ipv6会导致开机系统未响应，假死。网络共享中心-网络连接-以太网-属性-取消ipv6.
-</code></pre><p>方案六</p>
-<pre><code>设置win10自动登录，win+r netplwiz 取消使用计算机必须密码选项。
-</code></pre><p>方案七</p>
-<pre><code>关闭windows安全中心服务，win+r services.msc  Enter-找出SecurityCenter，禁用。不要删除系统文件，优化速度明显加快。
-</code></pre><p>方案八</p>
-<pre><code>关闭计划任务里的隐藏的自动程序，控制面板-所有控制面板选项-管理工具-任务计划程序-右侧任务列表-禁用不需要的服务。
-</code></pre><p>方案九</p>
-<pre><code>加速开机速度，win+r  msconfig  -引导-勾上无GUI引导。
-</code></pre><p>方案十</p>
-<pre><code>win+r gpedit.msc 计算机管理中-模块管理-系统-关机选项-关闭会阻止或取消关机的应用程序的自动终止功能。
-</code></pre><p>方案十一</p>
-<pre><code>关闭性能特效（低配置电脑），系统属性-高级-性能-设置-关闭窗口动态。
-</code></pre><p>方案十二</p>
-<pre><code>修改窗口颜色用于护眼。win+r regedit  打开注册表 HKEY_CURRENT_USER\CONTROL\PANEL\Colors  选一个需要修改颜色的地方-比如窗口（windows）红绿蓝  这是白色(255 255 255)你可以改为豆绿（204 237 207）完后重启两次。
-</code></pre>
+<p>   关闭windows search后台偷偷运行。控制面板-管理工具-服务-windows search禁用，别禁防火墙，<br>可以在高级设置里的“属性”把“域配置文件”“专属配置文件”“公用配置文件”改为关闭状态。</p>
+<p>方案二<br>   关闭家庭组，该功能导致硬盘与cpu处于高负荷状态。控制中心-管理工具-服务-Homecroup listener和Homegroup Provider禁用。使用优化软件后win10开不了机的原因是禁用了三个服务，使用优化软件开启：dmwappushsvc. diagnsticsTracking service. coreMessaging.</p>
+<p>方案三<br>   清理产生的windows.old文件夹。<br><a id="more"></a><br>方案四<br>   设置好Superfetch服务，服务Superfetch启动类型改成延迟启动或者禁用，可避免频繁对硬盘的访问。控制中心-管 理服务-Superfetch-启动类型-自动。</p>
+<p>方案五</p>
+<p>   关闭ipv6，部分网卡驱动开启ipv6会导致开机系统未响应，假死。网络共享中心-网络连接-以太网-属性-取消ipv6.</p>
+<p>方案六</p>
+<p>   设置win10自动登录，win+r netplwiz 取消使用计算机必须密码选项。</p>
+<p>方案七</p>
+<p>   关闭windows安全中心服务，win+r services.msc  Enter-找出SecurityCenter，禁用。不要删除系统文件，优化速度明显加快。</p>
+<p>方案八</p>
+<p>   关闭计划任务里的隐藏的自动程序，控制面板-所有控制面板选项-管理工具-任务计划程序-右侧任务列表-禁用不需要的服务。</p>
+<p>方案九<br>   加速开机速度，win+r  msconfig  -引导-勾上无GUI引导。</p>
+<p>方案十<br>   win+r gpedit.msc 计算机管理中-模块管理-系统-关机选项-关闭会阻止或取消关机的应用程序的自动终止功能。</p>
+<p>方案十一<br>   关闭性能特效（低配置电脑），系统属性-高级-性能-设置-关闭窗口动态。</p>
+<p>方案十二<br>   修改窗口颜色用于护眼。win+r regedit  打开注册表 HKEY_CURRENT_USER\CONTROL\PANEL\Colors  选一个需要修改颜色的地方-比如窗口（windows）红绿蓝  这是白色(255 255 255)你可以改为豆绿（204 237 207）完后重启两次。</p>
+
       
     </div>
     
