@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Music test]]></title>
+    <url>%2F2017%2F10%2F02%2FMusic-test%2F</url>
+    <content type="text"><![CDATA[这个blog测试是否可以生成外链播放器。]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[测试。]]></title>
     <url>%2F2017%2F10%2F01%2F%E6%B5%8B%E8%AF%95%E3%80%82%2F</url>
     <content type="text"><![CDATA[我就想知道到底怎么回事，啥都没干就给我404？？？ 分割线:10.02ok啦~ 可能原因：next主题更新导致。同时感谢This blog的帮助。]]></content>
