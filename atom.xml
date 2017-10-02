@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-10-02T11:34:01.094Z</updated>
+  <updated>2017-10-02T11:46:55.002Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,22 +16,53 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Music test</title>
+    <title>多么想和你见一面</title>
     <link href="http://yoursite.com/2017/10/02/Music-test/"/>
     <id>http://yoursite.com/2017/10/02/Music-test/</id>
     <published>2017-10-02T11:19:19.000Z</published>
-    <updated>2017-10-02T11:34:01.094Z</updated>
+    <updated>2017-10-02T11:46:55.002Z</updated>
     
-    <content type="html"><![CDATA[<p>这个blog测试是否可以生成外链播放器。  </p>
-<embed src="http://www.xiami.com/widget/0_2067242/singlePlayer.swf" type="application/x-shockwave-flash" width="257" height="33" wmode="transparent">  
+    <content type="html"><![CDATA[<p><img src="https://i.imgur.com/y6jpqOk.jpg" alt="">  </p>
+<script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=2067242&mode=js"></script>  
 
-<p><a href="http://www.xiami.com/widget/0_2067242/singlePlayer.swf" target="_blank" rel="external">http://www.xiami.com/widget/0_2067242/singlePlayer.swf</a>  </p>
-<script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=2067242&mode=js"></script> ]]></content>
+<p>作曲 : 陈小霞</p>
+<p>作词 : 施立</p>
+<p>我来到 你的城市</p>
+<p>走过你来时的路</p>
+<p>想像着 没我的日子</p>
+<p>你是怎样的孤独</p>
+<p>拿着你 给的照片</p>
+<p>熟悉的那一条街</p>
+<p>只是没了你的画面</p>
+<p>我们回不到那天</p>
+<p>你会不会忽然的出现</p>
+<p>在街角的咖啡店</p>
+<p>我会带着笑脸 挥手寒暄</p>
+<p>和你 坐着聊聊天</p>
+<p>我多么想和你见一面</p>
+<p>看看你最近改变</p>
+<p>不再去说从前 只是寒暄</p>
+<p>对你说一句 只是说一句</p>
+<p>好久不见</p>
+<p>拿着你 给的照片</p>
+<p>熟悉的那一条街</p>
+<p>只是没了你的画面</p>
+<p>我们回不到那天</p>
+<p>你会不会忽然的出现</p>
+<p>在街角的咖啡店</p>
+<p>我会带着笑脸 挥手寒暄</p>
+<p>和你 坐着聊聊天</p>
+<p>我多么想和你见一面</p>
+<p>看看你最近改变</p>
+<p>不再去说从前 只是寒暄</p>
+<p>对你说一句 只是说一句</p>
+<p>好久不见  </p>
+]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;这个blog测试是否可以生成外链播放器。  &lt;/p&gt;
-&lt;embed src=&quot;http://www.xiami.com/widget/0_2067242/singlePlayer.swf&quot; type=&quot;application/x-shockwave-flash&quot; width
+      &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/y6jpqOk.jpg&quot; alt=&quot;&quot;&gt;  &lt;/p&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.xiami.com/widget/player-single?ui
     
     </summary>
     
