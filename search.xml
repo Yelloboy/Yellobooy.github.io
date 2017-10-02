@@ -1,91 +1,243 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[多么想和你见一面]]></title>
-    <url>%2F2017%2F10%2F02%2FMusic-test%2F</url>
-    <content type="text"><![CDATA[作曲 : 陈小霞 作词 : 施立 我来到 你的城市 走过你来时的路 想像着 没我的日子 你是怎样的孤独 拿着你 给的照片 熟悉的那一条街 只是没了你的画面 我们回不到那天 你会不会忽然的出现 在街角的咖啡店 我会带着笑脸 挥手寒暄 和你 坐着聊聊天 我多么想和你见一面 看看你最近改变 不再去说从前 只是寒暄 对你说一句 只是说一句 好久不见 拿着你 给的照片 熟悉的那一条街 只是没了你的画面 我们回不到那天 你会不会忽然的出现 在街角的咖啡店 我会带着笑脸 挥手寒暄 和你 坐着聊聊天 我多么想和你见一面 看看你最近改变 不再去说从前 只是寒暄 对你说一句 只是说一句 好久不见]]></content>
-      <categories>
-        <category>Music</category>
-      </categories>
-      <tags>
-        <tag>音乐</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[测试。]]></title>
-    <url>%2F2017%2F10%2F01%2F%E6%B5%8B%E8%AF%95%E3%80%82%2F</url>
-    <content type="text"><![CDATA[我就想知道到底怎么回事，啥都没干就给我404？？？ 分割线:10.02ok啦~ 可能原因：next主题更新导致。同时感谢This blog的帮助。]]></content>
-      <categories>
-        <category>历程</category>
-      </categories>
-      <tags>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[懒懒懒懒懒]]></title>
-    <url>%2F2017%2F09%2F24%2F%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92o-%CF%89-o%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A%2F</url>
-    <content type="text"><![CDATA[随便写点什么，下雨，从昨天放学开始。 家里装修 = Release 2.5.0 =Released: 2017-07-23 == Major change == VS2017 is used for building TortoiseGitOn x64 versions of Windows, the TortoiseGit context menu and overlays won’t show for pure 32-bit applications in their file-open/save dialogs until you install the 2015 C-runtime for x86.https://www.microsoft.com/en-us/download/details.aspx?id=52685 (select the vc_redist.x86.exe file for download). 特奇怪]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>记录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[嗯，下课了]]></title>
-    <url>%2F2017%2F09%2F16%2F%E5%97%AF%EF%BC%8C%E4%B8%8B%E8%AF%BE%E4%BA%86%2F</url>
-    <content type="text"><![CDATA[随便记点什么吧考完试回到家看望了奶奶吃了水果………嗯在学校看见了她嗯开心 我在看天时，你若看见我，请叫住我因为，你比天要美丽； 我在看你时，请你不要视而不见为了看你我放弃了天； 天空我把他称为云朵云朵也就变成了天空， 你看那一朵朵天空多美啊！因为他的背景是云； 我不听人们的话，我只听你的人们都喜欢云而我喜欢你————To xin]]></content>
-      <categories>
-        <category>感情</category>
-      </categories>
-      <tags>
-        <tag>Cutexin</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[第一个星期(￣▽￣)"]]></title>
-    <url>%2F2017%2F09%2F09%2Ftext-1%2F</url>
-    <content type="text"><![CDATA[放学你们放学了吗？开学一星期，一班陌生的可爱的的同学，很无奈(⊙﹏⊙)，随便更新个博客吧啊啊啊啊啊啊啊啊啊啊啊啊啊。不行啊啊啊啊啊啊啊啊啊啊啊啊啊！！！再来一次aaaaaaaaaaaaaaaaaaaaaa(⊙_⊙)???嗯恩恩恩恩呢讷讷嫩嗯~ o(￣▽￣)o测试一下~~~~就是测试喔！(⊙o⊙)！再次再次强调//////////////////////////////////This is a TEXT!向前进军！ 先熟悉一下上周的程序再说！ 现在程序只能解决正负和R的函数，不能输入根号以及多次幂。还有ax^2+bx+c以内的函数，结果是小数很麻烦。不能准确解决解函数问题。亟待解决 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990//这个程序帮助解决简单的一元二次方程#include &lt;stdio.h&gt;#include &lt;math.h&gt;//#define()后面不加分号“；”#define QUIT 2//函数原型int get_menu_choice(void);int main(void)&#123; int choice = 0; while (choice != QUIT) &#123; //调用菜单选择函数 choice = get_menu_choice(); //选择1将进入解方程 if (choice == 1) &#123; printf(&quot;求一元二次方程ax^2 + bx + c的解\n&quot;); int a, b, c; double x1, x2, dealt; printf(&quot;请依次输入系数a b c(请用空格分隔开):\n&quot;); scanf_s(&quot;%u %u %u&quot;, &amp;a, &amp;b, &amp;c); dealt = b * b - 4 * a * c;//根的判别式 if (a == 0) printf(&quot;a不能为0\n\n\n\n&quot;); else if (dealt &gt; 0) &#123; x1 = (-b + sqrt(dealt)) / (2 * a); x2 = (-b - sqrt(dealt)) / (2 * a); printf(&quot;方程（%d）x^2 + （%d）x + （%d）的解为：\n&quot;, a, b, c); printf(&quot;x1 = %f,x2 = %f\n\n\n\n&quot;, x1, x2); &#125; else if (dealt == 0)// &#123; x1 = x2 = (-b) / (2 * a); printf(&quot;方程（%d）x^2 + （%d）x + （%d）的解为：\n&quot;, a, b, c); printf(&quot;x1=x2=%f\n\n\n\n&quot;, x1); &#125; else //这里是（dealt &lt; 0）的情况，所以并没有实根 printf(&quot;该方程无解\n\n\n\n&quot;); &#125; else puts(&quot;\n你选择离开。&quot;); &#125; return 0;&#125;////////////////函数定义//////////////////////这个函数被调用时将在荧屏上显示两个菜单选项int get_menu_choice(void)&#123; int selection; do &#123; puts(&quot;\n1 - 解一元二次方程。&quot;);// puts(&quot;2 - 离开。&quot;);//选项二 puts(&quot;\n输入你的选择：&quot;); scanf_s(&quot;%d&quot;, &amp;selection); &#125; while (selection &lt; 1 || selection &gt; 2); return selection;&#125; 。。。(o-ωｑ)).oO 困啊困啊苦命的困，(～﹃～)~zZ睡觉，有时间再说吧。。。估计没什么时间更blog了]]></content>
-      <categories>
-        <category>c语言</category>
-      </categories>
-      <tags>
-        <tag>记录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[妥善解决win10各种卡顿问题]]></title>
-    <url>%2F2017%2F09%2F03%2F%E5%A6%A5%E5%96%84%E8%A7%A3%E5%86%B3win10%E5%90%84%E7%A7%8D%E5%8D%A1%E9%A1%BF%E9%97%AE%E9%A2%98%2F</url>
-    <content type="text"><![CDATA[方案一 关闭windows search后台偷偷运行。控制面板-管理工具-服务-windows search禁用，别禁防火墙，可以在高级设置里的“属性”把“域配置文件”“专属配置文件”“公用配置文件”改为关闭状态。 方案二 关闭家庭组，该功能导致硬盘与cpu处于高负荷状态。控制中心-管理工具-服务-Homecroup listener和Homegroup Provider禁用。使用优化软件后win10开不了机的原因是禁用了三个服务，使用优化软件开启：dmwappushsvc. diagnsticsTracking service. coreMessaging. 方案三 清理产生的windows.old文件夹。方案四 设置好Superfetch服务，服务Superfetch启动类型改成延迟启动或者禁用，可避免频繁对硬盘的访问。控制中心-管 理服务-Superfetch-启动类型-自动。 方案五 关闭ipv6，部分网卡驱动开启ipv6会导致开机系统未响应，假死。网络共享中心-网络连接-以太网-属性-取消ipv6. 方案六 设置win10自动登录，win+r netplwiz 取消使用计算机必须密码选项。 方案七 关闭windows安全中心服务，win+r services.msc Enter-找出SecurityCenter，禁用。不要删除系统文件，优化速度明显加快。 方案八 关闭计划任务里的隐藏的自动程序，控制面板-所有控制面板选项-管理工具-任务计划程序-右侧任务列表-禁用不需要的服务。 方案九 加速开机速度，win+r msconfig -引导-勾上无GUI引导。 方案十 win+r gpedit.msc 计算机管理中-模块管理-系统-关机选项-关闭会阻止或取消关机的应用程序的自动终止功能。 方案十一 关闭性能特效（低配置电脑），系统属性-高级-性能-设置-关闭窗口动态。 方案十二 修改窗口颜色用于护眼。win+r regedit 打开注册表 HKEY_CURRENT_USER\CONTROL\PANEL\Colors 选一个需要修改颜色的地方-比如窗口（windows）红绿蓝 这是白色(255 255 255)你可以改为豆绿（204 237 207）完后重启两次。]]></content>
-      <categories>
-        <category>历程</category>
-      </categories>
-      <tags>
-        <tag>方案</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[测试测试]]></title>
-    <url>%2F2017%2F09%2F03%2F%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95%2F</url>
-    <content type="text"><![CDATA[这是一篇测试，是否能够解决乱码问题]]></content>
-      <categories>
-        <category>历程</category>
-      </categories>
-      <tags>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[我的博客第一天]]></title>
-    <url>%2F2017%2F09%2F03%2F%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%A4%A9%2F</url>
-    <content type="text"><![CDATA[………..折腾一个晚上和一上午终于弄好了……………..求抱抱(￣︶￣*)) ////\\，嗯先就这样吧，还有中午好cutexin]]></content>
-      <categories>
-        <category>My blog the first day</category>
-      </categories>
-      <tags>
-        <tag>First day</tag>
-      </tags>
-  </entry>
+<search> 
+  
+    
+    <entry>
+      <title><![CDATA[多么想和你见一面]]></title>
+      <url>/2017/10/02/Music-test/</url>
+      <content type="html"><![CDATA[<p><img src="https://i.imgur.com/y6jpqOk.jpg" alt="">  </p>
+<script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=2067242&mode=js"></script>  
+
+<p>作曲 : 陈小霞</p>
+<p>作词 : 施立</p>
+<p>我来到 你的城市</p>
+<p>走过你来时的路</p>
+<p>想像着 没我的日子</p>
+<p>你是怎样的孤独</p>
+<a id="more"></a>
+<p>拿着你 给的照片</p>
+<p>熟悉的那一条街</p>
+<p>只是没了你的画面</p>
+<p>我们回不到那天</p>
+<p>你会不会忽然的出现</p>
+<p>在街角的咖啡店</p>
+<p>我会带着笑脸 挥手寒暄</p>
+<p>和你 坐着聊聊天</p>
+<p>我多么想和你见一面</p>
+<p>看看你最近改变</p>
+<p>不再去说从前 只是寒暄</p>
+<p>对你说一句 只是说一句</p>
+<p>好久不见</p>
+<p>拿着你 给的照片</p>
+<p>熟悉的那一条街</p>
+<p>只是没了你的画面</p>
+<p>我们回不到那天</p>
+<p>你会不会忽然的出现</p>
+<p>在街角的咖啡店</p>
+<p>我会带着笑脸 挥手寒暄</p>
+<p>和你 坐着聊聊天</p>
+<p>我多么想和你见一面</p>
+<p>看看你最近改变</p>
+<p>不再去说从前 只是寒暄</p>
+<p>对你说一句 只是说一句</p>
+<p>好久不见  </p>
+]]></content>
+      
+        <categories>
+            
+            <category> Music </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 音乐 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[测试。]]></title>
+      <url>/2017/10/01/%E6%B5%8B%E8%AF%95%E3%80%82/</url>
+      <content type="html"><![CDATA[<p>我就想知道到底怎么回事，啥都没干就给我404？？？  </p>
+<hr>
+<p>分割线:10.02<br>ok啦~ 可能原因：next主题更新导致。同时感谢<a href="http://www.chengxinsong.cn" target="_blank" rel="external">This blog</a>的帮助。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 历程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[懒懒懒懒懒]]></title>
+      <url>/2017/09/24/%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92o-%CF%89-o%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A/</url>
+      <content type="html"><![CDATA[<p>  随便写点什么，下雨，从昨天放学开始。 家里装修</p>
+<hr>
+<p>= Release 2.5.0 =<br>Released: 2017-07-23</p>
+<p>== Major change ==</p>
+<ul>
+<li>VS2017 is used for building TortoiseGit<br>On x64 versions of Windows, the TortoiseGit context menu and overlays won’t show for pure 32-bit applications in their file-open/save dialogs until you install the 2015 C-runtime for x86.<br><a href="https://www.microsoft.com/en-us/download/details.aspx?id=52685" target="_blank" rel="external">https://www.microsoft.com/en-us/download/details.aspx?id=52685</a> (select the vc_redist.x86.exe file for download).  <a id="more"></a>
+</li>
+</ul>
+<p>特奇怪</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 日记 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 记录 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[嗯，下课了]]></title>
+      <url>/2017/09/16/%E5%97%AF%EF%BC%8C%E4%B8%8B%E8%AF%BE%E4%BA%86/</url>
+      <content type="html"><![CDATA[<p>随便记点什么吧<br>考完试回到家<br>看望了奶奶<br>吃了水果<br>………<br>嗯在学校看见了她<br>嗯开心  </p>
+<hr>
+<p>我在看天时，你若看见我，请叫住我<br>因为，你比天要美丽；<br><a id="more"></a></p>
+<p>我在看你时，请你不要视而不见<br>为了看你我放弃了天；  </p>
+<p>天空我把他称为云朵<br>云朵也就变成了天空，  </p>
+<p>你看那一朵朵天空多美啊！<br>因为他的背景是云；  </p>
+<p>我不听人们的话，我只听你的<br>人们都喜欢云<br>而我喜欢你<br>————To xin</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 感情 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Cutexin </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[第一个星期(￣▽￣)"]]></title>
+      <url>/2017/09/09/text-1/</url>
+      <content type="html"><![CDATA[<p>放学你们放学了吗？<br>开学一星期，一班陌生的可爱的的同学，很无奈(⊙﹏⊙)，随便更新个博客吧<br>啊啊啊啊啊啊啊啊啊啊啊啊啊。<br>不行<br>啊啊啊啊啊啊啊啊啊啊啊啊啊！！！<br>再来一次<br>aaaaaaaaaaaaaaaaaaaaaa(⊙_⊙)???<br><img src="https://i.imgur.com/SjL0N9H.jpg" alt=""><br>嗯恩恩恩恩呢讷讷嫩嗯~ o(￣▽￣)o测试一下~~~~就是测试喔！(⊙o⊙)！再次再次强调//////////////////////////////////This is a TEXT!<br><strong>向前进军！  先熟悉一下上周的程序再说！</strong>  <a id="more"></a> 现在程序只能解决正负和R的函数，不能输入根号以及多次幂。还有<em>ax^2+bx+c</em>以内的函数，结果是小数很麻烦。不能准确解决解函数问题。亟待解决</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div></pre></td><td class="code"><pre><div class="line">//这个程序帮助解决简单的一元二次方程</div><div class="line"></div><div class="line">#include &lt;stdio.h&gt;</div><div class="line">#include &lt;math.h&gt;</div><div class="line"></div><div class="line">//#define()后面不加分号“；”</div><div class="line">#define QUIT 2</div><div class="line"></div><div class="line">//函数原型</div><div class="line">int get_menu_choice(void);</div><div class="line"></div><div class="line"></div><div class="line">int main(void)</div><div class="line">&#123;</div><div class="line">    int choice = 0;</div><div class="line">    while (choice != QUIT)</div><div class="line">    &#123;</div><div class="line">        //调用菜单选择函数</div><div class="line">        choice = get_menu_choice();</div><div class="line"></div><div class="line">        //选择1将进入解方程</div><div class="line">        if (choice == 1)</div><div class="line">        &#123;</div><div class="line"></div><div class="line">            printf(&quot;求一元二次方程ax^2 + bx + c的解\n&quot;);</div><div class="line"></div><div class="line"></div><div class="line">            int a, b, c;</div><div class="line">            double x1, x2, dealt;</div><div class="line"></div><div class="line">            printf(&quot;请依次输入系数a b c(请用空格分隔开):\n&quot;);</div><div class="line">            scanf_s(&quot;%u %u %u&quot;, &amp;a, &amp;b, &amp;c);</div><div class="line"></div><div class="line"></div><div class="line">            dealt = b * b - 4 * a * c;//根的判别式</div><div class="line"></div><div class="line">            if (a == 0)</div><div class="line"></div><div class="line"></div><div class="line">                printf(&quot;a不能为0\n\n\n\n&quot;);</div><div class="line"></div><div class="line"></div><div class="line">            else if (dealt &gt; 0)</div><div class="line">            &#123;</div><div class="line"></div><div class="line"></div><div class="line">                x1 = (-b + sqrt(dealt)) / (2 * a);</div><div class="line">                x2 = (-b - sqrt(dealt)) / (2 * a);</div><div class="line"></div><div class="line">                printf(&quot;方程（%d）x^2 + （%d）x + （%d）的解为：\n&quot;, a, b, c);</div><div class="line">                printf(&quot;x1 = %f,x2 = %f\n\n\n\n&quot;, x1, x2);</div><div class="line">            &#125;</div><div class="line"></div><div class="line">            else if (dealt == 0)//</div><div class="line"></div><div class="line">            &#123;</div><div class="line">                x1 = x2 = (-b) / (2 * a);</div><div class="line">                printf(&quot;方程（%d）x^2 + （%d）x + （%d）的解为：\n&quot;, a, b, c);</div><div class="line">                printf(&quot;x1=x2=%f\n\n\n\n&quot;, x1);</div><div class="line">            &#125;</div><div class="line"></div><div class="line">            else</div><div class="line">                //这里是（dealt &lt; 0）的情况，所以并没有实根</div><div class="line">                printf(&quot;该方程无解\n\n\n\n&quot;);</div><div class="line">        &#125;</div><div class="line">        else</div><div class="line">            puts(&quot;\n你选择离开。&quot;);</div><div class="line"></div><div class="line">    &#125;</div><div class="line"></div><div class="line">    return 0;</div><div class="line">&#125;</div><div class="line"></div><div class="line">////////////////函数定义////////////////////</div><div class="line"></div><div class="line">//这个函数被调用时将在荧屏上显示两个菜单选项</div><div class="line">int get_menu_choice(void)</div><div class="line">&#123;</div><div class="line">    int selection;</div><div class="line"></div><div class="line">    do</div><div class="line">    &#123;</div><div class="line">        puts(&quot;\n1 - 解一元二次方程。&quot;);//</div><div class="line">        puts(&quot;2 - 离开。&quot;);//选项二</div><div class="line">        puts(&quot;\n输入你的选择：&quot;);</div><div class="line"></div><div class="line">        scanf_s(&quot;%d&quot;, &amp;selection);</div><div class="line">    &#125; while (selection &lt; 1 || selection &gt; 2);</div><div class="line">    return selection;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>。。。(o-ωｑ)).oO 困啊困啊苦命的困，(～﹃～)~zZ睡觉，有时间再说吧。。。估计没什么时间更blog了</p>
+]]></content>
+      
+        <categories>
+            
+            <category> c语言 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 记录 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[妥善解决win10各种卡顿问题]]></title>
+      <url>/2017/09/03/%E5%A6%A5%E5%96%84%E8%A7%A3%E5%86%B3win10%E5%90%84%E7%A7%8D%E5%8D%A1%E9%A1%BF%E9%97%AE%E9%A2%98/</url>
+      <content type="html"><![CDATA[<p>方案一</p>
+<p>   关闭windows search后台偷偷运行。控制面板-管理工具-服务-windows search禁用，别禁防火墙，<br>可以在高级设置里的“属性”把“域配置文件”“专属配置文件”“公用配置文件”改为关闭状态。</p>
+<p>方案二<br>   关闭家庭组，该功能导致硬盘与cpu处于高负荷状态。控制中心-管理工具-服务-Homecroup listener和Homegroup Provider禁用。使用优化软件后win10开不了机的原因是禁用了三个服务，使用优化软件开启：dmwappushsvc. diagnsticsTracking service. coreMessaging.</p>
+<p>方案三<br>   清理产生的windows.old文件夹。<br><a id="more"></a><br>方案四<br>   设置好Superfetch服务，服务Superfetch启动类型改成延迟启动或者禁用，可避免频繁对硬盘的访问。控制中心-管 理服务-Superfetch-启动类型-自动。</p>
+<p>方案五</p>
+<p>   关闭ipv6，部分网卡驱动开启ipv6会导致开机系统未响应，假死。网络共享中心-网络连接-以太网-属性-取消ipv6.</p>
+<p>方案六</p>
+<p>   设置win10自动登录，win+r netplwiz 取消使用计算机必须密码选项。</p>
+<p>方案七</p>
+<p>   关闭windows安全中心服务，win+r services.msc  Enter-找出SecurityCenter，禁用。不要删除系统文件，优化速度明显加快。</p>
+<p>方案八</p>
+<p>   关闭计划任务里的隐藏的自动程序，控制面板-所有控制面板选项-管理工具-任务计划程序-右侧任务列表-禁用不需要的服务。</p>
+<p>方案九<br>   加速开机速度，win+r  msconfig  -引导-勾上无GUI引导。</p>
+<p>方案十<br>   win+r gpedit.msc 计算机管理中-模块管理-系统-关机选项-关闭会阻止或取消关机的应用程序的自动终止功能。</p>
+<p>方案十一<br>   关闭性能特效（低配置电脑），系统属性-高级-性能-设置-关闭窗口动态。</p>
+<p>方案十二<br>   修改窗口颜色用于护眼。win+r regedit  打开注册表 HKEY_CURRENT_USER\CONTROL\PANEL\Colors  选一个需要修改颜色的地方-比如窗口（windows）红绿蓝  这是白色(255 255 255)你可以改为豆绿（204 237 207）完后重启两次。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 历程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 方案 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[测试测试]]></title>
+      <url>/2017/09/03/%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95/</url>
+      <content type="html"><![CDATA[<p>这是一篇测试，是否能够解决乱码问题</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 历程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[我的博客第一天]]></title>
+      <url>/2017/09/03/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%A4%A9/</url>
+      <content type="html"><![CDATA[<p>  ………..折腾一个晚上和一上午终于弄好了……………..<br>求抱抱(￣︶￣*)) ////\\，嗯先就这样吧，还有中午好cutexin</p>
+]]></content>
+      
+        <categories>
+            
+            <category> My blog the first day </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> First day </tag>
+            
+        </tags>
+        
+    </entry>
+    
+  
+  
 </search>
