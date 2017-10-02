@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-10-02T11:46:55.002Z</updated>
+  <updated>2017-10-02T11:59:03.252Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/10/02/Music-test/"/>
     <id>http://yoursite.com/2017/10/02/Music-test/</id>
     <published>2017-10-02T11:19:19.000Z</published>
-    <updated>2017-10-02T11:46:55.002Z</updated>
+    <updated>2017-10-02T11:59:03.252Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://i.imgur.com/y6jpqOk.jpg" alt="">  </p>
 <script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=2067242&mode=js"></script>  
@@ -31,6 +31,7 @@
 <p>走过你来时的路</p>
 <p>想像着 没我的日子</p>
 <p>你是怎样的孤独</p>
+<a id="more"></a>
 <p>拿着你 给的照片</p>
 <p>熟悉的那一条街</p>
 <p>只是没了你的画面</p>
@@ -62,7 +63,14 @@
     <summary type="html">
     
       &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/y6jpqOk.jpg&quot; alt=&quot;&quot;&gt;  &lt;/p&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.xiami.com/widget/player-single?ui
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.xiami.com/widget/player-single?uid=0&amp;sid=2067242&amp;mode=js&quot;&gt;&lt;/script&gt;  
+
+&lt;p&gt;作曲 : 陈小霞&lt;/p&gt;
+&lt;p&gt;作词 : 施立&lt;/p&gt;
+&lt;p&gt;我来到 你的城市&lt;/p&gt;
+&lt;p&gt;走过你来时的路&lt;/p&gt;
+&lt;p&gt;想像着 没我的日子&lt;/p&gt;
+&lt;p&gt;你是怎样的孤独&lt;/p&gt;
     
     </summary>
     
