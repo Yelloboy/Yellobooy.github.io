@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-10-02T11:20:26.555Z</updated>
+  <updated>2017-10-02T11:34:01.094Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,10 +20,13 @@
     <link href="http://yoursite.com/2017/10/02/Music-test/"/>
     <id>http://yoursite.com/2017/10/02/Music-test/</id>
     <published>2017-10-02T11:19:19.000Z</published>
-    <updated>2017-10-02T11:20:26.555Z</updated>
+    <updated>2017-10-02T11:34:01.094Z</updated>
     
     <content type="html"><![CDATA[<p>这个blog测试是否可以生成外链播放器。  </p>
-<embed src="http://www.xiami.com/widget/0_2067242/singlePlayer.swf" type="application/x-shockwave-flash" width="257" height="33" wmode="transparent">]]></content>
+<embed src="http://www.xiami.com/widget/0_2067242/singlePlayer.swf" type="application/x-shockwave-flash" width="257" height="33" wmode="transparent">  
+
+<p><a href="http://www.xiami.com/widget/0_2067242/singlePlayer.swf" target="_blank" rel="external">http://www.xiami.com/widget/0_2067242/singlePlayer.swf</a>  </p>
+<script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=2067242&mode=js"></script> ]]></content>
     
     <summary type="html">
     
