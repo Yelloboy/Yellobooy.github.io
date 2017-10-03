@@ -77,9 +77,9 @@
       <category term="音乐" scheme="http://yoursite.com/categories/music/"/>
     
     
-      <category term="音乐" scheme="http://yoursite.com/tags/%E9%9F%B3%E4%B9%90/"/>
-    
       <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
+    
+      <category term="音乐" scheme="http://yoursite.com/tags/%E9%9F%B3%E4%B9%90/"/>
     
   </entry>
   
@@ -146,9 +146,9 @@
       <category term="日记" scheme="http://yoursite.com/categories/note/"/>
     
     
-      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
-    
       <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
     
   </entry>
   
@@ -179,9 +179,9 @@
       <category term="她" scheme="http://yoursite.com/categories/cutexin/"/>
     
     
-      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
-    
       <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
     
       <category term="她" scheme="http://yoursite.com/tags/%E5%A5%B9/"/>
     
@@ -210,9 +210,9 @@
       <category term="c语言" scheme="http://yoursite.com/categories/c-programming/"/>
     
     
-      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
-    
       <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
     
       <category term="c语言" scheme="http://yoursite.com/tags/c%E8%AF%AD%E8%A8%80/"/>
     
@@ -287,9 +287,9 @@
       <category term="日记" scheme="http://yoursite.com/categories/note/"/>
     
     
-      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
-    
       <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
     
       <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
     
