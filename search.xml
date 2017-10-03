@@ -1,668 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-    
-    <entry>
-      <title><![CDATA[关于Hexo的404设置以及返回问题小结]]></title>
-      <url>/2017/10/03/%E5%85%B3%E4%BA%8EHexo%E7%9A%84404%E8%AE%BE%E7%BD%AE%E4%BB%A5%E5%8F%8A%E8%BF%94%E5%9B%9E%E9%97%AE%E9%A2%98%E5%B0%8F%E7%BB%93/</url>
-      <content type="html"><![CDATA[<p>w(ﾟДﾟ)w 经过一晚和一上午的揣摩，自己竟然能发现出与网上不同的404页面制作方法，呸~~ 应该是解决404页面设置好后（大多数的教程说是放在主题目录的<code>source</code>下，我呸~~ 我各种<code>source</code>下都放了<code>404.html</code>，可是没一个见效的，把html删掉也不行，各种        <code>hexo g -d</code>以及<code>hexo s -g</code>，本地都不带一点反应？！！  </p>
-<p>伤心欲绝的我含着悲愤的泪睡去，早上&lt;<code>ling chen</code>&gt;跑起来倒挂倒挂，看各种帖子也都无济于事，于是我在chrome的一个报错中貌似发现了什么！！！！  具体我也没有截图，因为这是个小事嘛w(ﾟДﾟ)w只有我这么笨才会404都不会设置。 chrome是这样显示的，（我并没有在本地<code>hexo s -g</code>调试，因为我发现<code>hexo d</code>出去以后的样子隐约与本地有所不同！） 所以嘞，我看见了<code>cannot find/404/</code>，我当时就在想，是不是要去掉<code>404.html</code>中的html，然并无卵用。 那我就在想，是不是要放在blog根文件夹的source下？ 然后我就从主题<code>next</code>文件夹下复制出<code>404</code>，此时type是HTML，也没用。 后来一位网友说需要<code>hexo new page &quot;404&quot;</code>，当时还有点懵，因为跟我所看的教程不一样。我还回复了他<code>。。。。。。。。。</code><br>          <a id="more"></a><br>但是后来实在没法子了，就试了一下。 在blog文件夹下<code>git bash</code>，然后<code>hexo new page &quot;404&quot;</code>，是的，根目录source中出现了<code>md</code>结尾的404文件，但是部署过后。。这不是我要的结果啊。。。 点击公益404只出现了一个博客内的页面”404“ ，于是乎我乘风而行再追击，o((&gt;ω&lt; ))o发现了意想不到的收获！  我把index.html的代码全部复制下来，Pay attention！ 我复制的代码是根据https来写的，具体代码如下（腾讯公益）<br>啊<br>    <code>&lt;!DOCTYPE HTML&gt;
-    &lt;html&gt;
-    &lt;head&gt;
-    &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html;charset=utf-8;&quot; /&gt;
-    &lt;meta http-equiv=&quot;X-UA-Compatible&quot;   content=&quot;IE=edge,chrome=1&quot; /&gt;
-    &lt;meta name=&quot;robots&quot; content=&quot;all&quot; /&gt;
-    &lt;meta name=&quot;robots&quot; content=&quot;index,follow&quot; /&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-    &lt;script type=&quot;text/plain&quot; src=&quot;http://www.qq.com/404/search_children.js&quot;
-          charset=&quot;utf-8&quot; homePageUrl=&quot;/archives/&quot;
-          homePageName=&quot;鍥炲埌鎴戠殑涓婚〉&quot;&gt;
-    &lt;/script&gt;
-    &lt;script src=&quot;https://qzone.qq.com/gy/404/data.js&quot;   charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-    &lt;script charset=&quot;utf-8&quot;&gt;
-    var QZONE = window.QZONE || {};
-    function imagezoom(imgobj, box_w, box_h) {
-      var src_w = imgobj.width;
-      var src_h = imgobj.height;
-      var r1 = src_w / src_h, r2 = box_w / box_h;
-      var dst_w, dst_h;
-      if (r1 &gt; r2) {
-        dst_w = box_w;
-        dst_h = Math.round(dst_w / src_w * src_h);
-      } else {
-        if (r1 &lt; r2) {
-          dst_h = box_h;
-          dst_w = Math.round(dst_h / src_h * src_w);
-        } else {
-          dst_w = box_w;
-          dst_h = box_h;
-        }
-      }
-      imgobj.style.marginLeft = (box_w - dst_w) / 2 + &quot;px&quot;;
-      imgobj.style.marginTop = (box_h - dst_h) / 2 + &quot;px&quot;;
-      imgobj.style.width = dst_w + &quot;px&quot;;
-      imgobj.style.height = dst_h + &quot;px&quot;;
-      imgobj.style.opacity = 1;
-    }
-    (function (_w, _d) {
-      var ha = _d.head || _d.getElementsByTagName(&quot;head&quot;)[0];
-      var $scope = {};
-      var current;
-      var tmnow;
-      var chId;
-      var homePageUrl, homePageName;
-      var scs = document.getElementsByTagName(&quot;script&quot;);
-      if (location.href.indexOf(&quot;fm.qq.com&quot;) &gt; -1 || location.href.indexOf(&quot;fm.qzone.qq.com&quot;) &gt; -1) {
-        homePageName = &quot;\u8fd4\u56de\u4f01\u9e45FM&quot;;
-        homePageUrl = &quot;http://fm.qq.com&quot;;
-      } else {
-        if (location.href.indexOf(&quot;qzone.qq.com&quot;) &gt; -1) {
-          homePageName = &quot;\u8fd4\u56de\u6211\u7684\u7a7a\u95f4&quot;;
-          homePageUrl = &quot;http://qzone.qq.com&quot;;
-        } else {
-          homePageName = &quot;\u8fd4\u56de\u817e\u8baf\u7f51&quot;;
-          homePageUrl = &quot;http://www.qq.com&quot;;
-        }
-      }
-      for (var i = 0; i &lt; scs.length; i++) {
-        if (scs[i].src.indexOf(&quot;404/search_children.js&quot;) &gt; -1) {
-          if (scs[i].getAttribute(&quot;homePageUrl&quot;)) {
-            homePageUrl = scs[i].getAttribute(&quot;homePageUrl&quot;);
-          }
-          if (scs[i].getAttribute(&quot;homePageName&quot;)) {
-            homePageName = scs[i].getAttribute(&quot;homePageName&quot;);
-          }
-          break;
-        }
-      }
-      $scope.rettext = homePageName;
-      $scope.retlink = homePageUrl;
-      function getData(srcUrl, callback) {
-        var sc = _d.createElement(&quot;script&quot;);
-        function orc() {
-          if (sc.readyState === &quot;loaded&quot;) {
-            setTimeout(function () {
-              callback &amp;&amp; callback();
-            }, 0);
-          }
-        }
-        if (sc.addEventListener) {
-          if (callback) {
-            sc.addEventListener(&quot;load&quot;, callback, false);
-          }
-        } else {
-          sc.attachEvent(&quot;onreadystatechange&quot;, orc);
-        }
-        ha &amp;&amp; ha.appendChild(sc);
-        sc.src = srcUrl;
-      }
-      function resolveData(d) {
-        var tid, len, ddata = [], tdata;
-        if (&quot;object&quot; == typeof d &amp;&amp; (d.data &amp;&amp; (len = d.data.length))) {
-          for (var i = 0; i &lt; len; i++) {
-            var expire = d.data[i].expire;
-            d.data[i]._id = new Date * Math.random() * Math.random() * 1E7;
-            if (expire &amp;&amp; tmnow * 1E3 &lt; Date.parse(expire.replace(/\s[\s\S]*$/, &quot;&quot;).replace(/\-/g, &quot;/&quot;))) {
-              var _c = d.data[i].city, _p = d.data[i].province;
-              if (_c &amp;&amp; city) {
-                if ((&quot;_&quot; + _c + &quot;_&quot;).indexOf(&quot;_&quot; + city + &quot;_&quot;) &gt; -1) {
-                  ddata.push(d.data[i]);
-                  continue;
-                }
-              }
-              if (_p &amp;&amp; province) {
-                if ((&quot;_&quot; + _p + &quot;_&quot;).indexOf(&quot;_&quot; + province + &quot;_&quot;) &gt; -1) {
-                  ddata.push(d.data[i]);
-                }
-              }
-            }
-          }
-          tid = Math.floor(Math.random() * (ddata.length || len));
-          tdata = (ddata.length ? ddata : d.data)[chId = tid];
-          if (_w.foundjsondata) {
-            tdata.ta = tdata.sex.indexOf(&quot;\u5973&quot;) &gt; -1 ? &quot;\u5979&quot; : &quot;\u4ed6&quot;;
-            tdata.name = &quot;\u201c7\u00b718\u7279\u5927\u62d0\u5356\u5a74\u513f\u6848\u201d\u544a\u7834\uff0c\u88ab\u89e3\u6551\u768415\u540d\u5b69\u5b50\u4e2d\uff0c2\u4eba\u7531\u4eb2\u751f\u7236\u6bcd\u9886\u56de\uff0c\u4ecd\u670913\u540d\u5b69\u5b50\u672a\u627e\u5230\u4eb2\u751f\u7236\u6bcd\uff0c\u88ab\u5b89\u7f6e\u5728\u60e0\u5dde\u5e02\u793e\u4f1a\u798f\u5229\u9662\uff0c&quot; + tdata.ta + &quot;\u662f\u5176\u4e2d\u4e4b\u4e00\u3002&quot;;
-            tdata.url = tdata.url.replace(/#p=(\d{1,2})/, function (a, n) {
-              return &quot;#p=&quot; + (+n + 1);
-            });
-            return format(tmpl2, tdata);
-          }
-          if (!tdata.ext1) {
-            tdata.ext1 = &quot;\u4f46\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u5bfb\u627e\u5931\u8e2a\u5b9d\u8d1d&quot;;
-          }
-          return tdata;
-        }
-      }
-      function setTopData(tdata) {
-        current = tdata;
-        $scope.topname = tdata.name;
-        $scope.topgender = tdata.sex;
-        $scope.topbirth = tdata.birth_time;
-        $scope.toplostdate = tdata.lost_time;
-        $scope.toplostplace = tdata.lost_place;
-        $scope.toplostdesc = tdata.child_feature;
-        $scope.toplink = tdata.url;
-        $scope.topimg = tdata.child_pic;
-        $scope.topid = tdata._id;
-        document.body.innerHTML = template(&quot;body&quot;, $scope);
-      }
-      function init(data) {
-        tmnow = data.tm_now * 1E3;
-        var tdata = resolveData(jsondata);
-        $scope.whichin = 0;
-        jsondata.data.splice(chId, 1);
-        $scope.otherdata = [tdata].concat(jsondata.data.slice(0, 5));
-        setTopData(tdata);
-      }
-      var timeout;
-      window._Callback = function (d) {
-        clearTimeout(timeout);
-        init(d);
-      };
-      timeout = setTimeout(function () {
-        _Callback({ tm_now: (new Date).getTime() / 1E3 });
-      }, 2E3);
-      _w.share = function (target) {
-        var summary = [&quot;\u80cc\u666f\uff1a&quot;, current.name, &quot;\uff0c\u6027\u522b\uff1a&quot;, current.sex, &quot;\uff0c\u51fa\u751f\u65f6\u95f4\uff1a&quot;, current.birth_time, &quot;\uff0c\u5931\u8e2a\u65f6\u95f4\uff1a&quot;, current.lost_time, &quot;\uff0c\u7279\u5f81\u63cf\u8ff0\uff1a&quot;, current.child_feature].join(&quot;&quot;);
-        if (summary) {
-          summary = &quot;#\u5bfb\u627e\u5931\u8e2a\u7684\u5b9d\u8d1d#&quot; + summary;
-        }
-        var stitle = &quot;\u5931\u8e2a\u7684\u5b9d\u8d1d\u8be6\u60c5&quot;;
-        var desc = &quot;\u5931\u8e2a\u7684\u5b9d\u8d1d\u8981\u56de\u5bb6\uff0c\u5feb\u6765\u53c2\u4e0e\u7231\u5fc3\u7684\u4f20\u9012\u5427\uff01&quot;;
-        var encode = encodeURIComponent;
-        var opts = { &quot;surl&quot;: &quot;http://qzone.qq.com/gy/404/&quot; + current.id + &quot;/lostchild.html&quot;, &quot;site&quot;: &quot;QQ\u7a7a\u95f4&quot;, &quot;summary&quot;: summary || &quot;#\u5b9d\u8d1d\u56de\u5bb6#\u817e\u8baf\u5fd7\u613f\u8005\u7528\u6280\u672f\u70b9\u4eae\u516c\u76ca\uff0c\u8ba9\u6211\u4eec\u4e00\u8d77\u5bfb\u627e\u8d70\u5931\u7684\u513f\u7ae5\u5427\uff01&quot;, &quot;stitle&quot;: stitle, &quot;pics&quot;: current.child_pic, &quot;desc&quot;: desc, &quot;origin_url&quot;: current.url };
-        var surl = opts.surl || &quot;http://www.qq.com/404/&quot;, summary = opts.summary || &quot;\u8fd9\u4e2a\u662f\u5206\u4eab\u7684\u5185\u5bb9&quot;, stitle = opts.stitle || &quot;\u8fd9\u4e2a\u662f\u5206\u4eab\u7684\u6807\u9898&quot;, pics = opts.pics || &quot;http://qzonestyle.gtimg.cn/qzone_v6/act/img/20120422_qzone_7_years/pop_up/icon-pop-seven-years.png&quot;, site = opts.site || &quot;\u8fd9\u4e2a\u662f\u5206\u4eab\u94fe\u63a5\u7684\u6587\u5b57&quot;, desc = opts.desc || &quot;\u5931\u8e2a\u7684\u5b9d\u8d1d\u8981\u56de\u5bb6\uff0c\u5feb\u6765\u53c2\u4e0e\u7231\u5fc3\u7684\u4f20\u9012\u5427\uff01&quot;,
-          origin_url = opts.origin_url || &quot;http://www.qq.com/404/&quot;;
-        var shareList = {
-          weibo: {
-            method: function (evt) {
-              var w = &quot;http://v.t.qq.com/share/share.php&quot;, q = [&quot;?site=&quot;, encode(surl + &quot;#via=share_t_weib&quot;), &quot;&amp;title=&quot;, encode(summary), &quot;&amp;pic=&quot;, encode(pics), &quot;&amp;url=&quot;, encode(surl)].join(&quot;&quot;), p = [w, q].join(&quot;&quot;);
-              openit(p, &quot;weibo&quot;, &quot;width=700, height=680, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, location=yes, resizable=no, status=no&quot;);
-            }
-          }, qzone: {
-            method: function (evt) {
-              var buff = [], ps = { url: surl + &quot;#via=404-qzoneshare&quot;, desc: desc || &quot;\u5931\u8e2a\u7684\u5b9d\u8d1d\u8981\u56de\u5bb6\uff0c\u5feb\u6765\u53c2\u4e0e\u7231\u5fc3\u7684\u4f20\u9012\u5427\uff01&quot;, summary: summary, title: stitle, pics: pics, site: site };
-              for (var k in ps) {
-                buff.push(k + &quot;=&quot; + encode(ps[k] || &quot;&quot;));
-              }
-              var w = &quot;http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?&quot; + buff.join(&quot;&amp;&quot;), q = [&quot;#via=share_t_qzone&quot;, &quot;&amp;title=&quot;, encode(summary), &quot;&amp;pic=&quot;, encode(pics), &quot;&amp;url=&quot;, encode(surl)].join(&quot;&quot;), p = [w, q].join(&quot;&quot;);
-              openit(p, &quot;qzone&quot;, &quot;width=700, height=680, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, location=yes, resizable=no, status=no&quot;);
-            }
-          }, sina: {
-            method: function () {
-              var w = &quot;http://v.t.sina.com.cn/share/share.php&quot;, q = [&quot;?url=&quot;, encode(surl + &quot;#via=share_x_weib&quot;), &quot;&amp;title=&quot;, encode(summary), &quot;&amp;source=&quot;, &quot;&amp;sourceUrl=&quot;, surl, &quot;&amp;content=utf-8&quot;, &quot;&amp;pic=&quot;, encode(pics)].join(&quot;&quot;), p = [w, q].join(&quot;&quot;);
-              openit(p, &quot;sina&quot;, &quot;toolbar=0,status=0,resizable=1,width=440,height=430&quot;);
-            }
-          }, kaixin: {
-            method: function () {
-              var n = &quot;http://www.kaixin001.com/repaste/bshare.php?rurl=&quot; + encode(surl + &quot;#via=share_kaixin&quot;) + &quot;&amp;rcontent=&amp;rtitle=&quot; + encode(summary);
-              openit(n, &quot;kaixin&quot;, &quot;toolbar=0,status=0,resizable=1,width=600,height=360&quot;);
-            }
-          }, renren: {
-            method: function () {
-              var n = &quot;http://www.connect.renren.com/share/sharer?title=&quot; + encode(summary) + &quot;&amp;url=&quot; + encode(surl + &quot;#via=share_renren&quot;), p = window.open(n, &quot;rr&quot;, &quot;toolbar=0,status=0,resizable=1,width=510,height=300&quot;);
-              if (p) {
-                p.focus();
-              }
-            }
-          }, weixin: {
-            method: function () {
-              var n = &quot;http://qzone.qq.com/gy/404/page/qrcode.html?url=&quot; + encode(origin_url + &quot;#via=share_weixin&quot;), p = window.open(n, &quot;rr&quot;, &quot;toolbar=0,status=0,resizable=1,width=620,height=430&quot;);
-              if (p) {
-                p.focus();
-              }
-            }
-          }
-        };
-        var openit = function (u, n, p) {
-          function o() {
-            var z;
-            if (!(z = window.open(u, n, p))) {
-              location.href = u;
-            } else {
-              z.focus();
-            }
-          }
-          o();
-        };
-        shareList[target] &amp;&amp; shareList[target].method();
-      };
-      _w.toThis = function (id) {
-        for (var i = 0; i &lt; $scope.otherdata.length; i++) {
-          if ($scope.otherdata[i]._id == id) {
-            setTopData($scope.otherdata[i]);
-            break;
-          }
-        }
-        return false;
-      };
-      var meta = document.createElement(&quot;meta&quot;);
-      meta.name = &quot;viewport&quot;;
-      meta.content = &quot;width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no&quot;;
-      ha.appendChild(meta);
-      (function registerStyle() {
-        var link = document.createElement(&quot;link&quot;);
-        link.rel = &quot;stylesheet&quot;;
-        link.type = &quot;text/css&quot;;
-        link.href = &quot;https://qzone.qq.com/gy/404/style/404style.css&quot;;
-        ha.appendChild(link);
-      })();
-      (function initStat() {
-        var qqDomainNameRE = /\.qq\.com$/i, qzoneDomainNameRE = /\bqzone\.qq\.com$/i, qzsDomainNameRE = /\bqzonestyle\.gtimg\.cn$/i;
-        function cb() {
-          var url = location.host;
-          var src = &quot;&quot;;
-          if (qzoneDomainNameRE.test(url)) {
-            src = &quot;new404.qzone&quot;;
-          } else {
-            if (qqDomainNameRE.test(url)) {
-              src = &quot;new404.qq&quot;;
-            } else {
-              if (qzsDomainNameRE.test(url)) {
-                src = &quot;new404.qzonestyle&quot;;
-              } else {
-                src = url.replace(&quot;.&quot;, &quot;_&quot;);
-              }
-            }
-          }
-          _w.TCISD &amp;&amp; (_w.TCISD.pv &amp;&amp; _w.TCISD.pv(&quot;hat.qzone.qq.com&quot;, &quot;/gy/lostchild/&quot; + src));
-        }
-        getData(&quot;https://qzonestyle.gtimg.cn/ac/qzfl/stat.js&quot;, cb);
-      })();
-    })(window, document);
-    !function () {
-      function a(a, b) {
-        return (/string|function/.test(typeof b) ? h : g)(a, b);
-      }
-      function b(a, c) {
-        return &quot;string&quot; != typeof a &amp;&amp; (c = typeof a, &quot;number&quot; === c ? a += &quot;&quot; : a = &quot;function&quot; === c ? b(a.call(a)) : &quot;&quot;), a;
-      }
-      function c(a) {
-        return l[a];
-      }
-      function d(a) {
-        return b(a).replace(/&amp;(?![\w#]+;)|[&lt;&gt;&quot;&#39;]/g, c);
-      }
-      function e(a, b) {
-        if (m(a)) {
-          for (var c = 0, d = a.length; d &gt; c; c++) {
-            b.call(a, a[c], c, a);
-          }
-        } else {
-          for (c in a) {
-            b.call(a, a[c], c);
-          }
-        }
-      }
-      function f(a, b) {
-        var c = /(\/)[^/]+\1\.\.\1/, d = (&quot;./&quot; + a).replace(/[^/]+$/, &quot;&quot;), e = d + b;
-        for (e = e.replace(/\/\.\//g, &quot;/&quot;); e.match(c);) {
-          e = e.replace(c, &quot;/&quot;);
-        }
-        return e;
-      }
-      function g(b, c) {
-        var d = a.get(b) || i({ filename: b, name: &quot;Render Error&quot;, message: &quot;Template not found&quot; });
-        return c ? d(c) : d;
-      }
-      function h(a, b) {
-        if (&quot;string&quot; == typeof b) {
-          var c = b;
-          b = function () {
-            return new k(c);
-          };
-        }
-        var d = j[a] = function (c) {
-          try {
-            return new b(c, a) + &quot;&quot;;
-          } catch (d) {
-            return i(d)();
-          }
-        };
-        return d.prototype = b.prototype = n, d.toString = function () {
-          return b + &quot;&quot;;
-        }, d;
-      }
-      function i(a) {
-        var b = &quot;{Template Error}&quot;, c = a.stack || &quot;&quot;;
-        if (c) {
-          c = c.split(&quot;\n&quot;).slice(0, 2).join(&quot;\n&quot;);
-        } else {
-          for (var d in a) {
-            c += &quot;&lt;&quot; + d + &quot;&gt;\n&quot; + a[d] + &quot;\n\n&quot;;
-          }
-        }
-        return function () {
-          return &quot;object&quot; == typeof console &amp;&amp; console.error(b + &quot;\n\n&quot; + c), b;
-        };
-      }
-      var j = a.cache = {}, k = this.String, l = { &quot;&lt;&quot;: &quot;&amp;#60;&quot;, &quot;&gt;&quot;: &quot;&amp;#62;&quot;, &#39;&quot;&#39;: &quot;&amp;#34;&quot;, &quot;&#39;&quot;: &quot;&amp;#39;&quot;, &quot;&amp;&quot;: &quot;&amp;#38;&quot; }, m = Array.isArray || function (a) {
-        return &quot;[object Array]&quot; === {}.toString.call(a);
-      }, n = a.utils = {
-        $helpers: {}, $include: function (a, b, c) {
-          return a = f(c, a), g(a, b);
-        }, $string: b, $escape: d, $each: e
-      }, o = a.helpers = n.$helpers;
-      a.get = function (a) {
-        return j[a.replace(/^\.\//, &quot;&quot;)];
-      }, a.helper = function (a, b) {
-        o[a] = b;
-      }, &quot;function&quot; == typeof define ? define(function () {
-        return a;
-      }) : &quot;undefined&quot; != typeof exports ? module.exports = a : this.template = a, a(&quot;body&quot;, function (a) {
-        var b = this, c = (b.$helpers, b.$escape), d = a.retlink, e = a.rettext, f = a.topid, g = a.topimg, h = a.topname, i = a.topgender, j = a.topbirth, l = a.toplostdate, m = a.toplostplace, n = a.toplostdesc, o = a.toplink, p = b.$each, q = a.otherdata, r = (a.otheritem, a.index, &quot;&quot;);
-        return r += &#39;&lt;div class=&quot;mod_404&quot;&gt; &lt;div class=&quot;wrapper&quot; id=&quot;mainWrap&quot;&gt; &lt;div class=&quot;mod_hd&quot;&gt; &lt;h1 class=&quot;title&quot;&gt;&lt;span class=&quot;title_inner&quot;&gt;404\uff0c\u60a8\u8bbf\u95ee\u7684\u9875\u9762\u627e\u4e0d\u56de\u6765\u4e86\uff0c\u4f46\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u5e2e\u4ed6\u4eec\u56de\u5bb6\uff01&lt;/span&gt;&lt;/h1&gt; &lt;div class=&quot;desc&quot;&gt;&lt;a href=&quot;&#39;, r += c(d), r += &#39;&quot; class=&quot;desc_link&quot;&gt;&#39;, r += c(e), r += &#39;&lt;/a&gt;&lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;mod_bd&quot;&gt; &lt;div class=&quot;child_box&quot;&gt; &lt;div class=&quot;mod_404_child child_in&quot; data-id=&quot;&#39;,
-          r += c(f), r += &#39;&quot; id=&quot;top_&#39;, r += c(f), r += &#39;&quot;&gt; &lt;div class=&quot;child_main cf&quot;&gt; &lt;div class=&quot;child_avatar&quot;&gt;&lt;img src=&quot;&#39;, r += c(g), r += &#39;&quot; onload=&quot;imagezoom(this, 160, 216);&quot; style=&quot;opacity:0&quot;&gt;&lt;/div&gt; &lt;div class=&quot;child_info&quot;&gt; &lt;div class=&quot;info_name&quot;&gt; &lt;h2&gt;&lt;span class=&quot;name_inner&quot;&gt;&#39;, r += c(h), r += &#39;&lt;/span&gt;&lt;span class=&quot;info_sex&quot;&gt;(&#39;, r += c(i), r += &#39;)&lt;/span&gt;&lt;/h2&gt; &lt;/div&gt; &lt;div class=&quot;info_item info_birth&quot;&gt;&lt;span class=&quot;info_lbl&quot;&gt;\u51fa\u751f\u65e5\u671f\uff1a&lt;/span&gt;&lt;span class=&quot;item_inner&quot;&gt;&#39;, r += c(j),
-          r += &#39;&lt;/span&gt;&lt;/div&gt; &lt;div class=&quot;info_item info_time&quot;&gt;&lt;span class=&quot;info_lbl&quot;&gt;\u5931\u8e2a\u65f6\u95f4\uff1a&lt;/span&gt;&lt;span class=&quot;item_inner&quot;&gt;&#39;, r += c(l), r += &#39;&lt;/span&gt;&lt;/div&gt; &lt;div class=&quot;info_item info_address&quot;&gt;&lt;span class=&quot;info_lbl&quot;&gt;\u5931\u8e2a\u5730\u70b9\uff1a&lt;/span&gt;&lt;span class=&quot;item_inner&quot;&gt;&#39;, r += c(m), r += &#39;&lt;/span&gt;&lt;/div&gt; &lt;div class=&quot;info_item info_desc&quot;&gt;&lt;span class=&quot;info_lbl&quot;&gt;\u5931\u8e2a\u4eba\u7279\u5f81\u63cf\u8ff0\uff1a&lt;/span&gt;&lt;span class=&quot;item_inner&quot;&gt;&#39;, r += c(n), r += &#39;&lt;/span&gt;&lt;/div&gt; &lt;a href=&quot;&#39;,
-          r += c(o), r += &#39;&quot; class=&quot;link_view&quot; title=&quot;\u67e5\u770b\u8be6\u60c5&quot;&gt;&lt;span class=&quot;link_inner&quot;&gt;\u67e5\u770b\u8be6\u60c5&lt;/span&gt;&lt;/a&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;child_bottom cf&quot;&gt; &lt;div class=&quot;bottom_logo&quot;&gt; &lt;ul class=&quot;logo_list&quot;&gt; &lt;li&gt;&lt;a href=&quot;http://e.t.qq.com/Tencent-Volunteers&quot; title=&quot;\u817e\u8baf\u5fd7\u613f\u8005&quot;&gt;&lt;img src=&quot;http://qzone.qq.com/gy/404/style/image/logo_tencentvolunteers.png&quot;&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;http://bbs.baobeihuijia.com/forum.php&quot; title=&quot;\u5b9d\u8d1d\u56de\u5bb6&quot;&gt;&lt;img src=&quot;http://qzone.qq.com/gy/404/style/image/logo_baobeihuijia.png&quot;&gt;&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt; &lt;div class=&quot;bottom_right&quot;&gt; &lt;div class=&quot;mod_share&quot; onmouseover=&quot;this.className += \&#39; mod_share_hover\&#39;;&quot; onmouseout=&quot;this.className = this.className.replace(\&#39; mod_share_hover\&#39;,\&#39;\&#39;)&quot;&gt; &lt;span class=&quot;share_inner&quot;&gt;\u5206\u4eab&lt;/span&gt; &lt;ul class=&quot;share_list&quot;&gt; &lt;li&gt;&lt;a href=&quot;javascript:void(0);&quot; class=&quot;share_link&quot; onclick=&quot;share(\&#39;weibo\&#39;);return false;&quot; title=&quot;\u817e\u8baf\u5fae\u535a&quot;&gt;&lt;span class=&quot;link_inner&quot;&gt;\u817e\u8baf\u5fae\u535a&lt;/span&gt;&lt;i class=&quot;ico_tencentweibo&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;javascript:void(0);&quot; class=&quot;share_link&quot; onclick=&quot;share(\&#39;qzone\&#39;);return false;&quot; title=&quot;QQ\u7a7a\u95f4&quot;&gt;&lt;span class=&quot;link_inner&quot;&gt;QQ\u7a7a\u95f4&lt;/span&gt;&lt;i class=&quot;ico_qzone&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;javascript:void(0);&quot; class=&quot;share_link&quot; onclick=&quot;share(\&#39;sina\&#39;);return false;&quot; title=&quot;\u65b0\u6d6a\u5fae\u535a&quot;&gt;&lt;span class=&quot;link_inner&quot;&gt;\u65b0\u6d6a\u5fae\u535a&lt;/span&gt;&lt;i class=&quot;ico_sinaweibo&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;javascript:void(0);&quot; class=&quot;share_link&quot; onclick=&quot;share(\&#39;weixin\&#39;);return false;&quot; title=&quot;\u5fae\u4fe1&quot;&gt;&lt;span class=&quot;link_inner&quot;&gt;\u5fae\u4fe1&lt;/span&gt;&lt;i class=&quot;ico_weixin&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;span style=&quot;clear: both;&quot;&gt;&lt;/span&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;i class=&quot;ico_corner&quot;&gt;&lt;/i&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;mod_fd&quot;&gt; &lt;div class=&quot;mod_404_children&quot;&gt; &lt;ul class=&quot;children_list&quot;&gt; &#39;,
-          p(q, function (a) {
-            r += &#39; &lt;li class=&quot;&#39;, r += c(f == a._id ? &quot;current&quot; : &quot;&quot;), r += &#39;&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;toThis(\&#39;&#39;, r += c(a._id), r += &#39;\&#39;);&quot; title=&quot;&#39;, r += c(a.name), r += &#39;&quot; &gt;&lt;img src=&quot;&#39;, r += c(a.child_pic), r += &#39;&quot;&gt;&lt;/a&gt;&lt;/li&gt; &#39;;
-          }), r += &quot; &lt;/ul&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;&quot;, new k(r);
-      });
-    }();
-    &lt;/script&gt;
-    &lt;/body&gt;
-    &lt;/html&gt;</code>  </p>
-<p>哇。为什么markdown不显示代码。。  先不管了，反正我直接把这段代码复制到根目录下source中我新建的page.md下，然后把前面那一行的<code>homepageUrl</code>改成自己主页的地址，改这个的时候也非常头疼，不知道要改成什么(+_+)?，最后我写成了<code>archives</code>，这是博客的分档，因为写home的话，也是显示<code>cannot get/home/</code>，但如果什么都不写的话，就蹦到xw.qq.com去了。<br>总结，这是上面的代码出现的问题。。。肯定是的。  </p>
-<p>   此致记录hexo历程</p>
-]]></content>
-      
-        <categories>
-            
-            <category> Hexo历程 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 总览 </tag>
-            
-            <tag> 日记 </tag>
-            
-            <tag> Hexo初级 </tag>
-            
-            <tag> 小结 </tag>
-            
-            <tag> 404页面制作 </tag>
-            
-            <tag> 解决方法 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[多么想和你见一面]]></title>
-      <url>/2017/10/02/Music-test/</url>
-      <content type="html"><![CDATA[<p><img src="https://i.imgur.com/y6jpqOk.jpg" alt="">  </p>
-<script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=2067242&mode=js"></script>  
-
-<p>作曲 : 陈小霞</p>
-<p>作词 : 施立</p>
-<p>我来到 你的城市</p>
-<p>走过你来时的路</p>
-<p>想像着 没我的日子</p>
-<p>你是怎样的孤独</p>
-<a id="more"></a>
-<p>拿着你 给的照片</p>
-<p>熟悉的那一条街</p>
-<p>只是没了你的画面</p>
-<p>我们回不到那天</p>
-<p>你会不会忽然的出现</p>
-<p>在街角的咖啡店</p>
-<p>我会带着笑脸 挥手寒暄</p>
-<p>和你 坐着聊聊天</p>
-<p>我多么想和你见一面</p>
-<p>看看你最近改变</p>
-<p>不再去说从前 只是寒暄</p>
-<p>对你说一句 只是说一句</p>
-<p>好久不见</p>
-<p>拿着你 给的照片</p>
-<p>熟悉的那一条街</p>
-<p>只是没了你的画面</p>
-<p>我们回不到那天</p>
-<p>你会不会忽然的出现</p>
-<p>在街角的咖啡店</p>
-<p>我会带着笑脸 挥手寒暄</p>
-<p>和你 坐着聊聊天</p>
-<p>我多么想和你见一面</p>
-<p>看看你最近改变</p>
-<p>不再去说从前 只是寒暄</p>
-<p>对你说一句 只是说一句</p>
-<p>好久不见  </p>
-]]></content>
-      
-        <categories>
-            
-            <category> 音乐 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 音乐 </tag>
-            
-            <tag> 总览 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[测试。]]></title>
-      <url>/2017/10/01/%E6%B5%8B%E8%AF%95%E3%80%82/</url>
-      <content type="html"><![CDATA[<p>我就想知道到底怎么回事，啥都没干就给我404？？？  </p>
-<hr>
-<p>分割线:10.02<br>ok啦~ 可能原因：next主题更新导致。同时感谢<a href="http://www.chengxinsong.cn" target="_blank" rel="external">This blog</a>的帮助。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 日记 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 总览 </tag>
-            
-            <tag> 测试 </tag>
-            
-            <tag> 404错误 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[懒懒懒懒懒]]></title>
-      <url>/2017/09/24/%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92o-%CF%89-o%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A/</url>
-      <content type="html"><![CDATA[<p>  随便写点什么，下雨，从昨天放学开始。 家里装修</p>
-<hr>
-<p>= Release 2.5.0 =<br>Released: 2017-07-23</p>
-<p>== Major change ==</p>
-<ul>
-<li>VS2017 is used for building TortoiseGit<br>On x64 versions of Windows, the TortoiseGit context menu and overlays won’t show for pure 32-bit applications in their file-open/save dialogs until you install the 2015 C-runtime for x86.<br><a href="https://www.microsoft.com/en-us/download/details.aspx?id=52685" target="_blank" rel="external">https://www.microsoft.com/en-us/download/details.aspx?id=52685</a> (select the vc_redist.x86.exe file for download).  <a id="more"></a>
-</li>
-</ul>
-<p>特奇怪</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 日记 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 总览 </tag>
-            
-            <tag> 日记 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[嗯，下课了]]></title>
-      <url>/2017/09/16/%E5%97%AF%EF%BC%8C%E4%B8%8B%E8%AF%BE%E4%BA%86/</url>
-      <content type="html"><![CDATA[<p>随便记点什么吧<br>考完试回到家<br>看望了奶奶<br>吃了水果<br>………<br>嗯在学校看见了她<br>嗯开心  </p>
-<hr>
-<p>我在看天时，你若看见我，请叫住我<br>因为，你比天要美丽；<br><a id="more"></a></p>
-<p>我在看你时，请你不要视而不见<br>为了看你我放弃了天；  </p>
-<p>天空我把他称为云朵<br>云朵也就变成了天空，  </p>
-<p>你看那一朵朵天空多美啊！<br>因为他的背景是云；  </p>
-<p>我不听人们的话，我只听你的<br>人们都喜欢云<br>而我喜欢你<br>————To xin</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 她 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 总览 </tag>
-            
-            <tag> 日记 </tag>
-            
-            <tag> 她 </tag>
-            
-            <tag> 诗 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[第一个星期(￣▽￣)"]]></title>
-      <url>/2017/09/09/text-1/</url>
-      <content type="html"><![CDATA[<p>放学你们放学了吗？<br>开学一星期，一班陌生的可爱的的同学，很无奈(⊙﹏⊙)，随便更新个博客吧<br>啊啊啊啊啊啊啊啊啊啊啊啊啊。<br>不行<br>啊啊啊啊啊啊啊啊啊啊啊啊啊！！！<br>再来一次<br>aaaaaaaaaaaaaaaaaaaaaa(⊙_⊙)???<br><img src="https://i.imgur.com/SjL0N9H.jpg" alt=""><br>嗯恩恩恩恩呢讷讷嫩嗯~ o(￣▽￣)o测试一下~~~~就是测试喔！(⊙o⊙)！再次再次强调//////////////////////////////////This is a TEXT!<br><strong>向前进军！  先熟悉一下上周的程序再说！</strong>  <a id="more"></a> 现在程序只能解决正负和R的函数，不能输入根号以及多次幂。还有<em>ax^2+bx+c</em>以内的函数，结果是小数很麻烦。不能准确解决解函数问题。亟待解决</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div></pre></td><td class="code"><pre><div class="line">//这个程序帮助解决简单的一元二次方程</div><div class="line"></div><div class="line">#include &lt;stdio.h&gt;</div><div class="line">#include &lt;math.h&gt;</div><div class="line"></div><div class="line">//#define()后面不加分号“；”</div><div class="line">#define QUIT 2</div><div class="line"></div><div class="line">//函数原型</div><div class="line">int get_menu_choice(void);</div><div class="line"></div><div class="line"></div><div class="line">int main(void)</div><div class="line">&#123;</div><div class="line">    int choice = 0;</div><div class="line">    while (choice != QUIT)</div><div class="line">    &#123;</div><div class="line">        //调用菜单选择函数</div><div class="line">        choice = get_menu_choice();</div><div class="line"></div><div class="line">        //选择1将进入解方程</div><div class="line">        if (choice == 1)</div><div class="line">        &#123;</div><div class="line"></div><div class="line">            printf(&quot;求一元二次方程ax^2 + bx + c的解\n&quot;);</div><div class="line"></div><div class="line"></div><div class="line">            int a, b, c;</div><div class="line">            double x1, x2, dealt;</div><div class="line"></div><div class="line">            printf(&quot;请依次输入系数a b c(请用空格分隔开):\n&quot;);</div><div class="line">            scanf_s(&quot;%u %u %u&quot;, &amp;a, &amp;b, &amp;c);</div><div class="line"></div><div class="line"></div><div class="line">            dealt = b * b - 4 * a * c;//根的判别式</div><div class="line"></div><div class="line">            if (a == 0)</div><div class="line"></div><div class="line"></div><div class="line">                printf(&quot;a不能为0\n\n\n\n&quot;);</div><div class="line"></div><div class="line"></div><div class="line">            else if (dealt &gt; 0)</div><div class="line">            &#123;</div><div class="line"></div><div class="line"></div><div class="line">                x1 = (-b + sqrt(dealt)) / (2 * a);</div><div class="line">                x2 = (-b - sqrt(dealt)) / (2 * a);</div><div class="line"></div><div class="line">                printf(&quot;方程（%d）x^2 + （%d）x + （%d）的解为：\n&quot;, a, b, c);</div><div class="line">                printf(&quot;x1 = %f,x2 = %f\n\n\n\n&quot;, x1, x2);</div><div class="line">            &#125;</div><div class="line"></div><div class="line">            else if (dealt == 0)//</div><div class="line"></div><div class="line">            &#123;</div><div class="line">                x1 = x2 = (-b) / (2 * a);</div><div class="line">                printf(&quot;方程（%d）x^2 + （%d）x + （%d）的解为：\n&quot;, a, b, c);</div><div class="line">                printf(&quot;x1=x2=%f\n\n\n\n&quot;, x1);</div><div class="line">            &#125;</div><div class="line"></div><div class="line">            else</div><div class="line">                //这里是（dealt &lt; 0）的情况，所以并没有实根</div><div class="line">                printf(&quot;该方程无解\n\n\n\n&quot;);</div><div class="line">        &#125;</div><div class="line">        else</div><div class="line">            puts(&quot;\n你选择离开。&quot;);</div><div class="line"></div><div class="line">    &#125;</div><div class="line"></div><div class="line">    return 0;</div><div class="line">&#125;</div><div class="line"></div><div class="line">////////////////函数定义////////////////////</div><div class="line"></div><div class="line">//这个函数被调用时将在荧屏上显示两个菜单选项</div><div class="line">int get_menu_choice(void)</div><div class="line">&#123;</div><div class="line">    int selection;</div><div class="line"></div><div class="line">    do</div><div class="line">    &#123;</div><div class="line">        puts(&quot;\n1 - 解一元二次方程。&quot;);//</div><div class="line">        puts(&quot;2 - 离开。&quot;);//选项二</div><div class="line">        puts(&quot;\n输入你的选择：&quot;);</div><div class="line"></div><div class="line">        scanf_s(&quot;%d&quot;, &amp;selection);</div><div class="line">    &#125; while (selection &lt; 1 || selection &gt; 2);</div><div class="line">    return selection;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>。。。(o-ωｑ)).oO 困啊困啊苦命的困，(～﹃～)~zZ睡觉，有时间再说吧。。。估计没什么时间更blog了</p>
-]]></content>
-      
-        <categories>
-            
-            <category> c语言 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 总览 </tag>
-            
-            <tag> 日记 </tag>
-            
-            <tag> c语言 </tag>
-            
-            <tag> 解一元二次方程 </tag>
-            
-            <tag> 测试 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[妥善解决win10各种卡顿问题]]></title>
-      <url>/2017/09/03/%E5%A6%A5%E5%96%84%E8%A7%A3%E5%86%B3win10%E5%90%84%E7%A7%8D%E5%8D%A1%E9%A1%BF%E9%97%AE%E9%A2%98/</url>
-      <content type="html"><![CDATA[<p>方案一</p>
-<p>   关闭windows search后台偷偷运行。控制面板-管理工具-服务-windows search禁用，别禁防火墙，<br>可以在高级设置里的“属性”把“域配置文件”“专属配置文件”“公用配置文件”改为关闭状态。</p>
-<p>方案二<br>   关闭家庭组，该功能导致硬盘与cpu处于高负荷状态。控制中心-管理工具-服务-Homecroup listener和Homegroup Provider禁用。使用优化软件后win10开不了机的原因是禁用了三个服务，使用优化软件开启：dmwappushsvc. diagnsticsTracking service. coreMessaging.</p>
-<p>方案三<br>   清理产生的windows.old文件夹。<br><a id="more"></a><br>方案四<br>   设置好Superfetch服务，服务Superfetch启动类型改成延迟启动或者禁用，可避免频繁对硬盘的访问。控制中心-管 理服务-Superfetch-启动类型-自动。</p>
-<p>方案五</p>
-<p>   关闭ipv6，部分网卡驱动开启ipv6会导致开机系统未响应，假死。网络共享中心-网络连接-以太网-属性-取消ipv6.</p>
-<p>方案六</p>
-<p>   设置win10自动登录，win+r netplwiz 取消使用计算机必须密码选项。</p>
-<p>方案七</p>
-<p>   关闭windows安全中心服务，win+r services.msc  Enter-找出SecurityCenter，禁用。不要删除系统文件，优化速度明显加快。</p>
-<p>方案八</p>
-<p>   关闭计划任务里的隐藏的自动程序，控制面板-所有控制面板选项-管理工具-任务计划程序-右侧任务列表-禁用不需要的服务。</p>
-<p>方案九<br>   加速开机速度，win+r  msconfig  -引导-勾上无GUI引导。</p>
-<p>方案十<br>   win+r gpedit.msc 计算机管理中-模块管理-系统-关机选项-关闭会阻止或取消关机的应用程序的自动终止功能。</p>
-<p>方案十一<br>   关闭性能特效（低配置电脑），系统属性-高级-性能-设置-关闭窗口动态。</p>
-<p>方案十二<br>   修改窗口颜色用于护眼。win+r regedit  打开注册表 HKEY_CURRENT_USER\CONTROL\PANEL\Colors  选一个需要修改颜色的地方-比如窗口（windows）红绿蓝  这是白色(255 255 255)你可以改为豆绿（204 237 207）完后重启两次。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> win10 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 总览 </tag>
-            
-            <tag> 解决方法 </tag>
-            
-            <tag> win10 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[测试测试]]></title>
-      <url>/2017/09/03/%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95/</url>
-      <content type="html"><![CDATA[<p>这是一篇测试，是否能够解决乱码问题</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 日记 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 总览 </tag>
-            
-            <tag> 日记 </tag>
-            
-            <tag> 测试 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[我的博客第一天]]></title>
-      <url>/2017/09/03/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%A4%A9/</url>
-      <content type="html"><![CDATA[<p>  ………..折腾一个晚上和一上午终于弄好了……………..<br>求抱抱(￣︶￣*)) ////\\，嗯先就这样吧，还有中午好cutexin</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 博客第一天 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 总览 </tag>
-            
-            <tag> 博客firstday </tag>
-            
-            <tag> o(*￣▽￣*)ブ </tag>
-            
-        </tags>
-        
-    </entry>
-    
-  
-  
+<search>
+  <entry>
+    <title><![CDATA[关于Hexo的404设置以及返回问题小结]]></title>
+    <url>%2F2017%2F10%2F03%2F%E5%85%B3%E4%BA%8EHexo%E7%9A%84404%E8%AE%BE%E7%BD%AE%E4%BB%A5%E5%8F%8A%E8%BF%94%E5%9B%9E%E9%97%AE%E9%A2%98%E5%B0%8F%E7%BB%93%2F</url>
+    <content type="text"><![CDATA[w(ﾟДﾟ)w 经过一晚和一上午的揣摩，自己竟然能发现出与网上不同的404页面制作方法，呸~~ 应该是解决404页面设置好后（大多数的教程说是放在主题目录的source下，我呸~~ 我各种source下都放了404.html，可是没一个见效的，把html删掉也不行，各种 hexo g -d以及hexo s -g，本地都不带一点反应？！！ 伤心欲绝的我含着悲愤的泪睡去，早上&lt;ling chen&gt;跑起来倒挂倒挂，看各种帖子也都无济于事，于是我在chrome的一个报错中貌似发现了什么！！！！ 具体我也没有截图，因为这是个小事嘛w(ﾟДﾟ)w只有我这么笨才会404都不会设置。 chrome是这样显示的，（我并没有在本地hexo s -g调试，因为我发现hexo d出去以后的样子隐约与本地有所不同！） 所以嘞，我看见了cannot find/404/，我当时就在想，是不是要去掉404.html中的html，然并无卵用。 那我就在想，是不是要放在blog根文件夹的source下？ 然后我就从主题next文件夹下复制出404，此时type是HTML，也没用。 后来一位网友说需要hexo new page &quot;404&quot;，当时还有点懵，因为跟我所看的教程不一样。我还回复了他。。。。。。。。。 但是后来实在没法子了，就试了一下。 在blog文件夹下git bash，然后hexo new page &quot;404&quot;，是的，根目录source中出现了md结尾的404文件，但是部署过后。。这不是我要的结果啊。。。 点击公益404只出现了一个博客内的页面”404“ ，于是乎我乘风而行再追击，o((&gt;ω&lt; ))o发现了意想不到的收获！ 我把index.html的代码全部复制下来，Pay attention！ 我复制的代码是根据https来写的，具体代码如下（腾讯公益）啊 &lt;!DOCTYPE HTML&gt; &lt;html&gt; &lt;head&gt; &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html;charset=utf-8;&quot; /&gt; &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt; &lt;meta name=&quot;robots&quot; content=&quot;all&quot; /&gt; &lt;meta name=&quot;robots&quot; content=&quot;index,follow&quot; /&gt; &lt;/head&gt; &lt;body&gt; &lt;script type=&quot;text/plain&quot; src=&quot;http://www.qq.com/404/search_children.js&quot; charset=&quot;utf-8&quot; homePageUrl=&quot;/archives/&quot; homePageName=&quot;鍥炲埌鎴戠殑涓婚〉&quot;&gt; &lt;/script&gt; &lt;script src=&quot;https://qzone.qq.com/gy/404/data.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt; &lt;script charset=&quot;utf-8&quot;&gt; var QZONE = window.QZONE || {}; function imagezoom(imgobj, box_w, box_h) { var src_w = imgobj.width; var src_h = imgobj.height; var r1 = src_w / src_h, r2 = box_w / box_h; var dst_w, dst_h; if (r1 &gt; r2) { dst_w = box_w; dst_h = Math.round(dst_w / src_w * src_h); } else { if (r1 &lt; r2) { dst_h = box_h; dst_w = Math.round(dst_h / src_h * src_w); } else { dst_w = box_w; dst_h = box_h; } } imgobj.style.marginLeft = (box_w - dst_w) / 2 + &quot;px&quot;; imgobj.style.marginTop = (box_h - dst_h) / 2 + &quot;px&quot;; imgobj.style.width = dst_w + &quot;px&quot;; imgobj.style.height = dst_h + &quot;px&quot;; imgobj.style.opacity = 1; } (function (_w, _d) { var ha = _d.head || _d.getElementsByTagName(&quot;head&quot;)[0]; var $scope = {}; var current; var tmnow; var chId; var homePageUrl, homePageName; var scs = document.getElementsByTagName(&quot;script&quot;); if (location.href.indexOf(&quot;fm.qq.com&quot;) &gt; -1 || location.href.indexOf(&quot;fm.qzone.qq.com&quot;) &gt; -1) { homePageName = &quot;\u8fd4\u56de\u4f01\u9e45FM&quot;; homePageUrl = &quot;http://fm.qq.com&quot;; } else { if (location.href.indexOf(&quot;qzone.qq.com&quot;) &gt; -1) { homePageName = &quot;\u8fd4\u56de\u6211\u7684\u7a7a\u95f4&quot;; homePageUrl = &quot;http://qzone.qq.com&quot;; } else { homePageName = &quot;\u8fd4\u56de\u817e\u8baf\u7f51&quot;; homePageUrl = &quot;http://www.qq.com&quot;; } } for (var i = 0; i &lt; scs.length; i++) { if (scs[i].src.indexOf(&quot;404/search_children.js&quot;) &gt; -1) { if (scs[i].getAttribute(&quot;homePageUrl&quot;)) { homePageUrl = scs[i].getAttribute(&quot;homePageUrl&quot;); } if (scs[i].getAttribute(&quot;homePageName&quot;)) { homePageName = scs[i].getAttribute(&quot;homePageName&quot;); } break; } } $scope.rettext = homePageName; $scope.retlink = homePageUrl; function getData(srcUrl, callback) { var sc = _d.createElement(&quot;script&quot;); function orc() { if (sc.readyState === &quot;loaded&quot;) { setTimeout(function () { callback &amp;&amp; callback(); }, 0); } } if (sc.addEventListener) { if (callback) { sc.addEventListener(&quot;load&quot;, callback, false); } } else { sc.attachEvent(&quot;onreadystatechange&quot;, orc); } ha &amp;&amp; ha.appendChild(sc); sc.src = srcUrl; } function resolveData(d) { var tid, len, ddata = [], tdata; if (&quot;object&quot; == typeof d &amp;&amp; (d.data &amp;&amp; (len = d.data.length))) { for (var i = 0; i &lt; len; i++) { var expire = d.data[i].expire; d.data[i]._id = new Date * Math.random() * Math.random() * 1E7; if (expire &amp;&amp; tmnow * 1E3 &lt; Date.parse(expire.replace(/\s[\s\S]*$/, &quot;&quot;).replace(/\-/g, &quot;/&quot;))) { var _c = d.data[i].city, _p = d.data[i].province; if (_c &amp;&amp; city) { if ((&quot;_&quot; + _c + &quot;_&quot;).indexOf(&quot;_&quot; + city + &quot;_&quot;) &gt; -1) { ddata.push(d.data[i]); continue; } } if (_p &amp;&amp; province) { if ((&quot;_&quot; + _p + &quot;_&quot;).indexOf(&quot;_&quot; + province + &quot;_&quot;) &gt; -1) { ddata.push(d.data[i]); } } } } tid = Math.floor(Math.random() * (ddata.length || len)); tdata = (ddata.length ? ddata : d.data)[chId = tid]; if (_w.foundjsondata) { tdata.ta = tdata.sex.indexOf(&quot;\u5973&quot;) &gt; -1 ? &quot;\u5979&quot; : &quot;\u4ed6&quot;; tdata.name = &quot;\u201c7\u00b718\u7279\u5927\u62d0\u5356\u5a74\u513f\u6848\u201d\u544a\u7834\uff0c\u88ab\u89e3\u6551\u768415\u540d\u5b69\u5b50\u4e2d\uff0c2\u4eba\u7531\u4eb2\u751f\u7236\u6bcd\u9886\u56de\uff0c\u4ecd\u670913\u540d\u5b69\u5b50\u672a\u627e\u5230\u4eb2\u751f\u7236\u6bcd\uff0c\u88ab\u5b89\u7f6e\u5728\u60e0\u5dde\u5e02\u793e\u4f1a\u798f\u5229\u9662\uff0c&quot; + tdata.ta + &quot;\u662f\u5176\u4e2d\u4e4b\u4e00\u3002&quot;; tdata.url = tdata.url.replace(/#p=(\d{1,2})/, function (a, n) { return &quot;#p=&quot; + (+n + 1); }); return format(tmpl2, tdata); } if (!tdata.ext1) { tdata.ext1 = &quot;\u4f46\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u5bfb\u627e\u5931\u8e2a\u5b9d\u8d1d&quot;; } return tdata; } } function setTopData(tdata) { current = tdata; $scope.topname = tdata.name; $scope.topgender = tdata.sex; $scope.topbirth = tdata.birth_time; $scope.toplostdate = tdata.lost_time; $scope.toplostplace = tdata.lost_place; $scope.toplostdesc = tdata.child_feature; $scope.toplink = tdata.url; $scope.topimg = tdata.child_pic; $scope.topid = tdata._id; document.body.innerHTML = template(&quot;body&quot;, $scope); } function init(data) { tmnow = data.tm_now * 1E3; var tdata = resolveData(jsondata); $scope.whichin = 0; jsondata.data.splice(chId, 1); $scope.otherdata = [tdata].concat(jsondata.data.slice(0, 5)); setTopData(tdata); } var timeout; window._Callback = function (d) { clearTimeout(timeout); init(d); }; timeout = setTimeout(function () { _Callback({ tm_now: (new Date).getTime() / 1E3 }); }, 2E3); _w.share = function (target) { var summary = [&quot;\u80cc\u666f\uff1a&quot;, current.name, &quot;\uff0c\u6027\u522b\uff1a&quot;, current.sex, &quot;\uff0c\u51fa\u751f\u65f6\u95f4\uff1a&quot;, current.birth_time, &quot;\uff0c\u5931\u8e2a\u65f6\u95f4\uff1a&quot;, current.lost_time, &quot;\uff0c\u7279\u5f81\u63cf\u8ff0\uff1a&quot;, current.child_feature].join(&quot;&quot;); if (summary) { summary = &quot;#\u5bfb\u627e\u5931\u8e2a\u7684\u5b9d\u8d1d#&quot; + summary; } var stitle = &quot;\u5931\u8e2a\u7684\u5b9d\u8d1d\u8be6\u60c5&quot;; var desc = &quot;\u5931\u8e2a\u7684\u5b9d\u8d1d\u8981\u56de\u5bb6\uff0c\u5feb\u6765\u53c2\u4e0e\u7231\u5fc3\u7684\u4f20\u9012\u5427\uff01&quot;; var encode = encodeURIComponent; var opts = { &quot;surl&quot;: &quot;http://qzone.qq.com/gy/404/&quot; + current.id + &quot;/lostchild.html&quot;, &quot;site&quot;: &quot;QQ\u7a7a\u95f4&quot;, &quot;summary&quot;: summary || &quot;#\u5b9d\u8d1d\u56de\u5bb6#\u817e\u8baf\u5fd7\u613f\u8005\u7528\u6280\u672f\u70b9\u4eae\u516c\u76ca\uff0c\u8ba9\u6211\u4eec\u4e00\u8d77\u5bfb\u627e\u8d70\u5931\u7684\u513f\u7ae5\u5427\uff01&quot;, &quot;stitle&quot;: stitle, &quot;pics&quot;: current.child_pic, &quot;desc&quot;: desc, &quot;origin_url&quot;: current.url }; var surl = opts.surl || &quot;http://www.qq.com/404/&quot;, summary = opts.summary || &quot;\u8fd9\u4e2a\u662f\u5206\u4eab\u7684\u5185\u5bb9&quot;, stitle = opts.stitle || &quot;\u8fd9\u4e2a\u662f\u5206\u4eab\u7684\u6807\u9898&quot;, pics = opts.pics || &quot;http://qzonestyle.gtimg.cn/qzone_v6/act/img/20120422_qzone_7_years/pop_up/icon-pop-seven-years.png&quot;, site = opts.site || &quot;\u8fd9\u4e2a\u662f\u5206\u4eab\u94fe\u63a5\u7684\u6587\u5b57&quot;, desc = opts.desc || &quot;\u5931\u8e2a\u7684\u5b9d\u8d1d\u8981\u56de\u5bb6\uff0c\u5feb\u6765\u53c2\u4e0e\u7231\u5fc3\u7684\u4f20\u9012\u5427\uff01&quot;, origin_url = opts.origin_url || &quot;http://www.qq.com/404/&quot;; var shareList = { weibo: { method: function (evt) { var w = &quot;http://v.t.qq.com/share/share.php&quot;, q = [&quot;?site=&quot;, encode(surl + &quot;#via=share_t_weib&quot;), &quot;&amp;title=&quot;, encode(summary), &quot;&amp;pic=&quot;, encode(pics), &quot;&amp;url=&quot;, encode(surl)].join(&quot;&quot;), p = [w, q].join(&quot;&quot;); openit(p, &quot;weibo&quot;, &quot;width=700, height=680, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, location=yes, resizable=no, status=no&quot;); } }, qzone: { method: function (evt) { var buff = [], ps = { url: surl + &quot;#via=404-qzoneshare&quot;, desc: desc || &quot;\u5931\u8e2a\u7684\u5b9d\u8d1d\u8981\u56de\u5bb6\uff0c\u5feb\u6765\u53c2\u4e0e\u7231\u5fc3\u7684\u4f20\u9012\u5427\uff01&quot;, summary: summary, title: stitle, pics: pics, site: site }; for (var k in ps) { buff.push(k + &quot;=&quot; + encode(ps[k] || &quot;&quot;)); } var w = &quot;http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?&quot; + buff.join(&quot;&amp;&quot;), q = [&quot;#via=share_t_qzone&quot;, &quot;&amp;title=&quot;, encode(summary), &quot;&amp;pic=&quot;, encode(pics), &quot;&amp;url=&quot;, encode(surl)].join(&quot;&quot;), p = [w, q].join(&quot;&quot;); openit(p, &quot;qzone&quot;, &quot;width=700, height=680, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, location=yes, resizable=no, status=no&quot;); } }, sina: { method: function () { var w = &quot;http://v.t.sina.com.cn/share/share.php&quot;, q = [&quot;?url=&quot;, encode(surl + &quot;#via=share_x_weib&quot;), &quot;&amp;title=&quot;, encode(summary), &quot;&amp;source=&quot;, &quot;&amp;sourceUrl=&quot;, surl, &quot;&amp;content=utf-8&quot;, &quot;&amp;pic=&quot;, encode(pics)].join(&quot;&quot;), p = [w, q].join(&quot;&quot;); openit(p, &quot;sina&quot;, &quot;toolbar=0,status=0,resizable=1,width=440,height=430&quot;); } }, kaixin: { method: function () { var n = &quot;http://www.kaixin001.com/repaste/bshare.php?rurl=&quot; + encode(surl + &quot;#via=share_kaixin&quot;) + &quot;&amp;rcontent=&amp;rtitle=&quot; + encode(summary); openit(n, &quot;kaixin&quot;, &quot;toolbar=0,status=0,resizable=1,width=600,height=360&quot;); } }, renren: { method: function () { var n = &quot;http://www.connect.renren.com/share/sharer?title=&quot; + encode(summary) + &quot;&amp;url=&quot; + encode(surl + &quot;#via=share_renren&quot;), p = window.open(n, &quot;rr&quot;, &quot;toolbar=0,status=0,resizable=1,width=510,height=300&quot;); if (p) { p.focus(); } } }, weixin: { method: function () { var n = &quot;http://qzone.qq.com/gy/404/page/qrcode.html?url=&quot; + encode(origin_url + &quot;#via=share_weixin&quot;), p = window.open(n, &quot;rr&quot;, &quot;toolbar=0,status=0,resizable=1,width=620,height=430&quot;); if (p) { p.focus(); } } } }; var openit = function (u, n, p) { function o() { var z; if (!(z = window.open(u, n, p))) { location.href = u; } else { z.focus(); } } o(); }; shareList[target] &amp;&amp; shareList[target].method(); }; _w.toThis = function (id) { for (var i = 0; i &lt; $scope.otherdata.length; i++) { if ($scope.otherdata[i]._id == id) { setTopData($scope.otherdata[i]); break; } } return false; }; var meta = document.createElement(&quot;meta&quot;); meta.name = &quot;viewport&quot;; meta.content = &quot;width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no&quot;; ha.appendChild(meta); (function registerStyle() { var link = document.createElement(&quot;link&quot;); link.rel = &quot;stylesheet&quot;; link.type = &quot;text/css&quot;; link.href = &quot;https://qzone.qq.com/gy/404/style/404style.css&quot;; ha.appendChild(link); })(); (function initStat() { var qqDomainNameRE = /\.qq\.com$/i, qzoneDomainNameRE = /\bqzone\.qq\.com$/i, qzsDomainNameRE = /\bqzonestyle\.gtimg\.cn$/i; function cb() { var url = location.host; var src = &quot;&quot;; if (qzoneDomainNameRE.test(url)) { src = &quot;new404.qzone&quot;; } else { if (qqDomainNameRE.test(url)) { src = &quot;new404.qq&quot;; } else { if (qzsDomainNameRE.test(url)) { src = &quot;new404.qzonestyle&quot;; } else { src = url.replace(&quot;.&quot;, &quot;_&quot;); } } } _w.TCISD &amp;&amp; (_w.TCISD.pv &amp;&amp; _w.TCISD.pv(&quot;hat.qzone.qq.com&quot;, &quot;/gy/lostchild/&quot; + src)); } getData(&quot;https://qzonestyle.gtimg.cn/ac/qzfl/stat.js&quot;, cb); })(); })(window, document); !function () { function a(a, b) { return (/string|function/.test(typeof b) ? h : g)(a, b); } function b(a, c) { return &quot;string&quot; != typeof a &amp;&amp; (c = typeof a, &quot;number&quot; === c ? a += &quot;&quot; : a = &quot;function&quot; === c ? b(a.call(a)) : &quot;&quot;), a; } function c(a) { return l[a]; } function d(a) { return b(a).replace(/&amp;(?![\w#]+;)|[&lt;&gt;&quot;&#39;]/g, c); } function e(a, b) { if (m(a)) { for (var c = 0, d = a.length; d &gt; c; c++) { b.call(a, a[c], c, a); } } else { for (c in a) { b.call(a, a[c], c); } } } function f(a, b) { var c = /(\/)[^/]+\1\.\.\1/, d = (&quot;./&quot; + a).replace(/[^/]+$/, &quot;&quot;), e = d + b; for (e = e.replace(/\/\.\//g, &quot;/&quot;); e.match(c);) { e = e.replace(c, &quot;/&quot;); } return e; } function g(b, c) { var d = a.get(b) || i({ filename: b, name: &quot;Render Error&quot;, message: &quot;Template not found&quot; }); return c ? d(c) : d; } function h(a, b) { if (&quot;string&quot; == typeof b) { var c = b; b = function () { return new k(c); }; } var d = j[a] = function (c) { try { return new b(c, a) + &quot;&quot;; } catch (d) { return i(d)(); } }; return d.prototype = b.prototype = n, d.toString = function () { return b + &quot;&quot;; }, d; } function i(a) { var b = &quot;{Template Error}&quot;, c = a.stack || &quot;&quot;; if (c) { c = c.split(&quot;\n&quot;).slice(0, 2).join(&quot;\n&quot;); } else { for (var d in a) { c += &quot;&lt;&quot; + d + &quot;&gt;\n&quot; + a[d] + &quot;\n\n&quot;; } } return function () { return &quot;object&quot; == typeof console &amp;&amp; console.error(b + &quot;\n\n&quot; + c), b; }; } var j = a.cache = {}, k = this.String, l = { &quot;&lt;&quot;: &quot;&amp;#60;&quot;, &quot;&gt;&quot;: &quot;&amp;#62;&quot;, &#39;&quot;&#39;: &quot;&amp;#34;&quot;, &quot;&#39;&quot;: &quot;&amp;#39;&quot;, &quot;&amp;&quot;: &quot;&amp;#38;&quot; }, m = Array.isArray || function (a) { return &quot;[object Array]&quot; === {}.toString.call(a); }, n = a.utils = { $helpers: {}, $include: function (a, b, c) { return a = f(c, a), g(a, b); }, $string: b, $escape: d, $each: e }, o = a.helpers = n.$helpers; a.get = function (a) { return j[a.replace(/^\.\//, &quot;&quot;)]; }, a.helper = function (a, b) { o[a] = b; }, &quot;function&quot; == typeof define ? define(function () { return a; }) : &quot;undefined&quot; != typeof exports ? module.exports = a : this.template = a, a(&quot;body&quot;, function (a) { var b = this, c = (b.$helpers, b.$escape), d = a.retlink, e = a.rettext, f = a.topid, g = a.topimg, h = a.topname, i = a.topgender, j = a.topbirth, l = a.toplostdate, m = a.toplostplace, n = a.toplostdesc, o = a.toplink, p = b.$each, q = a.otherdata, r = (a.otheritem, a.index, &quot;&quot;); return r += &#39;&lt;div class=&quot;mod_404&quot;&gt; &lt;div class=&quot;wrapper&quot; id=&quot;mainWrap&quot;&gt; &lt;div class=&quot;mod_hd&quot;&gt; &lt;h1 class=&quot;title&quot;&gt;&lt;span class=&quot;title_inner&quot;&gt;404\uff0c\u60a8\u8bbf\u95ee\u7684\u9875\u9762\u627e\u4e0d\u56de\u6765\u4e86\uff0c\u4f46\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u5e2e\u4ed6\u4eec\u56de\u5bb6\uff01&lt;/span&gt;&lt;/h1&gt; &lt;div class=&quot;desc&quot;&gt;&lt;a href=&quot;&#39;, r += c(d), r += &#39;&quot; class=&quot;desc_link&quot;&gt;&#39;, r += c(e), r += &#39;&lt;/a&gt;&lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;mod_bd&quot;&gt; &lt;div class=&quot;child_box&quot;&gt; &lt;div class=&quot;mod_404_child child_in&quot; data-id=&quot;&#39;, r += c(f), r += &#39;&quot; id=&quot;top_&#39;, r += c(f), r += &#39;&quot;&gt; &lt;div class=&quot;child_main cf&quot;&gt; &lt;div class=&quot;child_avatar&quot;&gt;&lt;img src=&quot;&#39;, r += c(g), r += &#39;&quot; onload=&quot;imagezoom(this, 160, 216);&quot; style=&quot;opacity:0&quot;&gt;&lt;/div&gt; &lt;div class=&quot;child_info&quot;&gt; &lt;div class=&quot;info_name&quot;&gt; &lt;h2&gt;&lt;span class=&quot;name_inner&quot;&gt;&#39;, r += c(h), r += &#39;&lt;/span&gt;&lt;span class=&quot;info_sex&quot;&gt;(&#39;, r += c(i), r += &#39;)&lt;/span&gt;&lt;/h2&gt; &lt;/div&gt; &lt;div class=&quot;info_item info_birth&quot;&gt;&lt;span class=&quot;info_lbl&quot;&gt;\u51fa\u751f\u65e5\u671f\uff1a&lt;/span&gt;&lt;span class=&quot;item_inner&quot;&gt;&#39;, r += c(j), r += &#39;&lt;/span&gt;&lt;/div&gt; &lt;div class=&quot;info_item info_time&quot;&gt;&lt;span class=&quot;info_lbl&quot;&gt;\u5931\u8e2a\u65f6\u95f4\uff1a&lt;/span&gt;&lt;span class=&quot;item_inner&quot;&gt;&#39;, r += c(l), r += &#39;&lt;/span&gt;&lt;/div&gt; &lt;div class=&quot;info_item info_address&quot;&gt;&lt;span class=&quot;info_lbl&quot;&gt;\u5931\u8e2a\u5730\u70b9\uff1a&lt;/span&gt;&lt;span class=&quot;item_inner&quot;&gt;&#39;, r += c(m), r += &#39;&lt;/span&gt;&lt;/div&gt; &lt;div class=&quot;info_item info_desc&quot;&gt;&lt;span class=&quot;info_lbl&quot;&gt;\u5931\u8e2a\u4eba\u7279\u5f81\u63cf\u8ff0\uff1a&lt;/span&gt;&lt;span class=&quot;item_inner&quot;&gt;&#39;, r += c(n), r += &#39;&lt;/span&gt;&lt;/div&gt; &lt;a href=&quot;&#39;, r += c(o), r += &#39;&quot; class=&quot;link_view&quot; title=&quot;\u67e5\u770b\u8be6\u60c5&quot;&gt;&lt;span class=&quot;link_inner&quot;&gt;\u67e5\u770b\u8be6\u60c5&lt;/span&gt;&lt;/a&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;child_bottom cf&quot;&gt; &lt;div class=&quot;bottom_logo&quot;&gt; &lt;ul class=&quot;logo_list&quot;&gt; &lt;li&gt;&lt;a href=&quot;http://e.t.qq.com/Tencent-Volunteers&quot; title=&quot;\u817e\u8baf\u5fd7\u613f\u8005&quot;&gt;&lt;img src=&quot;http://qzone.qq.com/gy/404/style/image/logo_tencentvolunteers.png&quot;&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;http://bbs.baobeihuijia.com/forum.php&quot; title=&quot;\u5b9d\u8d1d\u56de\u5bb6&quot;&gt;&lt;img src=&quot;http://qzone.qq.com/gy/404/style/image/logo_baobeihuijia.png&quot;&gt;&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt; &lt;div class=&quot;bottom_right&quot;&gt; &lt;div class=&quot;mod_share&quot; onmouseover=&quot;this.className += \&#39; mod_share_hover\&#39;;&quot; onmouseout=&quot;this.className = this.className.replace(\&#39; mod_share_hover\&#39;,\&#39;\&#39;)&quot;&gt; &lt;span class=&quot;share_inner&quot;&gt;\u5206\u4eab&lt;/span&gt; &lt;ul class=&quot;share_list&quot;&gt; &lt;li&gt;&lt;a href=&quot;javascript:void(0);&quot; class=&quot;share_link&quot; onclick=&quot;share(\&#39;weibo\&#39;);return false;&quot; title=&quot;\u817e\u8baf\u5fae\u535a&quot;&gt;&lt;span class=&quot;link_inner&quot;&gt;\u817e\u8baf\u5fae\u535a&lt;/span&gt;&lt;i class=&quot;ico_tencentweibo&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;javascript:void(0);&quot; class=&quot;share_link&quot; onclick=&quot;share(\&#39;qzone\&#39;);return false;&quot; title=&quot;QQ\u7a7a\u95f4&quot;&gt;&lt;span class=&quot;link_inner&quot;&gt;QQ\u7a7a\u95f4&lt;/span&gt;&lt;i class=&quot;ico_qzone&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;javascript:void(0);&quot; class=&quot;share_link&quot; onclick=&quot;share(\&#39;sina\&#39;);return false;&quot; title=&quot;\u65b0\u6d6a\u5fae\u535a&quot;&gt;&lt;span class=&quot;link_inner&quot;&gt;\u65b0\u6d6a\u5fae\u535a&lt;/span&gt;&lt;i class=&quot;ico_sinaweibo&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;javascript:void(0);&quot; class=&quot;share_link&quot; onclick=&quot;share(\&#39;weixin\&#39;);return false;&quot; title=&quot;\u5fae\u4fe1&quot;&gt;&lt;span class=&quot;link_inner&quot;&gt;\u5fae\u4fe1&lt;/span&gt;&lt;i class=&quot;ico_weixin&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;span style=&quot;clear: both;&quot;&gt;&lt;/span&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;i class=&quot;ico_corner&quot;&gt;&lt;/i&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;mod_fd&quot;&gt; &lt;div class=&quot;mod_404_children&quot;&gt; &lt;ul class=&quot;children_list&quot;&gt; &#39;, p(q, function (a) { r += &#39; &lt;li class=&quot;&#39;, r += c(f == a._id ? &quot;current&quot; : &quot;&quot;), r += &#39;&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;toThis(\&#39;&#39;, r += c(a._id), r += &#39;\&#39;);&quot; title=&quot;&#39;, r += c(a.name), r += &#39;&quot; &gt;&lt;img src=&quot;&#39;, r += c(a.child_pic), r += &#39;&quot;&gt;&lt;/a&gt;&lt;/li&gt; &#39;; }), r += &quot; &lt;/ul&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;&quot;, new k(r); }); }(); &lt;/script&gt; &lt;/body&gt; &lt;/html&gt; 哇。为什么markdown不显示代码。。 先不管了，反正我直接把这段代码复制到根目录下source中我新建的page.md下，然后把前面那一行的homepageUrl改成自己主页的地址，改这个的时候也非常头疼，不知道要改成什么(+_+)?，最后我写成了archives，这是博客的分档，因为写home的话，也是显示cannot get/home/，但如果什么都不写的话，就蹦到xw.qq.com去了。总结，这是上面的代码出现的问题。。。肯定是的。 此致记录hexo历程]]></content>
+      <categories>
+        <category>Hexo历程</category>
+      </categories>
+      <tags>
+        <tag>总览</tag>
+        <tag>日记</tag>
+        <tag>解决方法</tag>
+        <tag>Hexo初级</tag>
+        <tag>小结</tag>
+        <tag>404页面制作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[多么想和你见一面]]></title>
+    <url>%2F2017%2F10%2F02%2FMusic-test%2F</url>
+    <content type="text"><![CDATA[作曲 : 陈小霞 作词 : 施立 我来到 你的城市 走过你来时的路 想像着 没我的日子 你是怎样的孤独 拿着你 给的照片 熟悉的那一条街 只是没了你的画面 我们回不到那天 你会不会忽然的出现 在街角的咖啡店 我会带着笑脸 挥手寒暄 和你 坐着聊聊天 我多么想和你见一面 看看你最近改变 不再去说从前 只是寒暄 对你说一句 只是说一句 好久不见 拿着你 给的照片 熟悉的那一条街 只是没了你的画面 我们回不到那天 你会不会忽然的出现 在街角的咖啡店 我会带着笑脸 挥手寒暄 和你 坐着聊聊天 我多么想和你见一面 看看你最近改变 不再去说从前 只是寒暄 对你说一句 只是说一句 好久不见]]></content>
+      <categories>
+        <category>音乐</category>
+      </categories>
+      <tags>
+        <tag>音乐</tag>
+        <tag>总览</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[测试。]]></title>
+    <url>%2F2017%2F10%2F01%2F%E6%B5%8B%E8%AF%95%E3%80%82%2F</url>
+    <content type="text"><![CDATA[我就想知道到底怎么回事，啥都没干就给我404？？？ 分割线:10.02ok啦~ 可能原因：next主题更新导致。同时感谢This blog的帮助。]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>总览</tag>
+        <tag>测试</tag>
+        <tag>404错误</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[懒懒懒懒懒]]></title>
+    <url>%2F2017%2F09%2F24%2F%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92o-%CF%89-o%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A%2F</url>
+    <content type="text"><![CDATA[随便写点什么，下雨，从昨天放学开始。 家里装修 = Release 2.5.0 =Released: 2017-07-23 == Major change == VS2017 is used for building TortoiseGitOn x64 versions of Windows, the TortoiseGit context menu and overlays won’t show for pure 32-bit applications in their file-open/save dialogs until you install the 2015 C-runtime for x86.https://www.microsoft.com/en-us/download/details.aspx?id=52685 (select the vc_redist.x86.exe file for download). 特奇怪]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>总览</tag>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[嗯，下课了]]></title>
+    <url>%2F2017%2F09%2F16%2F%E5%97%AF%EF%BC%8C%E4%B8%8B%E8%AF%BE%E4%BA%86%2F</url>
+    <content type="text"><![CDATA[随便记点什么吧考完试回到家看望了奶奶吃了水果………嗯在学校看见了她嗯开心 我在看天时，你若看见我，请叫住我因为，你比天要美丽； 我在看你时，请你不要视而不见为了看你我放弃了天； 天空我把他称为云朵云朵也就变成了天空， 你看那一朵朵天空多美啊！因为他的背景是云； 我不听人们的话，我只听你的人们都喜欢云而我喜欢你————To xin]]></content>
+      <categories>
+        <category>她</category>
+      </categories>
+      <tags>
+        <tag>总览</tag>
+        <tag>她</tag>
+        <tag>日记</tag>
+        <tag>诗</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[第一个星期(￣▽￣)"]]></title>
+    <url>%2F2017%2F09%2F09%2Ftext-1%2F</url>
+    <content type="text"><![CDATA[放学你们放学了吗？开学一星期，一班陌生的可爱的的同学，很无奈(⊙﹏⊙)，随便更新个博客吧啊啊啊啊啊啊啊啊啊啊啊啊啊。不行啊啊啊啊啊啊啊啊啊啊啊啊啊！！！再来一次aaaaaaaaaaaaaaaaaaaaaa(⊙_⊙)???嗯恩恩恩恩呢讷讷嫩嗯~ o(￣▽￣)o测试一下~~~~就是测试喔！(⊙o⊙)！再次再次强调//////////////////////////////////This is a TEXT!向前进军！ 先熟悉一下上周的程序再说！ 现在程序只能解决正负和R的函数，不能输入根号以及多次幂。还有ax^2+bx+c以内的函数，结果是小数很麻烦。不能准确解决解函数问题。亟待解决 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990//这个程序帮助解决简单的一元二次方程#include &lt;stdio.h&gt;#include &lt;math.h&gt;//#define()后面不加分号“；”#define QUIT 2//函数原型int get_menu_choice(void);int main(void)&#123; int choice = 0; while (choice != QUIT) &#123; //调用菜单选择函数 choice = get_menu_choice(); //选择1将进入解方程 if (choice == 1) &#123; printf(&quot;求一元二次方程ax^2 + bx + c的解\n&quot;); int a, b, c; double x1, x2, dealt; printf(&quot;请依次输入系数a b c(请用空格分隔开):\n&quot;); scanf_s(&quot;%u %u %u&quot;, &amp;a, &amp;b, &amp;c); dealt = b * b - 4 * a * c;//根的判别式 if (a == 0) printf(&quot;a不能为0\n\n\n\n&quot;); else if (dealt &gt; 0) &#123; x1 = (-b + sqrt(dealt)) / (2 * a); x2 = (-b - sqrt(dealt)) / (2 * a); printf(&quot;方程（%d）x^2 + （%d）x + （%d）的解为：\n&quot;, a, b, c); printf(&quot;x1 = %f,x2 = %f\n\n\n\n&quot;, x1, x2); &#125; else if (dealt == 0)// &#123; x1 = x2 = (-b) / (2 * a); printf(&quot;方程（%d）x^2 + （%d）x + （%d）的解为：\n&quot;, a, b, c); printf(&quot;x1=x2=%f\n\n\n\n&quot;, x1); &#125; else //这里是（dealt &lt; 0）的情况，所以并没有实根 printf(&quot;该方程无解\n\n\n\n&quot;); &#125; else puts(&quot;\n你选择离开。&quot;); &#125; return 0;&#125;////////////////函数定义//////////////////////这个函数被调用时将在荧屏上显示两个菜单选项int get_menu_choice(void)&#123; int selection; do &#123; puts(&quot;\n1 - 解一元二次方程。&quot;);// puts(&quot;2 - 离开。&quot;);//选项二 puts(&quot;\n输入你的选择：&quot;); scanf_s(&quot;%d&quot;, &amp;selection); &#125; while (selection &lt; 1 || selection &gt; 2); return selection;&#125; 。。。(o-ωｑ)).oO 困啊困啊苦命的困，(～﹃～)~zZ睡觉，有时间再说吧。。。估计没什么时间更blog了]]></content>
+      <categories>
+        <category>c语言</category>
+      </categories>
+      <tags>
+        <tag>总览</tag>
+        <tag>日记</tag>
+        <tag>c语言</tag>
+        <tag>解一元二次方程</tag>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[妥善解决win10各种卡顿问题]]></title>
+    <url>%2F2017%2F09%2F03%2F%E5%A6%A5%E5%96%84%E8%A7%A3%E5%86%B3win10%E5%90%84%E7%A7%8D%E5%8D%A1%E9%A1%BF%E9%97%AE%E9%A2%98%2F</url>
+    <content type="text"><![CDATA[方案一 关闭windows search后台偷偷运行。控制面板-管理工具-服务-windows search禁用，别禁防火墙，可以在高级设置里的“属性”把“域配置文件”“专属配置文件”“公用配置文件”改为关闭状态。 方案二 关闭家庭组，该功能导致硬盘与cpu处于高负荷状态。控制中心-管理工具-服务-Homecroup listener和Homegroup Provider禁用。使用优化软件后win10开不了机的原因是禁用了三个服务，使用优化软件开启：dmwappushsvc. diagnsticsTracking service. coreMessaging. 方案三 清理产生的windows.old文件夹。方案四 设置好Superfetch服务，服务Superfetch启动类型改成延迟启动或者禁用，可避免频繁对硬盘的访问。控制中心-管 理服务-Superfetch-启动类型-自动。 方案五 关闭ipv6，部分网卡驱动开启ipv6会导致开机系统未响应，假死。网络共享中心-网络连接-以太网-属性-取消ipv6. 方案六 设置win10自动登录，win+r netplwiz 取消使用计算机必须密码选项。 方案七 关闭windows安全中心服务，win+r services.msc Enter-找出SecurityCenter，禁用。不要删除系统文件，优化速度明显加快。 方案八 关闭计划任务里的隐藏的自动程序，控制面板-所有控制面板选项-管理工具-任务计划程序-右侧任务列表-禁用不需要的服务。 方案九 加速开机速度，win+r msconfig -引导-勾上无GUI引导。 方案十 win+r gpedit.msc 计算机管理中-模块管理-系统-关机选项-关闭会阻止或取消关机的应用程序的自动终止功能。 方案十一 关闭性能特效（低配置电脑），系统属性-高级-性能-设置-关闭窗口动态。 方案十二 修改窗口颜色用于护眼。win+r regedit 打开注册表 HKEY_CURRENT_USER\CONTROL\PANEL\Colors 选一个需要修改颜色的地方-比如窗口（windows）红绿蓝 这是白色(255 255 255)你可以改为豆绿（204 237 207）完后重启两次。]]></content>
+      <categories>
+        <category>win10</category>
+      </categories>
+      <tags>
+        <tag>总览</tag>
+        <tag>win10</tag>
+        <tag>解决方法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[测试测试]]></title>
+    <url>%2F2017%2F09%2F03%2F%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95%2F</url>
+    <content type="text"><![CDATA[这是一篇测试，是否能够解决乱码问题]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>总览</tag>
+        <tag>日记</tag>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[我的博客第一天]]></title>
+    <url>%2F2017%2F09%2F03%2F%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%A4%A9%2F</url>
+    <content type="text"><![CDATA[………..折腾一个晚上和一上午终于弄好了……………..求抱抱(￣︶￣*)) ////\\，嗯先就这样吧，还有中午好cutexin]]></content>
+      <categories>
+        <category>博客第一天</category>
+      </categories>
+      <tags>
+        <tag>总览</tag>
+        <tag>博客firstday</tag>
+        <tag>o(*￣▽￣*)ブ</tag>
+      </tags>
+  </entry>
 </search>
