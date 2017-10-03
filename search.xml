@@ -8,8 +8,8 @@
         <category>音乐</category>
       </categories>
       <tags>
-        <tag>总览</tag>
         <tag>音乐</tag>
+        <tag>总览</tag>
       </tags>
   </entry>
   <entry>
@@ -33,8 +33,8 @@
         <category>日记</category>
       </categories>
       <tags>
-        <tag>日记</tag>
         <tag>总览</tag>
+        <tag>日记</tag>
       </tags>
   </entry>
   <entry>
@@ -45,9 +45,9 @@
         <category>她</category>
       </categories>
       <tags>
-        <tag>她</tag>
-        <tag>日记</tag>
         <tag>总览</tag>
+        <tag>日记</tag>
+        <tag>她</tag>
         <tag>诗</tag>
       </tags>
   </entry>
@@ -59,8 +59,8 @@
         <category>c语言</category>
       </categories>
       <tags>
-        <tag>日记</tag>
         <tag>总览</tag>
+        <tag>日记</tag>
         <tag>c语言</tag>
         <tag>解一元二次方程</tag>
         <tag>测试</tag>
@@ -87,8 +87,8 @@
         <category>日记</category>
       </categories>
       <tags>
-        <tag>日记</tag>
         <tag>总览</tag>
+        <tag>日记</tag>
         <tag>测试</tag>
       </tags>
   </entry>
