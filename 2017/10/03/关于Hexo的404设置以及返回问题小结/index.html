@@ -1,28 +1,370 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>YelloBoy&#39;s blog</title>
-  <subtitle>拿出你的黑脑洞</subtitle>
-  <link href="/atom.xml" rel="self"/>
+<!DOCTYPE html>
+
+
+
   
-  <link href="http://yoursite.com/"/>
-  <updated>2017-10-03T04:26:01.647Z</updated>
-  <id>http://yoursite.com/</id>
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
-  <author>
-    <name>一鸣</name>
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?v=5.1.3">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.3" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="日记,总览,Hexo初级,小结,404页面制作,解决方法," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="YelloBoy's blog" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="w(ﾟДﾟ)w 经过一晚和一上午的揣摩，自己竟然能发现出与网上不同的404页面制作方法，呸~~ 应该是解决404页面设置好后（大多数的教程说是放在主题目录的source下，我呸~~ 我各种source下都放了404.html，可是没一个见效的，把html删掉也不行，各种        hexo g -d以及hexo s -g，本地都不带一点反应？！！   伤心欲绝的我含着悲愤的泪睡去，早上&amp;lt;">
+<meta name="keywords" content="日记,总览,Hexo初级,小结,404页面制作,解决方法">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于Hexo的404设置以及返回问题小结">
+<meta property="og:url" content="http://yoursite.com/2017/10/03/关于Hexo的404设置以及返回问题小结/index.html">
+<meta property="og:site_name" content="YelloBoy&#39;s blog">
+<meta property="og:description" content="w(ﾟДﾟ)w 经过一晚和一上午的揣摩，自己竟然能发现出与网上不同的404页面制作方法，呸~~ 应该是解决404页面设置好后（大多数的教程说是放在主题目录的source下，我呸~~ 我各种source下都放了404.html，可是没一个见效的，把html删掉也不行，各种        hexo g -d以及hexo s -g，本地都不带一点反应？！！   伤心欲绝的我含着悲愤的泪睡去，早上&amp;lt;">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-10-03T04:26:01.647Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="关于Hexo的404设置以及返回问题小结">
+<meta name="twitter:description" content="w(ﾟДﾟ)w 经过一晚和一上午的揣摩，自己竟然能发现出与网上不同的404页面制作方法，呸~~ 应该是解决404页面设置好后（大多数的教程说是放在主题目录的source下，我呸~~ 我各种source下都放了404.html，可是没一个见效的，把html删掉也不行，各种        hexo g -d以及hexo s -g，本地都不带一点反应？！！   伤心欲绝的我含着悲愤的泪睡去，早上&amp;lt;">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.3',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2017/10/03/关于Hexo的404设置以及返回问题小结/"/>
+
+
+
+
+
+  <title>关于Hexo的404设置以及返回问题小结 | YelloBoy's blog</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
     
-  </author>
   
-  <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>关于Hexo的404设置以及返回问题小结</title>
-    <link href="http://yoursite.com/2017/10/03/%E5%85%B3%E4%BA%8EHexo%E7%9A%84404%E8%AE%BE%E7%BD%AE%E4%BB%A5%E5%8F%8A%E8%BF%94%E5%9B%9E%E9%97%AE%E9%A2%98%E5%B0%8F%E7%BB%93/"/>
-    <id>http://yoursite.com/2017/10/03/关于Hexo的404设置以及返回问题小结/</id>
-    <published>2017-10-03T03:36:14.000Z</published>
-    <updated>2017-10-03T04:26:01.647Z</updated>
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
     
-    <content type="html"><![CDATA[<p>w(ﾟДﾟ)w 经过一晚和一上午的揣摩，自己竟然能发现出与网上不同的404页面制作方法，呸~~ 应该是解决404页面设置好后（大多数的教程说是放在主题目录的<code>source</code>下，我呸~~ 我各种<code>source</code>下都放了<code>404.html</code>，可是没一个见效的，把html删掉也不行，各种        <code>hexo g -d</code>以及<code>hexo s -g</code>，本地都不带一点反应？！！  </p>
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">YelloBoy's blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">拿出你的黑脑洞</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/03/关于Hexo的404设置以及返回问题小结/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="一鸣">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="YelloBoy's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">关于Hexo的404设置以及返回问题小结</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-03T11:36:14+08:00">
+                2017-10-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Hexo历程/" itemprop="url" rel="index">
+                    <span itemprop="name">Hexo历程</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>w(ﾟДﾟ)w 经过一晚和一上午的揣摩，自己竟然能发现出与网上不同的404页面制作方法，呸~~ 应该是解决404页面设置好后（大多数的教程说是放在主题目录的<code>source</code>下，我呸~~ 我各种<code>source</code>下都放了<code>404.html</code>，可是没一个见效的，把html删掉也不行，各种        <code>hexo g -d</code>以及<code>hexo s -g</code>，本地都不带一点反应？！！  </p>
 <p>伤心欲绝的我含着悲愤的泪睡去，早上&lt;<code>ling chen</code>&gt;跑起来倒挂倒挂，看各种帖子也都无济于事，于是我在chrome的一个报错中貌似发现了什么！！！！  具体我也没有截图，因为这是个小事嘛w(ﾟДﾟ)w只有我这么笨才会404都不会设置。 chrome是这样显示的，（我并没有在本地<code>hexo s -g</code>调试，因为我发现<code>hexo d</code>出去以后的样子隐约与本地有所不同！） 所以嘞，我看见了<code>cannot find/404/</code>，我当时就在想，是不是要去掉<code>404.html</code>中的html，然并无卵用。 那我就在想，是不是要放在blog根文件夹的source下？ 然后我就从主题<code>next</code>文件夹下复制出<code>404</code>，此时type是HTML，也没用。 后来一位网友说需要<code>hexo new page &quot;404&quot;</code>，当时还有点懵，因为跟我所看的教程不一样。我还回复了他<code>。。。。。。。。。</code>  </p>
 <p>但是后来实在没法子了，就试了一下。 在blog文件夹下<code>git bash</code>，然后<code>hexo new page &quot;404&quot;</code>，是的，根目录source中出现了<code>md</code>结尾的404文件，但是部署过后。。这不是我要的结果啊。。。 点击公益404只出现了一个博客内的页面”404“ ，于是乎我乘风而行再追击，o((&gt;ω&lt; ))o发现了意想不到的收获！  我把index.html的代码全部复制下来，Pay attention！ 我复制的代码是根据https来写的，具体代码如下（腾讯公益）<br>啊<br>    <code>&lt;!DOCTYPE HTML&gt;
     &lt;html&gt;
@@ -384,337 +726,345 @@
     &lt;/html&gt;</code>  </p>
 <p>哇。为什么markdown不显示代码。。  先不管了，反正我直接把这段代码复制到根目录下source中我新建的page.md下，然后把前面那一行的<code>homepageUrl</code>改成自己主页的地址，改这个的时候也非常头疼，不知道要改成什么(+_+)?，最后我写成了<code>archives</code>，这是博客的分档，因为写home的话，也是显示<code>cannot get/home/</code>，但如果什么都不写的话，就蹦到xw.qq.com去了。<br>总结，这是上面的代码出现的问题。。。肯定是的。  </p>
 <p>   此致记录hexo历程</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;w(ﾟДﾟ)w 经过一晚和一上午的揣摩，自己竟然能发现出与网上不同的404页面制作方法，呸~~ 应该是解决404页面设置好后（大多数的教程说是放在主题目录的&lt;code&gt;source&lt;/code&gt;下，我呸~~ 我各种&lt;code&gt;source&lt;/code&gt;下都放了&lt;code&gt;4
-    
-    </summary>
-    
-      <category term="Hexo历程" scheme="http://yoursite.com/categories/Hexo%E5%8E%86%E7%A8%8B/"/>
-    
-    
-      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
-    
-      <category term="Hexo初级" scheme="http://yoursite.com/tags/Hexo%E5%88%9D%E7%BA%A7/"/>
-    
-      <category term="小结" scheme="http://yoursite.com/tags/%E5%B0%8F%E7%BB%93/"/>
-    
-      <category term="404页面制作" scheme="http://yoursite.com/tags/404%E9%A1%B5%E9%9D%A2%E5%88%B6%E4%BD%9C/"/>
-    
-      <category term="解决方法" scheme="http://yoursite.com/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>多么想和你见一面</title>
-    <link href="http://yoursite.com/2017/10/02/Music-test/"/>
-    <id>http://yoursite.com/2017/10/02/Music-test/</id>
-    <published>2017-10-02T11:19:19.000Z</published>
-    <updated>2017-10-03T00:49:53.531Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://i.imgur.com/y6jpqOk.jpg" alt="">  </p>
-<script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=2067242&mode=js"></script>  
 
-<p>作曲 : 陈小霞</p>
-<p>作词 : 施立</p>
-<p>我来到 你的城市</p>
-<p>走过你来时的路</p>
-<p>想像着 没我的日子</p>
-<p>你是怎样的孤独</p>
-<a id="more"></a>
-<p>拿着你 给的照片</p>
-<p>熟悉的那一条街</p>
-<p>只是没了你的画面</p>
-<p>我们回不到那天</p>
-<p>你会不会忽然的出现</p>
-<p>在街角的咖啡店</p>
-<p>我会带着笑脸 挥手寒暄</p>
-<p>和你 坐着聊聊天</p>
-<p>我多么想和你见一面</p>
-<p>看看你最近改变</p>
-<p>不再去说从前 只是寒暄</p>
-<p>对你说一句 只是说一句</p>
-<p>好久不见</p>
-<p>拿着你 给的照片</p>
-<p>熟悉的那一条街</p>
-<p>只是没了你的画面</p>
-<p>我们回不到那天</p>
-<p>你会不会忽然的出现</p>
-<p>在街角的咖啡店</p>
-<p>我会带着笑脸 挥手寒暄</p>
-<p>和你 坐着聊聊天</p>
-<p>我多么想和你见一面</p>
-<p>看看你最近改变</p>
-<p>不再去说从前 只是寒暄</p>
-<p>对你说一句 只是说一句</p>
-<p>好久不见  </p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/y6jpqOk.jpg&quot; alt=&quot;&quot;&gt;  &lt;/p&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.xiami.com/widget/player-single?uid=0&amp;sid=2067242&amp;mode=js&quot;&gt;&lt;/script&gt;  
-
-&lt;p&gt;作曲 : 陈小霞&lt;/p&gt;
-&lt;p&gt;作词 : 施立&lt;/p&gt;
-&lt;p&gt;我来到 你的城市&lt;/p&gt;
-&lt;p&gt;走过你来时的路&lt;/p&gt;
-&lt;p&gt;想像着 没我的日子&lt;/p&gt;
-&lt;p&gt;你是怎样的孤独&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="音乐" scheme="http://yoursite.com/categories/music/"/>
+      
+    </div>
     
     
-      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
     
-      <category term="音乐" scheme="http://yoursite.com/tags/%E9%9F%B3%E4%B9%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>测试。</title>
-    <link href="http://yoursite.com/2017/10/01/%E6%B5%8B%E8%AF%95%E3%80%82/"/>
-    <id>http://yoursite.com/2017/10/01/测试。/</id>
-    <published>2017-10-01T13:36:09.000Z</published>
-    <updated>2017-10-03T00:49:35.283Z</updated>
-    
-    <content type="html"><![CDATA[<p>我就想知道到底怎么回事，啥都没干就给我404？？？  </p>
-<hr>
-<p>分割线:10.02<br>ok啦~ 可能原因：next主题更新导致。同时感谢<a href="http://www.chengxinsong.cn" target="_blank" rel="external">This blog</a>的帮助。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;我就想知道到底怎么回事，啥都没干就给我404？？？  &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;分割线:10.02&lt;br&gt;ok啦~ 可能原因：next主题更新导致。同时感谢&lt;a href=&quot;http://www.chengxinsong.cn&quot; target=&quot;_blank&quot; rel=&quot;e
-    
-    </summary>
-    
-      <category term="日记" scheme="http://yoursite.com/categories/note/"/>
-    
-    
-      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
-    
-      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
-    
-      <category term="404错误" scheme="http://yoursite.com/tags/404%E9%94%99%E8%AF%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>懒懒懒懒懒</title>
-    <link href="http://yoursite.com/2017/09/24/%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92o-%CF%89-o%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A/"/>
-    <id>http://yoursite.com/2017/09/24/懒懒懒懒懒懒懒懒懒懒懒懒懒懒o-ω-o啊啊啊啊啊啊/</id>
-    <published>2017-09-23T23:59:41.000Z</published>
-    <updated>2017-10-03T00:49:20.908Z</updated>
-    
-    <content type="html"><![CDATA[<p>  随便写点什么，下雨，从昨天放学开始。 家里装修</p>
-<hr>
-<p>= Release 2.5.0 =<br>Released: 2017-07-23</p>
-<p>== Major change ==</p>
-<ul>
-<li>VS2017 is used for building TortoiseGit<br>On x64 versions of Windows, the TortoiseGit context menu and overlays won’t show for pure 32-bit applications in their file-open/save dialogs until you install the 2015 C-runtime for x86.<br><a href="https://www.microsoft.com/en-us/download/details.aspx?id=52685" target="_blank" rel="external">https://www.microsoft.com/en-us/download/details.aspx?id=52685</a> (select the vc_redist.x86.exe file for download).  <a id="more"></a>
-</li>
-</ul>
-<p>特奇怪</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;  随便写点什么，下雨，从昨天放学开始。 家里装修&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;= Release 2.5.0 =&lt;br&gt;Released: 2017-07-23&lt;/p&gt;
-&lt;p&gt;== Major change ==&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;VS2017 is used for building TortoiseGit&lt;br&gt;On x64 versions of Windows, the TortoiseGit context menu and overlays won’t show for pure 32-bit applications in their file-open/save dialogs until you install the 2015 C-runtime for x86.&lt;br&gt;&lt;a href=&quot;https://www.microsoft.com/en-us/download/details.aspx?id=52685&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.microsoft.com/en-us/download/details.aspx?id=52685&lt;/a&gt; (select the vc_redist.x86.exe file for download).
-    
-    </summary>
-    
-      <category term="日记" scheme="http://yoursite.com/categories/note/"/>
-    
-    
-      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>嗯，下课了</title>
-    <link href="http://yoursite.com/2017/09/16/%E5%97%AF%EF%BC%8C%E4%B8%8B%E8%AF%BE%E4%BA%86/"/>
-    <id>http://yoursite.com/2017/09/16/嗯，下课了/</id>
-    <published>2017-09-16T10:59:25.000Z</published>
-    <updated>2017-10-03T00:49:26.162Z</updated>
-    
-    <content type="html"><![CDATA[<p>随便记点什么吧<br>考完试回到家<br>看望了奶奶<br>吃了水果<br>………<br>嗯在学校看见了她<br>嗯开心  </p>
-<hr>
-<p>我在看天时，你若看见我，请叫住我<br>因为，你比天要美丽；<br><a id="more"></a></p>
-<p>我在看你时，请你不要视而不见<br>为了看你我放弃了天；  </p>
-<p>天空我把他称为云朵<br>云朵也就变成了天空，  </p>
-<p>你看那一朵朵天空多美啊！<br>因为他的背景是云；  </p>
-<p>我不听人们的话，我只听你的<br>人们都喜欢云<br>而我喜欢你<br>————To xin</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;随便记点什么吧&lt;br&gt;考完试回到家&lt;br&gt;看望了奶奶&lt;br&gt;吃了水果&lt;br&gt;………&lt;br&gt;嗯在学校看见了她&lt;br&gt;嗯开心  &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;我在看天时，你若看见我，请叫住我&lt;br&gt;因为，你比天要美丽；&lt;br&gt;
-    
-    </summary>
-    
-      <category term="她" scheme="http://yoursite.com/categories/cutexin/"/>
-    
-    
-      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
-    
-      <category term="她" scheme="http://yoursite.com/tags/%E5%A5%B9/"/>
-    
-      <category term="诗" scheme="http://yoursite.com/tags/%E8%AF%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第一个星期(￣▽￣)&quot;</title>
-    <link href="http://yoursite.com/2017/09/09/text-1/"/>
-    <id>http://yoursite.com/2017/09/09/text-1/</id>
-    <published>2017-09-09T13:27:47.000Z</published>
-    <updated>2017-10-03T00:49:42.916Z</updated>
-    
-    <content type="html"><![CDATA[<p>放学你们放学了吗？<br>开学一星期，一班陌生的可爱的的同学，很无奈(⊙﹏⊙)，随便更新个博客吧<br>啊啊啊啊啊啊啊啊啊啊啊啊啊。<br>不行<br>啊啊啊啊啊啊啊啊啊啊啊啊啊！！！<br>再来一次<br>aaaaaaaaaaaaaaaaaaaaaa(⊙_⊙)???<br><img src="https://i.imgur.com/SjL0N9H.jpg" alt=""><br>嗯恩恩恩恩呢讷讷嫩嗯~ o(￣▽￣)o测试一下~~~~就是测试喔！(⊙o⊙)！再次再次强调//////////////////////////////////This is a TEXT!<br><strong>向前进军！  先熟悉一下上周的程序再说！</strong>  <a id="more"></a> 现在程序只能解决正负和R的函数，不能输入根号以及多次幂。还有<em>ax^2+bx+c</em>以内的函数，结果是小数很麻烦。不能准确解决解函数问题。亟待解决</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div></pre></td><td class="code"><pre><div class="line">//这个程序帮助解决简单的一元二次方程</div><div class="line"></div><div class="line">#include &lt;stdio.h&gt;</div><div class="line">#include &lt;math.h&gt;</div><div class="line"></div><div class="line">//#define()后面不加分号“；”</div><div class="line">#define QUIT 2</div><div class="line"></div><div class="line">//函数原型</div><div class="line">int get_menu_choice(void);</div><div class="line"></div><div class="line"></div><div class="line">int main(void)</div><div class="line">&#123;</div><div class="line">    int choice = 0;</div><div class="line">    while (choice != QUIT)</div><div class="line">    &#123;</div><div class="line">        //调用菜单选择函数</div><div class="line">        choice = get_menu_choice();</div><div class="line"></div><div class="line">        //选择1将进入解方程</div><div class="line">        if (choice == 1)</div><div class="line">        &#123;</div><div class="line"></div><div class="line">            printf(&quot;求一元二次方程ax^2 + bx + c的解\n&quot;);</div><div class="line"></div><div class="line"></div><div class="line">            int a, b, c;</div><div class="line">            double x1, x2, dealt;</div><div class="line"></div><div class="line">            printf(&quot;请依次输入系数a b c(请用空格分隔开):\n&quot;);</div><div class="line">            scanf_s(&quot;%u %u %u&quot;, &amp;a, &amp;b, &amp;c);</div><div class="line"></div><div class="line"></div><div class="line">            dealt = b * b - 4 * a * c;//根的判别式</div><div class="line"></div><div class="line">            if (a == 0)</div><div class="line"></div><div class="line"></div><div class="line">                printf(&quot;a不能为0\n\n\n\n&quot;);</div><div class="line"></div><div class="line"></div><div class="line">            else if (dealt &gt; 0)</div><div class="line">            &#123;</div><div class="line"></div><div class="line"></div><div class="line">                x1 = (-b + sqrt(dealt)) / (2 * a);</div><div class="line">                x2 = (-b - sqrt(dealt)) / (2 * a);</div><div class="line"></div><div class="line">                printf(&quot;方程（%d）x^2 + （%d）x + （%d）的解为：\n&quot;, a, b, c);</div><div class="line">                printf(&quot;x1 = %f,x2 = %f\n\n\n\n&quot;, x1, x2);</div><div class="line">            &#125;</div><div class="line"></div><div class="line">            else if (dealt == 0)//</div><div class="line"></div><div class="line">            &#123;</div><div class="line">                x1 = x2 = (-b) / (2 * a);</div><div class="line">                printf(&quot;方程（%d）x^2 + （%d）x + （%d）的解为：\n&quot;, a, b, c);</div><div class="line">                printf(&quot;x1=x2=%f\n\n\n\n&quot;, x1);</div><div class="line">            &#125;</div><div class="line"></div><div class="line">            else</div><div class="line">                //这里是（dealt &lt; 0）的情况，所以并没有实根</div><div class="line">                printf(&quot;该方程无解\n\n\n\n&quot;);</div><div class="line">        &#125;</div><div class="line">        else</div><div class="line">            puts(&quot;\n你选择离开。&quot;);</div><div class="line"></div><div class="line">    &#125;</div><div class="line"></div><div class="line">    return 0;</div><div class="line">&#125;</div><div class="line"></div><div class="line">////////////////函数定义////////////////////</div><div class="line"></div><div class="line">//这个函数被调用时将在荧屏上显示两个菜单选项</div><div class="line">int get_menu_choice(void)</div><div class="line">&#123;</div><div class="line">    int selection;</div><div class="line"></div><div class="line">    do</div><div class="line">    &#123;</div><div class="line">        puts(&quot;\n1 - 解一元二次方程。&quot;);//</div><div class="line">        puts(&quot;2 - 离开。&quot;);//选项二</div><div class="line">        puts(&quot;\n输入你的选择：&quot;);</div><div class="line"></div><div class="line">        scanf_s(&quot;%d&quot;, &amp;selection);</div><div class="line">    &#125; while (selection &lt; 1 || selection &gt; 2);</div><div class="line">    return selection;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>。。。(o-ωｑ)).oO 困啊困啊苦命的困，(～﹃～)~zZ睡觉，有时间再说吧。。。估计没什么时间更blog了</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;放学你们放学了吗？&lt;br&gt;开学一星期，一班陌生的可爱的的同学，很无奈(⊙﹏⊙)，随便更新个博客吧&lt;br&gt;啊啊啊啊啊啊啊啊啊啊啊啊啊。&lt;br&gt;不行&lt;br&gt;啊啊啊啊啊啊啊啊啊啊啊啊啊！！！&lt;br&gt;再来一次&lt;br&gt;aaaaaaaaaaaaaaaaaaaaaa(⊙_⊙)???&lt;br&gt;&lt;img src=&quot;https://i.imgur.com/SjL0N9H.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;嗯恩恩恩恩呢讷讷嫩嗯~ o(￣▽￣)o测试一下~~~~就是测试喔！(⊙o⊙)！再次再次强调//////////////////////////////////This is a TEXT!&lt;br&gt;&lt;strong&gt;向前进军！  先熟悉一下上周的程序再说！&lt;/strong&gt;
-    
-    </summary>
-    
-      <category term="c语言" scheme="http://yoursite.com/categories/c-programming/"/>
-    
-    
-      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
-    
-      <category term="c语言" scheme="http://yoursite.com/tags/c%E8%AF%AD%E8%A8%80/"/>
-    
-      <category term="解一元二次方程" scheme="http://yoursite.com/tags/%E8%A7%A3%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B/"/>
-    
-      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>妥善解决win10各种卡顿问题</title>
-    <link href="http://yoursite.com/2017/09/03/%E5%A6%A5%E5%96%84%E8%A7%A3%E5%86%B3win10%E5%90%84%E7%A7%8D%E5%8D%A1%E9%A1%BF%E9%97%AE%E9%A2%98/"/>
-    <id>http://yoursite.com/2017/09/03/妥善解决win10各种卡顿问题/</id>
-    <published>2017-09-03T09:16:42.000Z</published>
-    <updated>2017-10-03T00:49:09.491Z</updated>
-    
-    <content type="html"><![CDATA[<p>方案一</p>
-<p>   关闭windows search后台偷偷运行。控制面板-管理工具-服务-windows search禁用，别禁防火墙，<br>可以在高级设置里的“属性”把“域配置文件”“专属配置文件”“公用配置文件”改为关闭状态。</p>
-<p>方案二<br>   关闭家庭组，该功能导致硬盘与cpu处于高负荷状态。控制中心-管理工具-服务-Homecroup listener和Homegroup Provider禁用。使用优化软件后win10开不了机的原因是禁用了三个服务，使用优化软件开启：dmwappushsvc. diagnsticsTracking service. coreMessaging.</p>
-<p>方案三<br>   清理产生的windows.old文件夹。<br><a id="more"></a><br>方案四<br>   设置好Superfetch服务，服务Superfetch启动类型改成延迟启动或者禁用，可避免频繁对硬盘的访问。控制中心-管 理服务-Superfetch-启动类型-自动。</p>
-<p>方案五</p>
-<p>   关闭ipv6，部分网卡驱动开启ipv6会导致开机系统未响应，假死。网络共享中心-网络连接-以太网-属性-取消ipv6.</p>
-<p>方案六</p>
-<p>   设置win10自动登录，win+r netplwiz 取消使用计算机必须密码选项。</p>
-<p>方案七</p>
-<p>   关闭windows安全中心服务，win+r services.msc  Enter-找出SecurityCenter，禁用。不要删除系统文件，优化速度明显加快。</p>
-<p>方案八</p>
-<p>   关闭计划任务里的隐藏的自动程序，控制面板-所有控制面板选项-管理工具-任务计划程序-右侧任务列表-禁用不需要的服务。</p>
-<p>方案九<br>   加速开机速度，win+r  msconfig  -引导-勾上无GUI引导。</p>
-<p>方案十<br>   win+r gpedit.msc 计算机管理中-模块管理-系统-关机选项-关闭会阻止或取消关机的应用程序的自动终止功能。</p>
-<p>方案十一<br>   关闭性能特效（低配置电脑），系统属性-高级-性能-设置-关闭窗口动态。</p>
-<p>方案十二<br>   修改窗口颜色用于护眼。win+r regedit  打开注册表 HKEY_CURRENT_USER\CONTROL\PANEL\Colors  选一个需要修改颜色的地方-比如窗口（windows）红绿蓝  这是白色(255 255 255)你可以改为豆绿（204 237 207）完后重启两次。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;方案一&lt;/p&gt;
-&lt;p&gt;   关闭windows search后台偷偷运行。控制面板-管理工具-服务-windows search禁用，别禁防火墙，&lt;br&gt;可以在高级设置里的“属性”把“域配置文件”“专属配置文件”“公用配置文件”改为关闭状态。&lt;/p&gt;
-&lt;p&gt;方案二&lt;br&gt;   关闭家庭组，该功能导致硬盘与cpu处于高负荷状态。控制中心-管理工具-服务-Homecroup listener和Homegroup Provider禁用。使用优化软件后win10开不了机的原因是禁用了三个服务，使用优化软件开启：dmwappushsvc. diagnsticsTracking service. coreMessaging.&lt;/p&gt;
-&lt;p&gt;方案三&lt;br&gt;   清理产生的windows.old文件夹。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="win10" scheme="http://yoursite.com/categories/win10/"/>
-    
-    
-      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
-    
-      <category term="解决方法" scheme="http://yoursite.com/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
-    
-      <category term="win10" scheme="http://yoursite.com/tags/win10/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>测试测试</title>
-    <link href="http://yoursite.com/2017/09/03/%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95/"/>
-    <id>http://yoursite.com/2017/09/03/测试测试/</id>
-    <published>2017-09-03T06:24:26.000Z</published>
-    <updated>2017-10-03T00:49:30.458Z</updated>
-    
-    <content type="html"><![CDATA[<p>这是一篇测试，是否能够解决乱码问题</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这是一篇测试，是否能够解决乱码问题&lt;/p&gt;
 
     
-    </summary>
-    
-      <category term="日记" scheme="http://yoursite.com/categories/note/"/>
-    
-    
-      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
-    
-      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我的博客第一天</title>
-    <link href="http://yoursite.com/2017/09/03/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%A4%A9/"/>
-    <id>http://yoursite.com/2017/09/03/我的博客第一天/</id>
-    <published>2017-09-03T03:58:28.000Z</published>
-    <updated>2017-10-03T00:49:03.738Z</updated>
-    
-    <content type="html"><![CDATA[<p>  ………..折腾一个晚上和一上午终于弄好了……………..<br>求抱抱(￣︶￣*)) ////\\，嗯先就这样吧，还有中午好cutexin</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;  ………..折腾一个晚上和一上午终于弄好了……………..&lt;br&gt;求抱抱(￣︶￣*)) ////\\，嗯先就这样吧，还有中午好cutexin&lt;/p&gt;
 
     
-    </summary>
+
     
-      <category term="博客第一天" scheme="http://yoursite.com/categories/Myblog-the-first-day/"/>
-    
-    
-      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
-    
-      <category term="博客firstday" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2firstday/"/>
-    
-      <category term="o(*￣▽￣*)ブ" scheme="http://yoursite.com/tags/o-%EF%BF%A3%E2%96%BD%EF%BF%A3-%E3%83%96/"/>
-    
-  </entry>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/日记/" rel="tag"># 日记</a>
+          
+            <a href="/tags/总览/" rel="tag"># 总览</a>
+          
+            <a href="/tags/Hexo初级/" rel="tag"># Hexo初级</a>
+          
+            <a href="/tags/小结/" rel="tag"># 小结</a>
+          
+            <a href="/tags/404页面制作/" rel="tag"># 404页面制作</a>
+          
+            <a href="/tags/解决方法/" rel="tag"># 解决方法</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/10/02/Music-test/" rel="next" title="多么想和你见一面">
+                <i class="fa fa-chevron-left"></i> 多么想和你见一面
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
   
-</feed>
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">一鸣</p>
+              <p class="site-description motion-element" itemprop="description">好好学习，整天向上。</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">16</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          <div class="links-of-author motion-element">
+            
+          </div>
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">一鸣</span>
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.3"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
