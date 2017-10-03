@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-10-02T14:29:52.940Z</updated>
+  <updated>2017-10-03T00:49:53.531Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,110 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>多么想和你见一面</title>
+    <link href="http://yoursite.com/2017/10/02/Music-test/"/>
+    <id>http://yoursite.com/2017/10/02/Music-test/</id>
+    <published>2017-10-02T11:19:19.000Z</published>
+    <updated>2017-10-03T00:49:53.531Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://i.imgur.com/y6jpqOk.jpg" alt="">  </p>
+<script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=2067242&mode=js"></script>  
+
+<p>作曲 : 陈小霞</p>
+<p>作词 : 施立</p>
+<p>我来到 你的城市</p>
+<p>走过你来时的路</p>
+<p>想像着 没我的日子</p>
+<p>你是怎样的孤独</p>
+<a id="more"></a>
+<p>拿着你 给的照片</p>
+<p>熟悉的那一条街</p>
+<p>只是没了你的画面</p>
+<p>我们回不到那天</p>
+<p>你会不会忽然的出现</p>
+<p>在街角的咖啡店</p>
+<p>我会带着笑脸 挥手寒暄</p>
+<p>和你 坐着聊聊天</p>
+<p>我多么想和你见一面</p>
+<p>看看你最近改变</p>
+<p>不再去说从前 只是寒暄</p>
+<p>对你说一句 只是说一句</p>
+<p>好久不见</p>
+<p>拿着你 给的照片</p>
+<p>熟悉的那一条街</p>
+<p>只是没了你的画面</p>
+<p>我们回不到那天</p>
+<p>你会不会忽然的出现</p>
+<p>在街角的咖啡店</p>
+<p>我会带着笑脸 挥手寒暄</p>
+<p>和你 坐着聊聊天</p>
+<p>我多么想和你见一面</p>
+<p>看看你最近改变</p>
+<p>不再去说从前 只是寒暄</p>
+<p>对你说一句 只是说一句</p>
+<p>好久不见  </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/y6jpqOk.jpg&quot; alt=&quot;&quot;&gt;  &lt;/p&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.xiami.com/widget/player-single?uid=0&amp;sid=2067242&amp;mode=js&quot;&gt;&lt;/script&gt;  
+
+&lt;p&gt;作曲 : 陈小霞&lt;/p&gt;
+&lt;p&gt;作词 : 施立&lt;/p&gt;
+&lt;p&gt;我来到 你的城市&lt;/p&gt;
+&lt;p&gt;走过你来时的路&lt;/p&gt;
+&lt;p&gt;想像着 没我的日子&lt;/p&gt;
+&lt;p&gt;你是怎样的孤独&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="音乐" scheme="http://yoursite.com/categories/%E9%9F%B3%E4%B9%90/"/>
+    
+    
+      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
+    
+      <category term="音乐" scheme="http://yoursite.com/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>测试。</title>
+    <link href="http://yoursite.com/2017/10/01/%E6%B5%8B%E8%AF%95%E3%80%82/"/>
+    <id>http://yoursite.com/2017/10/01/测试。/</id>
+    <published>2017-10-01T13:36:09.000Z</published>
+    <updated>2017-10-03T00:49:35.283Z</updated>
+    
+    <content type="html"><![CDATA[<p>我就想知道到底怎么回事，啥都没干就给我404？？？  </p>
+<hr>
+<p>分割线:10.02<br>ok啦~ 可能原因：next主题更新导致。同时感谢<a href="http://www.chengxinsong.cn" target="_blank" rel="external">This blog</a>的帮助。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我就想知道到底怎么回事，啥都没干就给我404？？？  &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;分割线:10.02&lt;br&gt;ok啦~ 可能原因：next主题更新导致。同时感谢&lt;a href=&quot;http://www.chengxinsong.cn&quot; target=&quot;_blank&quot; rel=&quot;e
+    
+    </summary>
+    
+      <category term="日记" scheme="http://yoursite.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
+    
+      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="404错误" scheme="http://yoursite.com/tags/404%E9%94%99%E8%AF%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>懒懒懒懒懒</title>
     <link href="http://yoursite.com/2017/09/24/%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92o-%CF%89-o%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A/"/>
     <id>http://yoursite.com/2017/09/24/懒懒懒懒懒懒懒懒懒懒懒懒懒懒o-ω-o啊啊啊啊啊啊/</id>
     <published>2017-09-23T23:59:41.000Z</published>
-    <updated>2017-10-02T14:29:52.940Z</updated>
+    <updated>2017-10-03T00:49:20.908Z</updated>
     
     <content type="html"><![CDATA[<p>  随便写点什么，下雨，从昨天放学开始。 家里装修</p>
 <hr>
@@ -44,6 +143,12 @@
     
     </summary>
     
+      <category term="日记" scheme="http://yoursite.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
     
   </entry>
   
@@ -52,7 +157,7 @@
     <link href="http://yoursite.com/2017/09/16/%E5%97%AF%EF%BC%8C%E4%B8%8B%E8%AF%BE%E4%BA%86/"/>
     <id>http://yoursite.com/2017/09/16/嗯，下课了/</id>
     <published>2017-09-16T10:59:25.000Z</published>
-    <updated>2017-10-02T14:28:26.773Z</updated>
+    <updated>2017-10-03T00:49:26.162Z</updated>
     
     <content type="html"><![CDATA[<p>随便记点什么吧<br>考完试回到家<br>看望了奶奶<br>吃了水果<br>………<br>嗯在学校看见了她<br>嗯开心  </p>
 <hr>
@@ -71,6 +176,16 @@
     
     </summary>
     
+      <category term="她" scheme="http://yoursite.com/categories/%E5%A5%B9/"/>
+    
+    
+      <category term="她" scheme="http://yoursite.com/tags/%E5%A5%B9/"/>
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
+    
+      <category term="诗" scheme="http://yoursite.com/tags/%E8%AF%97/"/>
     
   </entry>
   
@@ -79,7 +194,7 @@
     <link href="http://yoursite.com/2017/09/09/text-1/"/>
     <id>http://yoursite.com/2017/09/09/text-1/</id>
     <published>2017-09-09T13:27:47.000Z</published>
-    <updated>2017-10-02T14:29:49.577Z</updated>
+    <updated>2017-10-03T00:49:42.916Z</updated>
     
     <content type="html"><![CDATA[<p>放学你们放学了吗？<br>开学一星期，一班陌生的可爱的的同学，很无奈(⊙﹏⊙)，随便更新个博客吧<br>啊啊啊啊啊啊啊啊啊啊啊啊啊。<br>不行<br>啊啊啊啊啊啊啊啊啊啊啊啊啊！！！<br>再来一次<br>aaaaaaaaaaaaaaaaaaaaaa(⊙_⊙)???<br><img src="https://i.imgur.com/SjL0N9H.jpg" alt=""><br>嗯恩恩恩恩呢讷讷嫩嗯~ o(￣▽￣)o测试一下~~~~就是测试喔！(⊙o⊙)！再次再次强调//////////////////////////////////This is a TEXT!<br><strong>向前进军！  先熟悉一下上周的程序再说！</strong>  <a id="more"></a> 现在程序只能解决正负和R的函数，不能输入根号以及多次幂。还有<em>ax^2+bx+c</em>以内的函数，结果是小数很麻烦。不能准确解决解函数问题。亟待解决</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div></pre></td><td class="code"><pre><div class="line">//这个程序帮助解决简单的一元二次方程</div><div class="line"></div><div class="line">#include &lt;stdio.h&gt;</div><div class="line">#include &lt;math.h&gt;</div><div class="line"></div><div class="line">//#define()后面不加分号“；”</div><div class="line">#define QUIT 2</div><div class="line"></div><div class="line">//函数原型</div><div class="line">int get_menu_choice(void);</div><div class="line"></div><div class="line"></div><div class="line">int main(void)</div><div class="line">&#123;</div><div class="line">    int choice = 0;</div><div class="line">    while (choice != QUIT)</div><div class="line">    &#123;</div><div class="line">        //调用菜单选择函数</div><div class="line">        choice = get_menu_choice();</div><div class="line"></div><div class="line">        //选择1将进入解方程</div><div class="line">        if (choice == 1)</div><div class="line">        &#123;</div><div class="line"></div><div class="line">            printf(&quot;求一元二次方程ax^2 + bx + c的解\n&quot;);</div><div class="line"></div><div class="line"></div><div class="line">            int a, b, c;</div><div class="line">            double x1, x2, dealt;</div><div class="line"></div><div class="line">            printf(&quot;请依次输入系数a b c(请用空格分隔开):\n&quot;);</div><div class="line">            scanf_s(&quot;%u %u %u&quot;, &amp;a, &amp;b, &amp;c);</div><div class="line"></div><div class="line"></div><div class="line">            dealt = b * b - 4 * a * c;//根的判别式</div><div class="line"></div><div class="line">            if (a == 0)</div><div class="line"></div><div class="line"></div><div class="line">                printf(&quot;a不能为0\n\n\n\n&quot;);</div><div class="line"></div><div class="line"></div><div class="line">            else if (dealt &gt; 0)</div><div class="line">            &#123;</div><div class="line"></div><div class="line"></div><div class="line">                x1 = (-b + sqrt(dealt)) / (2 * a);</div><div class="line">                x2 = (-b - sqrt(dealt)) / (2 * a);</div><div class="line"></div><div class="line">                printf(&quot;方程（%d）x^2 + （%d）x + （%d）的解为：\n&quot;, a, b, c);</div><div class="line">                printf(&quot;x1 = %f,x2 = %f\n\n\n\n&quot;, x1, x2);</div><div class="line">            &#125;</div><div class="line"></div><div class="line">            else if (dealt == 0)//</div><div class="line"></div><div class="line">            &#123;</div><div class="line">                x1 = x2 = (-b) / (2 * a);</div><div class="line">                printf(&quot;方程（%d）x^2 + （%d）x + （%d）的解为：\n&quot;, a, b, c);</div><div class="line">                printf(&quot;x1=x2=%f\n\n\n\n&quot;, x1);</div><div class="line">            &#125;</div><div class="line"></div><div class="line">            else</div><div class="line">                //这里是（dealt &lt; 0）的情况，所以并没有实根</div><div class="line">                printf(&quot;该方程无解\n\n\n\n&quot;);</div><div class="line">        &#125;</div><div class="line">        else</div><div class="line">            puts(&quot;\n你选择离开。&quot;);</div><div class="line"></div><div class="line">    &#125;</div><div class="line"></div><div class="line">    return 0;</div><div class="line">&#125;</div><div class="line"></div><div class="line">////////////////函数定义////////////////////</div><div class="line"></div><div class="line">//这个函数被调用时将在荧屏上显示两个菜单选项</div><div class="line">int get_menu_choice(void)</div><div class="line">&#123;</div><div class="line">    int selection;</div><div class="line"></div><div class="line">    do</div><div class="line">    &#123;</div><div class="line">        puts(&quot;\n1 - 解一元二次方程。&quot;);//</div><div class="line">        puts(&quot;2 - 离开。&quot;);//选项二</div><div class="line">        puts(&quot;\n输入你的选择：&quot;);</div><div class="line"></div><div class="line">        scanf_s(&quot;%d&quot;, &amp;selection);</div><div class="line">    &#125; while (selection &lt; 1 || selection &gt; 2);</div><div class="line">    return selection;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -92,6 +207,18 @@
     
     </summary>
     
+      <category term="c语言" scheme="http://yoursite.com/categories/c%E8%AF%AD%E8%A8%80/"/>
+    
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
+    
+      <category term="c语言" scheme="http://yoursite.com/tags/c%E8%AF%AD%E8%A8%80/"/>
+    
+      <category term="解一元二次方程" scheme="http://yoursite.com/tags/%E8%A7%A3%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B/"/>
+    
+      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
@@ -100,7 +227,7 @@
     <link href="http://yoursite.com/2017/09/03/%E5%A6%A5%E5%96%84%E8%A7%A3%E5%86%B3win10%E5%90%84%E7%A7%8D%E5%8D%A1%E9%A1%BF%E9%97%AE%E9%A2%98/"/>
     <id>http://yoursite.com/2017/09/03/妥善解决win10各种卡顿问题/</id>
     <published>2017-09-03T09:16:42.000Z</published>
-    <updated>2017-10-02T14:29:53.708Z</updated>
+    <updated>2017-10-03T00:49:09.491Z</updated>
     
     <content type="html"><![CDATA[<p>方案一</p>
 <p>   关闭windows search后台偷偷运行。控制面板-管理工具-服务-windows search禁用，别禁防火墙，<br>可以在高级设置里的“属性”把“域配置文件”“专属配置文件”“公用配置文件”改为关闭状态。</p>
@@ -129,6 +256,14 @@
     
     </summary>
     
+      <category term="win10" scheme="http://yoursite.com/categories/win10/"/>
+    
+    
+      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
+    
+      <category term="win10" scheme="http://yoursite.com/tags/win10/"/>
+    
+      <category term="解决方法" scheme="http://yoursite.com/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
     
   </entry>
   
@@ -137,7 +272,7 @@
     <link href="http://yoursite.com/2017/09/03/%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95/"/>
     <id>http://yoursite.com/2017/09/03/测试测试/</id>
     <published>2017-09-03T06:24:26.000Z</published>
-    <updated>2017-10-02T14:29:58.825Z</updated>
+    <updated>2017-10-03T00:49:30.458Z</updated>
     
     <content type="html"><![CDATA[<p>这是一篇测试，是否能够解决乱码问题</p>
 ]]></content>
@@ -149,6 +284,14 @@
     
     </summary>
     
+      <category term="日记" scheme="http://yoursite.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
+    
+      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
@@ -157,7 +300,7 @@
     <link href="http://yoursite.com/2017/09/03/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%A4%A9/"/>
     <id>http://yoursite.com/2017/09/03/我的博客第一天/</id>
     <published>2017-09-03T03:58:28.000Z</published>
-    <updated>2017-10-02T14:29:47.957Z</updated>
+    <updated>2017-10-03T00:49:03.738Z</updated>
     
     <content type="html"><![CDATA[<p>  ………..折腾一个晚上和一上午终于弄好了……………..<br>求抱抱(￣︶￣*)) ////\\，嗯先就这样吧，还有中午好cutexin</p>
 ]]></content>
@@ -169,6 +312,14 @@
     
     </summary>
     
+      <category term="博客第一天" scheme="http://yoursite.com/categories/%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%A4%A9/"/>
+    
+    
+      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
+    
+      <category term="博客firstday" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2firstday/"/>
+    
+      <category term="o(*￣▽￣*)ブ" scheme="http://yoursite.com/tags/o-%EF%BF%A3%E2%96%BD%EF%BF%A3-%E3%83%96/"/>
     
   </entry>
   
