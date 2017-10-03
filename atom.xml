@@ -77,9 +77,9 @@
       <category term="音乐" scheme="http://yoursite.com/categories/music/"/>
     
     
-      <category term="音乐" scheme="http://yoursite.com/tags/%E9%9F%B3%E4%B9%90/"/>
-    
       <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
+    
+      <category term="音乐" scheme="http://yoursite.com/tags/%E9%9F%B3%E4%B9%90/"/>
     
   </entry>
   
@@ -259,9 +259,9 @@
       <category term="win10" scheme="http://yoursite.com/categories/win10/"/>
     
     
-      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
-    
       <category term="win10" scheme="http://yoursite.com/tags/win10/"/>
+    
+      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
     
       <category term="解决方法" scheme="http://yoursite.com/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
     
