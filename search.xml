@@ -3,7 +3,15 @@
   <entry>
     <title><![CDATA[月饼节]]></title>
     <url>%2F2017%2F10%2F04%2F%E6%9C%88%E9%A5%BC%E8%8A%82%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[每逢佳节倍思亲。]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>总览</tag>
+        <tag>日记</tag>
+        <tag>生活</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[关于Hexo的404设置以及返回问题小结]]></title>

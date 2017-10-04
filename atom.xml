@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>YelloBoy&#39;s blog</title>
-  <subtitle>拿出你的黑脑洞</subtitle>
+  <subtitle>R.A.U.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-10-04T02:44:18.700Z</updated>
+  <updated>2017-10-04T03:09:44.230Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,12 +20,26 @@
     <link href="http://yoursite.com/2017/10/04/%E6%9C%88%E9%A5%BC%E8%8A%82/"/>
     <id>http://yoursite.com/2017/10/04/月饼节/</id>
     <published>2017-10-04T02:44:18.000Z</published>
-    <updated>2017-10-04T02:44:18.700Z</updated>
+    <updated>2017-10-04T03:09:44.230Z</updated>
+    
+    <content type="html"><![CDATA[<p>每逢佳节倍思亲。  </p>
+]]></content>
     
     <summary type="html">
     
+      &lt;p&gt;每逢佳节倍思亲。  &lt;/p&gt;
+
+    
     </summary>
     
+      <category term="日记" scheme="http://yoursite.com/categories/note/"/>
+    
+    
+      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+      <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
