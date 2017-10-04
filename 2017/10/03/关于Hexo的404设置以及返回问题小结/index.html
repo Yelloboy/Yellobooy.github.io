@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="总览,日记,Hexo初级,小结,404页面制作,解决方法," />
+  <meta name="keywords" content="日记,总览,Hexo初级,小结,404页面制作,解决方法," />
 
 
 
@@ -82,7 +82,7 @@
 
 
 <meta name="description" content="w(ﾟДﾟ)w 经过一晚和一上午的揣摩，自己竟然能发现出与网上不同的404页面制作方法，呸~~ 应该是解决404页面设置好后（大多数的教程说是放在主题目录的source下，我呸~~ 我各种source下都放了404.html，可是没一个见效的，把html删掉也不行，各种        hexo g -d以及hexo s -g，本地都不带一点反应？！！   伤心欲绝的我含着悲愤的泪睡去，早上&amp;lt;">
-<meta name="keywords" content="总览,日记,Hexo初级,小结,404页面制作,解决方法">
+<meta name="keywords" content="日记,总览,Hexo初级,小结,404页面制作,解决方法">
 <meta property="og:type" content="article">
 <meta property="og:title" content="关于Hexo的404设置以及返回问题小结">
 <meta property="og:url" content="http://yoursite.com/2017/10/03/关于Hexo的404设置以及返回问题小结/index.html">
@@ -254,9 +254,47 @@
       
 
       
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
     </ul>
   
 
+  
+    <div class="site-search">
+      
+  
+  <div class="algolia-popup popup search-popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+  </div>
+
+
+
+
+    </div>
   
 </nav>
 
@@ -395,9 +433,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/总览/" rel="tag"># 总览</a>
-          
             <a href="/tags/日记/" rel="tag"># 日记</a>
+          
+            <a href="/tags/总览/" rel="tag"># 总览</a>
           
             <a href="/tags/Hexo初级/" rel="tag"># Hexo初级</a>
           
@@ -537,6 +575,26 @@
           
 
           <div class="links-of-author motion-element">
+            
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/Yelloboy" target="_blank" title="GitHub">
+                    
+                      <i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:loyo8490@gmail.com" target="_blank" title="E-Mail">
+                    
+                      <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="http://weibo.com/u/5287451023?refer_flag=1001030102_&is_all=1" target="_blank" title="WeiBo">
+                    
+                      <i class="fa fa-fw fa-weibo"></i>WeiBo</a>
+                </span>
+              
             
           </div>
 
@@ -715,6 +773,19 @@
   
 
 
+
+
+  
+  
+  
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+
+  
+  
+  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  
+
+  <script src="/js/src/algolia-search.js?v=5.1.3"></script>
 
 
 
