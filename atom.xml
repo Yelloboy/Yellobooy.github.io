@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-10-18T12:16:20.852Z</updated>
+  <updated>2017-10-18T16:15:41.473Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,12 +20,26 @@
     <link href="http://yoursite.com/2017/10/18/A-very-holiday/"/>
     <id>http://yoursite.com/2017/10/18/A-very-holiday/</id>
     <published>2017-10-18T12:16:20.000Z</published>
-    <updated>2017-10-18T12:16:20.852Z</updated>
+    <updated>2017-10-18T16:15:41.473Z</updated>
+    
+    <content type="html"><![CDATA[<p>碎觉~<br>困死了~<br>加油加油加油(ง •_•)ง</p>
+]]></content>
     
     <summary type="html">
     
+      &lt;p&gt;碎觉~&lt;br&gt;困死了~&lt;br&gt;加油加油加油(ง •_•)ง&lt;/p&gt;
+
+    
     </summary>
     
+      <category term="日记" scheme="http://yoursite.com/categories/note/"/>
+    
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+      <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
+    
+      <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
