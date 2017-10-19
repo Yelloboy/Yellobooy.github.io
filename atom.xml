@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cutexin.com/"/>
-  <updated>2017-10-18T16:15:41.473Z</updated>
+  <updated>2017-10-19T05:19:58.791Z</updated>
   <id>http://cutexin.com/</id>
   
   <author>
@@ -20,15 +20,14 @@
     <link href="http://cutexin.com/2017/10/18/A-very-holiday/"/>
     <id>http://cutexin.com/2017/10/18/A-very-holiday/</id>
     <published>2017-10-18T12:16:20.000Z</published>
-    <updated>2017-10-18T16:15:41.473Z</updated>
+    <updated>2017-10-19T05:19:58.791Z</updated>
     
-    <content type="html"><![CDATA[<p>碎觉~<br>困死了~<br>加油加油加油(ง •_•)ง</p>
+    <content type="html"><![CDATA[<p>阅读数量:<span id="<%= url_for(post.path) %>" class="leancloud_visitors" data-flag-title="<%- post.title %>"></span>次<br>碎觉~<br>困死了~<br>加油加油加油(ง •_•)ง</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;碎觉~&lt;br&gt;困死了~&lt;br&gt;加油加油加油(ง •_•)ง&lt;/p&gt;
-
+      &lt;p&gt;阅读数量:&lt;span id=&quot;&lt;%= url_for(post.path) %&gt;&quot; class=&quot;leancloud_visitors&quot; data-flag-title=&quot;&lt;%- post.title %&gt;&quot;&gt;&lt;/span&gt;次&lt;br&gt;碎觉~&lt;br&gt;困死了~&lt;br&gt;加油加油加
     
     </summary>
     
@@ -214,11 +213,11 @@
     
       <category term="小结" scheme="http://cutexin.com/tags/%E5%B0%8F%E7%BB%93/"/>
     
-      <category term="解决方法" scheme="http://cutexin.com/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
-    
       <category term="Hexo初级" scheme="http://cutexin.com/tags/Hexo%E5%88%9D%E7%BA%A7/"/>
     
       <category term="404页面制作" scheme="http://cutexin.com/tags/404%E9%A1%B5%E9%9D%A2%E5%88%B6%E4%BD%9C/"/>
+    
+      <category term="解决方法" scheme="http://cutexin.com/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
     
   </entry>
   
@@ -476,9 +475,9 @@
     
       <category term="总览" scheme="http://cutexin.com/tags/%E6%80%BB%E8%A7%88/"/>
     
-      <category term="win10" scheme="http://cutexin.com/tags/win10/"/>
-    
       <category term="解决方法" scheme="http://cutexin.com/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    
+      <category term="win10" scheme="http://cutexin.com/tags/win10/"/>
     
   </entry>
   
