@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cutexin.com/"/>
-  <updated>2017-10-19T05:19:58.791Z</updated>
+  <updated>2017-10-19T05:26:53.085Z</updated>
   <id>http://cutexin.com/</id>
   
   <author>
@@ -20,14 +20,15 @@
     <link href="http://cutexin.com/2017/10/18/A-very-holiday/"/>
     <id>http://cutexin.com/2017/10/18/A-very-holiday/</id>
     <published>2017-10-18T12:16:20.000Z</published>
-    <updated>2017-10-19T05:19:58.791Z</updated>
+    <updated>2017-10-19T05:26:53.085Z</updated>
     
-    <content type="html"><![CDATA[<p>阅读数量:<span id="<%= url_for(post.path) %>" class="leancloud_visitors" data-flag-title="<%- post.title %>"></span>次<br>碎觉~<br>困死了~<br>加油加油加油(ง •_•)ง</p>
+    <content type="html"><![CDATA[<p>碎觉~<br>困死了~<br>加油加油加油(ง •_•)ง</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;阅读数量:&lt;span id=&quot;&lt;%= url_for(post.path) %&gt;&quot; class=&quot;leancloud_visitors&quot; data-flag-title=&quot;&lt;%- post.title %&gt;&quot;&gt;&lt;/span&gt;次&lt;br&gt;碎觉~&lt;br&gt;困死了~&lt;br&gt;加油加油加
+      &lt;p&gt;碎觉~&lt;br&gt;困死了~&lt;br&gt;加油加油加油(ง •_•)ง&lt;/p&gt;
+
     
     </summary>
     

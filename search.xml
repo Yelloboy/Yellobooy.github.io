@@ -1,193 +1,476 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[A very holiday]]></title>
-    <url>%2F2017%2F10%2F18%2FA-very-holiday%2F</url>
-    <content type="text"><![CDATA[阅读数量:次碎觉~困死了~加油加油加油(ง •_•)ง]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-        <tag>日记</tag>
-        <tag>总览</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Look at the stars]]></title>
-    <url>%2F2017%2F10%2F15%2FLook-at-the-stars%2F</url>
-    <content type="text"><![CDATA[Remember to look up at the stars and not down at your feet.Be curious and however difficult life may seem,there is always something you can do and succeed at. ——Stephen Hawking我在宇宙的一角，我无法触及宇宙的他方，我将被埋在地球上。我认识到我多么渺小，头顶上的云彩也无法触及。可是，触及到了并不怎样，不会发现真理，也没有新思想，我所遵循的旧制每分每秒都在使我难受，但人儿的心里似乎还有别的东西，例如令你欢欣的同类。我想这就是我的世界，存在于主观上的真实的地方。我想我得去发现一些旧的而我却不知道的，新的我不知道的，还未形成我不知道的事了。 我不能一直追随真理，但又不能改变真理，这或许是我的妄想，但这种事谁会去约束你呢，那就妄想下去吧。And hello world.]]></content>
-      <categories>
-        <category>当我还年轻时</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-        <tag>日记</tag>
-        <tag>总览</tag>
-        <tag>青春</tag>
-        <tag>青年</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[连续阴天20十天，阴天也要快乐]]></title>
-    <url>%2F2017%2F10%2F14%2F%E8%BF%9E%E7%BB%AD%E9%98%B4%E5%A4%A920%E5%8D%81%E5%A4%A9%EF%BC%8C%E9%98%B4%E5%A4%A9%E4%B9%9F%E8%A6%81%E5%BF%AB%E4%B9%90%2F</url>
-    <content type="text"><![CDATA[十天后的休息日。休息日。息日日 阴天，也要快乐生活要继续坚持要继续坚持什么呢？ 自己也迷糊，像是能看见却不能寻找，能触摸却不能得到。Saari umar hum我这一生Mar mar ke jee liye都为别人生活Ek pal to ab humein哪怕只一瞬间Jeene do jeene do让我自由地过。 我不曾一次的厌世谨此记录我内心原始的思想他属于我，我依赖他，我并不是我，他并不是他。谨此铭记十八周岁前几天的我。希望你能在后面的日子，成年人的日子，仍留一份童心和一份天真让世间多点快乐，有人欢笑的时候，便是忘形吧。亲爱的你，和亲爱的我我就是我，不一样的天空，我所经历的世间令我独一无二，但是也有差不多的人 那便是知己。 谨此致]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-        <tag>日记</tag>
-        <tag>总览</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[2017国庆节总结]]></title>
-    <url>%2F2017%2F10%2F05%2F11%2F</url>
-    <content type="text"><![CDATA[总的来说没什么总结。一个多小时后我将前往学校。什么也不用说了。我现在的心情是什么**学校。还是来小小总结一下吧。 更新了进阶博客 公益404无法返回homepage解决 添加algolia搜索 links 头像以及头像动态 社交链接 背景动态 分项栏 打赏 新增七牛云 标签以及分类 社交链接的小图标 大概就是这些了。貌似也做了不少事情。]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-        <tag>日记</tag>
-        <tag>总览</tag>
-        <tag>小结</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[月饼节]]></title>
-    <url>%2F2017%2F10%2F04%2F%E6%9C%88%E9%A5%BC%E8%8A%82%2F</url>
-    <content type="text"><![CDATA[每逢佳节倍思亲。 头像问题需要一个网页上的照片，我是baidu上找的，复制url到…上，具体看这里或下方。links：解决之前的头像问题]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-        <tag>日记</tag>
-        <tag>总览</tag>
-        <tag>头像</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[关于Hexo的404设置以及返回问题小结]]></title>
-    <url>%2F2017%2F10%2F03%2F%E5%85%B3%E4%BA%8EHexo%E7%9A%84404%E8%AE%BE%E7%BD%AE%E4%BB%A5%E5%8F%8A%E8%BF%94%E5%9B%9E%E9%97%AE%E9%A2%98%E5%B0%8F%E7%BB%93%2F</url>
-    <content type="text"><![CDATA[w(ﾟДﾟ)w 经过一晚和一上午的揣摩，自己竟然能发现出与网上不同的404页面制作方法，呸~~ 应该是解决404页面设置好后（大多数的教程说是放在主题目录的source下，我呸~~ 我各种source下都放了404.html，可是没一个见效的，把html删掉也不行，各种 hexo g -d以及hexo s -g，本地都不带一点反应？！！ 伤心欲绝的我含着悲愤的泪睡去，早上&lt;ling chen&gt;跑起来倒挂倒挂，看各种帖子也都无济于事，于是我在chrome的一个报错中貌似发现了什么！！！！ 具体我也没有截图，因为这是个小事嘛w(ﾟДﾟ)w只有我这么笨才会404都不会设置。 chrome是这样显示的，（我并没有在本地hexo s -g调试，因为我发现hexo d出去以后的样子隐约与本地有所不同！） 所以嘞，我看见了cannot find/404/，我当时就在想，是不是要去掉404.html中的html，然并无卵用。 那我就在想，是不是要放在blog根文件夹的source下？ 然后我就从主题next文件夹下复制出404，此时type是HTML，也没用。 后来一位网友说需要hexo new page &quot;404&quot;，当时还有点懵，因为跟我所看的教程不一样。我还回复了他。。。。。。。。。 但是后来实在没法子了，就试了一下。 在blog文件夹下git bash，然后hexo new page &quot;404&quot;，是的，根目录source中出现了md结尾的404文件，但是部署过后。。这不是我要的结果啊。。。 点击公益404只出现了一个博客内的页面”404“ ，于是乎我乘风而行再追击，o((&gt;ω&lt; ))o发现了意想不到的收获！ 我把index.html的代码全部复制下来，Pay attention！ 我复制的代码是根据https来写的，具体代码如下（腾讯公益）啊HTML>123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118119120121122123124125126127128129130131132133134135136137138139140141142143144145146147148149150151152153154155156157158159160161162163164165166167168169170171172173174175176177178179180181182183184185186187188189190191192193194195196197198199200201202203204205206207208209210211212213214215216217218219220221222223224225226227228229230231232233234235236237238239240241242243244245246247248249250251252253254255256257258259260261262263264265266267268269270271272273274275276277278279280281282283284285286287288289290291292293294295296297298299300301302303304305306307308309310311312313314315316317318319320321322323324325326327328329330331332333334335336337338339340341342343344345346347348349350351352353354355356357&lt;html&gt;&lt;head&gt;&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html;charset=utf-8;&quot; /&gt;&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;&lt;meta name=&quot;robots&quot; content=&quot;all&quot; /&gt;&lt;meta name=&quot;robots&quot; content=&quot;index,follow&quot; /&gt;&lt;/head&gt;&lt;body&gt;&lt;script type=&quot;text/plain&quot; src=&quot;http://www.qq.com/404/search_children.js&quot; charset=&quot;utf-8&quot; homePageUrl=&quot;/archives/&quot; homePageName=&quot;鍥炲埌鎴戠殑涓婚〉&quot;&gt;&lt;/script&gt;&lt;script src=&quot;https://qzone.qq.com/gy/404/data.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;script charset=&quot;utf-8&quot;&gt;var QZONE = window.QZONE || &#123;&#125;;function imagezoom(imgobj, box_w, box_h) &#123; var src_w = imgobj.width; var src_h = imgobj.height; var r1 = src_w / src_h, r2 = box_w / box_h; var dst_w, dst_h; if (r1 &gt; r2) &#123; dst_w = box_w; dst_h = Math.round(dst_w / src_w * src_h); &#125; else &#123; if (r1 &lt; r2) &#123; dst_h = box_h; dst_w = Math.round(dst_h / src_h * src_w); &#125; else &#123; dst_w = box_w; dst_h = box_h; &#125; &#125; imgobj.style.marginLeft = (box_w - dst_w) / 2 + &quot;px&quot;; imgobj.style.marginTop = (box_h - dst_h) / 2 + &quot;px&quot;; imgobj.style.width = dst_w + &quot;px&quot;; imgobj.style.height = dst_h + &quot;px&quot;; imgobj.style.opacity = 1;&#125;(function (_w, _d) &#123; var ha = _d.head || _d.getElementsByTagName(&quot;head&quot;)[0]; var $scope = &#123;&#125;; var current; var tmnow; var chId; var homePageUrl, homePageName; var scs = document.getElementsByTagName(&quot;script&quot;); if (location.href.indexOf(&quot;fm.qq.com&quot;) &gt; -1 || location.href.indexOf(&quot;fm.qzone.qq.com&quot;) &gt; -1) &#123; homePageName = &quot;\u8fd4\u56de\u4f01\u9e45FM&quot;; homePageUrl = &quot;http://fm.qq.com&quot;; &#125; else &#123; if (location.href.indexOf(&quot;qzone.qq.com&quot;) &gt; -1) &#123; homePageName = &quot;\u8fd4\u56de\u6211\u7684\u7a7a\u95f4&quot;; homePageUrl = &quot;http://qzone.qq.com&quot;; &#125; else &#123; homePageName = &quot;\u8fd4\u56de\u817e\u8baf\u7f51&quot;; homePageUrl = &quot;http://www.qq.com&quot;; &#125; &#125; for (var i = 0; i &lt; scs.length; i++) &#123; if (scs[i].src.indexOf(&quot;404/search_children.js&quot;) &gt; -1) &#123; if (scs[i].getAttribute(&quot;homePageUrl&quot;)) &#123; homePageUrl = scs[i].getAttribute(&quot;homePageUrl&quot;); &#125; if (scs[i].getAttribute(&quot;homePageName&quot;)) &#123; homePageName = scs[i].getAttribute(&quot;homePageName&quot;); &#125; break; &#125; &#125; $scope.rettext = homePageName; $scope.retlink = homePageUrl; function getData(srcUrl, callback) &#123; var sc = _d.createElement(&quot;script&quot;); function orc() &#123; if (sc.readyState === &quot;loaded&quot;) &#123; setTimeout(function () &#123; callback &amp;&amp; callback(); &#125;, 0); &#125; &#125; if (sc.addEventListener) &#123; if (callback) &#123; sc.addEventListener(&quot;load&quot;, callback, false); &#125; &#125; else &#123; sc.attachEvent(&quot;onreadystatechange&quot;, orc); &#125; ha &amp;&amp; ha.appendChild(sc); sc.src = srcUrl; &#125; function resolveData(d) &#123; var tid, len, ddata = [], tdata; if (&quot;object&quot; == typeof d &amp;&amp; (d.data &amp;&amp; (len = d.data.length))) &#123; for (var i = 0; i &lt; len; i++) &#123; var expire = d.data[i].expire; d.data[i]._id = new Date * Math.random() * Math.random() * 1E7; if (expire &amp;&amp; tmnow * 1E3 &lt; Date.parse(expire.replace(/\s[\s\S]*$/, &quot;&quot;).replace(/\-/g, &quot;/&quot;))) &#123; var _c = d.data[i].city, _p = d.data[i].province; if (_c &amp;&amp; city) &#123; if ((&quot;_&quot; + _c + &quot;_&quot;).indexOf(&quot;_&quot; + city + &quot;_&quot;) &gt; -1) &#123; ddata.push(d.data[i]); continue; &#125; &#125; if (_p &amp;&amp; province) &#123; if ((&quot;_&quot; + _p + &quot;_&quot;).indexOf(&quot;_&quot; + province + &quot;_&quot;) &gt; -1) &#123; ddata.push(d.data[i]); &#125; &#125; &#125; &#125; tid = Math.floor(Math.random() * (ddata.length || len)); tdata = (ddata.length ? ddata : d.data)[chId = tid]; if (_w.foundjsondata) &#123; tdata.ta = tdata.sex.indexOf(&quot;\u5973&quot;) &gt; -1 ? &quot;\u5979&quot; : &quot;\u4ed6&quot;; tdata.name = &quot;\u201c7\u00b718\u7279\u5927\u62d0\u5356\u5a74\u513f\u6848\u201d\u544a\u7834\uff0c\u88ab\u89e3\u6551\u768415\u540d\u5b69\u5b50\u4e2d\uff0c2\u4eba\u7531\u4eb2\u751f\u7236\u6bcd\u9886\u56de\uff0c\u4ecd\u670913\u540d\u5b69\u5b50\u672a\u627e\u5230\u4eb2\u751f\u7236\u6bcd\uff0c\u88ab\u5b89\u7f6e\u5728\u60e0\u5dde\u5e02\u793e\u4f1a\u798f\u5229\u9662\uff0c&quot; + tdata.ta + &quot;\u662f\u5176\u4e2d\u4e4b\u4e00\u3002&quot;; tdata.url = tdata.url.replace(/#p=(\d&#123;1,2&#125;)/, function (a, n) &#123; return &quot;#p=&quot; + (+n + 1); &#125;); return format(tmpl2, tdata); &#125; if (!tdata.ext1) &#123; tdata.ext1 = &quot;\u4f46\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u5bfb\u627e\u5931\u8e2a\u5b9d\u8d1d&quot;; &#125; return tdata; &#125; &#125; function setTopData(tdata) &#123; current = tdata; $scope.topname = tdata.name; $scope.topgender = tdata.sex; $scope.topbirth = tdata.birth_time; $scope.toplostdate = tdata.lost_time; $scope.toplostplace = tdata.lost_place; $scope.toplostdesc = tdata.child_feature; $scope.toplink = tdata.url; $scope.topimg = tdata.child_pic; $scope.topid = tdata._id; document.body.innerHTML = template(&quot;body&quot;, $scope); &#125; function init(data) &#123; tmnow = data.tm_now * 1E3; var tdata = resolveData(jsondata); $scope.whichin = 0; jsondata.data.splice(chId, 1); $scope.otherdata = [tdata].concat(jsondata.data.slice(0, 5)); setTopData(tdata); &#125; var timeout; window._Callback = function (d) &#123; clearTimeout(timeout); init(d); &#125;; timeout = setTimeout(function () &#123; _Callback(&#123; tm_now: (new Date).getTime() / 1E3 &#125;); &#125;, 2E3); _w.share = function (target) &#123; var summary = [&quot;\u80cc\u666f\uff1a&quot;, current.name, &quot;\uff0c\u6027\u522b\uff1a&quot;, current.sex, &quot;\uff0c\u51fa\u751f\u65f6\u95f4\uff1a&quot;, current.birth_time, &quot;\uff0c\u5931\u8e2a\u65f6\u95f4\uff1a&quot;, current.lost_time, &quot;\uff0c\u7279\u5f81\u63cf\u8ff0\uff1a&quot;, current.child_feature].join(&quot;&quot;); if (summary) &#123; summary = &quot;#\u5bfb\u627e\u5931\u8e2a\u7684\u5b9d\u8d1d#&quot; + summary; &#125; var stitle = &quot;\u5931\u8e2a\u7684\u5b9d\u8d1d\u8be6\u60c5&quot;; var desc = &quot;\u5931\u8e2a\u7684\u5b9d\u8d1d\u8981\u56de\u5bb6\uff0c\u5feb\u6765\u53c2\u4e0e\u7231\u5fc3\u7684\u4f20\u9012\u5427\uff01&quot;; var encode = encodeURIComponent; var opts = &#123; &quot;surl&quot;: &quot;http://qzone.qq.com/gy/404/&quot; + current.id + &quot;/lostchild.html&quot;, &quot;site&quot;: &quot;QQ\u7a7a\u95f4&quot;, &quot;summary&quot;: summary || &quot;#\u5b9d\u8d1d\u56de\u5bb6#\u817e\u8baf\u5fd7\u613f\u8005\u7528\u6280\u672f\u70b9\u4eae\u516c\u76ca\uff0c\u8ba9\u6211\u4eec\u4e00\u8d77\u5bfb\u627e\u8d70\u5931\u7684\u513f\u7ae5\u5427\uff01&quot;, &quot;stitle&quot;: stitle, &quot;pics&quot;: current.child_pic, &quot;desc&quot;: desc, &quot;origin_url&quot;: current.url &#125;; var surl = opts.surl || &quot;http://www.qq.com/404/&quot;, summary = opts.summary || &quot;\u8fd9\u4e2a\u662f\u5206\u4eab\u7684\u5185\u5bb9&quot;, stitle = opts.stitle || &quot;\u8fd9\u4e2a\u662f\u5206\u4eab\u7684\u6807\u9898&quot;, pics = opts.pics || &quot;http://qzonestyle.gtimg.cn/qzone_v6/act/img/20120422_qzone_7_years/pop_up/icon-pop-seven-years.png&quot;, site = opts.site || &quot;\u8fd9\u4e2a\u662f\u5206\u4eab\u94fe\u63a5\u7684\u6587\u5b57&quot;, desc = opts.desc || &quot;\u5931\u8e2a\u7684\u5b9d\u8d1d\u8981\u56de\u5bb6\uff0c\u5feb\u6765\u53c2\u4e0e\u7231\u5fc3\u7684\u4f20\u9012\u5427\uff01&quot;, origin_url = opts.origin_url || &quot;http://www.qq.com/404/&quot;; var shareList = &#123; weibo: &#123; method: function (evt) &#123; var w = &quot;http://v.t.qq.com/share/share.php&quot;, q = [&quot;?site=&quot;, encode(surl + &quot;#via=share_t_weib&quot;), &quot;&amp;title=&quot;, encode(summary), &quot;&amp;pic=&quot;, encode(pics), &quot;&amp;url=&quot;, encode(surl)].join(&quot;&quot;), p = [w, q].join(&quot;&quot;); openit(p, &quot;weibo&quot;, &quot;width=700, height=680, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, location=yes, resizable=no, status=no&quot;); &#125; &#125;, qzone: &#123; method: function (evt) &#123; var buff = [], ps = &#123; url: surl + &quot;#via=404-qzoneshare&quot;, desc: desc || &quot;\u5931\u8e2a\u7684\u5b9d\u8d1d\u8981\u56de\u5bb6\uff0c\u5feb\u6765\u53c2\u4e0e\u7231\u5fc3\u7684\u4f20\u9012\u5427\uff01&quot;, summary: summary, title: stitle, pics: pics, site: site &#125;; for (var k in ps) &#123; buff.push(k + &quot;=&quot; + encode(ps[k] || &quot;&quot;)); &#125; var w = &quot;http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?&quot; + buff.join(&quot;&amp;&quot;), q = [&quot;#via=share_t_qzone&quot;, &quot;&amp;title=&quot;, encode(summary), &quot;&amp;pic=&quot;, encode(pics), &quot;&amp;url=&quot;, encode(surl)].join(&quot;&quot;), p = [w, q].join(&quot;&quot;); openit(p, &quot;qzone&quot;, &quot;width=700, height=680, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, location=yes, resizable=no, status=no&quot;); &#125; &#125;, sina: &#123; method: function () &#123; var w = &quot;http://v.t.sina.com.cn/share/share.php&quot;, q = [&quot;?url=&quot;, encode(surl + &quot;#via=share_x_weib&quot;), &quot;&amp;title=&quot;, encode(summary), &quot;&amp;source=&quot;, &quot;&amp;sourceUrl=&quot;, surl, &quot;&amp;content=utf-8&quot;, &quot;&amp;pic=&quot;, encode(pics)].join(&quot;&quot;), p = [w, q].join(&quot;&quot;); openit(p, &quot;sina&quot;, &quot;toolbar=0,status=0,resizable=1,width=440,height=430&quot;); &#125; &#125;, kaixin: &#123; method: function () &#123; var n = &quot;http://www.kaixin001.com/repaste/bshare.php?rurl=&quot; + encode(surl + &quot;#via=share_kaixin&quot;) + &quot;&amp;rcontent=&amp;rtitle=&quot; + encode(summary); openit(n, &quot;kaixin&quot;, &quot;toolbar=0,status=0,resizable=1,width=600,height=360&quot;); &#125; &#125;, renren: &#123; method: function () &#123; var n = &quot;http://www.connect.renren.com/share/sharer?title=&quot; + encode(summary) + &quot;&amp;url=&quot; + encode(surl + &quot;#via=share_renren&quot;), p = window.open(n, &quot;rr&quot;, &quot;toolbar=0,status=0,resizable=1,width=510,height=300&quot;); if (p) &#123; p.focus(); &#125; &#125; &#125;, weixin: &#123; method: function () &#123; var n = &quot;http://qzone.qq.com/gy/404/page/qrcode.html?url=&quot; + encode(origin_url + &quot;#via=share_weixin&quot;), p = window.open(n, &quot;rr&quot;, &quot;toolbar=0,status=0,resizable=1,width=620,height=430&quot;); if (p) &#123; p.focus(); &#125; &#125; &#125; &#125;; var openit = function (u, n, p) &#123; function o() &#123; var z; if (!(z = window.open(u, n, p))) &#123; location.href = u; &#125; else &#123; z.focus(); &#125; &#125; o(); &#125;; shareList[target] &amp;&amp; shareList[target].method(); &#125;; _w.toThis = function (id) &#123; for (var i = 0; i &lt; $scope.otherdata.length; i++) &#123; if ($scope.otherdata[i]._id == id) &#123; setTopData($scope.otherdata[i]); break; &#125; &#125; return false; &#125;; var meta = document.createElement(&quot;meta&quot;); meta.name = &quot;viewport&quot;; meta.content = &quot;width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no&quot;; ha.appendChild(meta); (function registerStyle() &#123; var link = document.createElement(&quot;link&quot;); link.rel = &quot;stylesheet&quot;; link.type = &quot;text/css&quot;; link.href = &quot;https://qzone.qq.com/gy/404/style/404style.css&quot;; ha.appendChild(link); &#125;)(); (function initStat() &#123; var qqDomainNameRE = /\.qq\.com$/i, qzoneDomainNameRE = /\bqzone\.qq\.com$/i, qzsDomainNameRE = /\bqzonestyle\.gtimg\.cn$/i; function cb() &#123; var url = location.host; var src = &quot;&quot;; if (qzoneDomainNameRE.test(url)) &#123; src = &quot;new404.qzone&quot;; &#125; else &#123; if (qqDomainNameRE.test(url)) &#123; src = &quot;new404.qq&quot;; &#125; else &#123; if (qzsDomainNameRE.test(url)) &#123; src = &quot;new404.qzonestyle&quot;; &#125; else &#123; src = url.replace(&quot;.&quot;, &quot;_&quot;); &#125; &#125; &#125; _w.TCISD &amp;&amp; (_w.TCISD.pv &amp;&amp; _w.TCISD.pv(&quot;hat.qzone.qq.com&quot;, &quot;/gy/lostchild/&quot; + src)); &#125; getData(&quot;https://qzonestyle.gtimg.cn/ac/qzfl/stat.js&quot;, cb); &#125;)();&#125;)(window, document);!function () &#123; function a(a, b) &#123; return (/string|function/.test(typeof b) ? h : g)(a, b); &#125; function b(a, c) &#123; return &quot;string&quot; != typeof a &amp;&amp; (c = typeof a, &quot;number&quot; === c ? a += &quot;&quot; : a = &quot;function&quot; === c ? b(a.call(a)) : &quot;&quot;), a; &#125; function c(a) &#123; return l[a]; &#125; function d(a) &#123; return b(a).replace(/&amp;(?![\w#]+;)|[&lt;&gt;&quot;&apos;]/g, c); &#125; function e(a, b) &#123; if (m(a)) &#123; for (var c = 0, d = a.length; d &gt; c; c++) &#123; b.call(a, a[c], c, a); &#125; &#125; else &#123; for (c in a) &#123; b.call(a, a[c], c); &#125; &#125; &#125; function f(a, b) &#123; var c = /(\/)[^/]+\1\.\.\1/, d = (&quot;./&quot; + a).replace(/[^/]+$/, &quot;&quot;), e = d + b; for (e = e.replace(/\/\.\//g, &quot;/&quot;); e.match(c);) &#123; e = e.replace(c, &quot;/&quot;); &#125; return e; &#125; function g(b, c) &#123; var d = a.get(b) || i(&#123; filename: b, name: &quot;Render Error&quot;, message: &quot;Template not found&quot; &#125;); return c ? d(c) : d; &#125; function h(a, b) &#123; if (&quot;string&quot; == typeof b) &#123; var c = b; b = function () &#123; return new k(c); &#125;; &#125; var d = j[a] = function (c) &#123; try &#123; return new b(c, a) + &quot;&quot;; &#125; catch (d) &#123; return i(d)(); &#125; &#125;; return d.prototype = b.prototype = n, d.toString = function () &#123; return b + &quot;&quot;; &#125;, d; &#125; function i(a) &#123; var b = &quot;&#123;Template Error&#125;&quot;, c = a.stack || &quot;&quot;; if (c) &#123; c = c.split(&quot;\n&quot;).slice(0, 2).join(&quot;\n&quot;); &#125; else &#123; for (var d in a) &#123; c += &quot;&lt;&quot; + d + &quot;&gt;\n&quot; + a[d] + &quot;\n\n&quot;; &#125; &#125; return function () &#123; return &quot;object&quot; == typeof console &amp;&amp; console.error(b + &quot;\n\n&quot; + c), b; &#125;; &#125; var j = a.cache = &#123;&#125;, k = this.String, l = &#123; &quot;&lt;&quot;: &quot;&amp;#60;&quot;, &quot;&gt;&quot;: &quot;&amp;#62;&quot;, &apos;&quot;&apos;: &quot;&amp;#34;&quot;, &quot;&apos;&quot;: &quot;&amp;#39;&quot;, &quot;&amp;&quot;: &quot;&amp;#38;&quot; &#125;, m = Array.isArray || function (a) &#123; return &quot;[object Array]&quot; === &#123;&#125;.toString.call(a); &#125;, n = a.utils = &#123; $helpers: &#123;&#125;, $include: function (a, b, c) &#123; return a = f(c, a), g(a, b); &#125;, $string: b, $escape: d, $each: e &#125;, o = a.helpers = n.$helpers; a.get = function (a) &#123; return j[a.replace(/^\.\//, &quot;&quot;)]; &#125;, a.helper = function (a, b) &#123; o[a] = b; &#125;, &quot;function&quot; == typeof define ? define(function () &#123; return a; &#125;) : &quot;undefined&quot; != typeof exports ? module.exports = a : this.template = a, a(&quot;body&quot;, function (a) &#123; var b = this, c = (b.$helpers, b.$escape), d = a.retlink, e = a.rettext, f = a.topid, g = a.topimg, h = a.topname, i = a.topgender, j = a.topbirth, l = a.toplostdate, m = a.toplostplace, n = a.toplostdesc, o = a.toplink, p = b.$each, q = a.otherdata, r = (a.otheritem, a.index, &quot;&quot;); return r += &apos;&lt;div class=&quot;mod_404&quot;&gt; &lt;div class=&quot;wrapper&quot; id=&quot;mainWrap&quot;&gt; &lt;div class=&quot;mod_hd&quot;&gt; &lt;h1 class=&quot;title&quot;&gt;&lt;span class=&quot;title_inner&quot;&gt;404\uff0c\u60a8\u8bbf\u95ee\u7684\u9875\u9762\u627e\u4e0d\u56de\u6765\u4e86\uff0c\u4f46\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u5e2e\u4ed6\u4eec\u56de\u5bb6\uff01&lt;/span&gt;&lt;/h1&gt; &lt;div class=&quot;desc&quot;&gt;&lt;a href=&quot;&apos;, r += c(d), r += &apos;&quot; class=&quot;desc_link&quot;&gt;&apos;, r += c(e), r += &apos;&lt;/a&gt;&lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;mod_bd&quot;&gt; &lt;div class=&quot;child_box&quot;&gt; &lt;div class=&quot;mod_404_child child_in&quot; data-id=&quot;&apos;, r += c(f), r += &apos;&quot; id=&quot;top_&apos;, r += c(f), r += &apos;&quot;&gt; &lt;div class=&quot;child_main cf&quot;&gt; &lt;div class=&quot;child_avatar&quot;&gt;&lt;img src=&quot;&apos;, r += c(g), r += &apos;&quot; onload=&quot;imagezoom(this, 160, 216);&quot; style=&quot;opacity:0&quot;&gt;&lt;/div&gt; &lt;div class=&quot;child_info&quot;&gt; &lt;div class=&quot;info_name&quot;&gt; &lt;h2&gt;&lt;span class=&quot;name_inner&quot;&gt;&apos;, r += c(h), r += &apos;&lt;/span&gt;&lt;span class=&quot;info_sex&quot;&gt;(&apos;, r += c(i), r += &apos;)&lt;/span&gt;&lt;/h2&gt; &lt;/div&gt; &lt;div class=&quot;info_item info_birth&quot;&gt;&lt;span class=&quot;info_lbl&quot;&gt;\u51fa\u751f\u65e5\u671f\uff1a&lt;/span&gt;&lt;span class=&quot;item_inner&quot;&gt;&apos;, r += c(j), r += &apos;&lt;/span&gt;&lt;/div&gt; &lt;div class=&quot;info_item info_time&quot;&gt;&lt;span class=&quot;info_lbl&quot;&gt;\u5931\u8e2a\u65f6\u95f4\uff1a&lt;/span&gt;&lt;span class=&quot;item_inner&quot;&gt;&apos;, r += c(l), r += &apos;&lt;/span&gt;&lt;/div&gt; &lt;div class=&quot;info_item info_address&quot;&gt;&lt;span class=&quot;info_lbl&quot;&gt;\u5931\u8e2a\u5730\u70b9\uff1a&lt;/span&gt;&lt;span class=&quot;item_inner&quot;&gt;&apos;, r += c(m), r += &apos;&lt;/span&gt;&lt;/div&gt; &lt;div class=&quot;info_item info_desc&quot;&gt;&lt;span class=&quot;info_lbl&quot;&gt;\u5931\u8e2a\u4eba\u7279\u5f81\u63cf\u8ff0\uff1a&lt;/span&gt;&lt;span class=&quot;item_inner&quot;&gt;&apos;, r += c(n), r += &apos;&lt;/span&gt;&lt;/div&gt; &lt;a href=&quot;&apos;, r += c(o), r += &apos;&quot; class=&quot;link_view&quot; title=&quot;\u67e5\u770b\u8be6\u60c5&quot;&gt;&lt;span class=&quot;link_inner&quot;&gt;\u67e5\u770b\u8be6\u60c5&lt;/span&gt;&lt;/a&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;child_bottom cf&quot;&gt; &lt;div class=&quot;bottom_logo&quot;&gt; &lt;ul class=&quot;logo_list&quot;&gt; &lt;li&gt;&lt;a href=&quot;http://e.t.qq.com/Tencent-Volunteers&quot; title=&quot;\u817e\u8baf\u5fd7\u613f\u8005&quot;&gt;&lt;img src=&quot;http://qzone.qq.com/gy/404/style/image/logo_tencentvolunteers.png&quot;&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;http://bbs.baobeihuijia.com/forum.php&quot; title=&quot;\u5b9d\u8d1d\u56de\u5bb6&quot;&gt;&lt;img src=&quot;http://qzone.qq.com/gy/404/style/image/logo_baobeihuijia.png&quot;&gt;&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt; &lt;div class=&quot;bottom_right&quot;&gt; &lt;div class=&quot;mod_share&quot; onmouseover=&quot;this.className += \&apos; mod_share_hover\&apos;;&quot; onmouseout=&quot;this.className = this.className.replace(\&apos; mod_share_hover\&apos;,\&apos;\&apos;)&quot;&gt; &lt;span class=&quot;share_inner&quot;&gt;\u5206\u4eab&lt;/span&gt; &lt;ul class=&quot;share_list&quot;&gt; &lt;li&gt;&lt;a href=&quot;javascript:void(0);&quot; class=&quot;share_link&quot; onclick=&quot;share(\&apos;weibo\&apos;);return false;&quot; title=&quot;\u817e\u8baf\u5fae\u535a&quot;&gt;&lt;span class=&quot;link_inner&quot;&gt;\u817e\u8baf\u5fae\u535a&lt;/span&gt;&lt;i class=&quot;ico_tencentweibo&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;javascript:void(0);&quot; class=&quot;share_link&quot; onclick=&quot;share(\&apos;qzone\&apos;);return false;&quot; title=&quot;QQ\u7a7a\u95f4&quot;&gt;&lt;span class=&quot;link_inner&quot;&gt;QQ\u7a7a\u95f4&lt;/span&gt;&lt;i class=&quot;ico_qzone&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;javascript:void(0);&quot; class=&quot;share_link&quot; onclick=&quot;share(\&apos;sina\&apos;);return false;&quot; title=&quot;\u65b0\u6d6a\u5fae\u535a&quot;&gt;&lt;span class=&quot;link_inner&quot;&gt;\u65b0\u6d6a\u5fae\u535a&lt;/span&gt;&lt;i class=&quot;ico_sinaweibo&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;javascript:void(0);&quot; class=&quot;share_link&quot; onclick=&quot;share(\&apos;weixin\&apos;);return false;&quot; title=&quot;\u5fae\u4fe1&quot;&gt;&lt;span class=&quot;link_inner&quot;&gt;\u5fae\u4fe1&lt;/span&gt;&lt;i class=&quot;ico_weixin&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;span style=&quot;clear: both;&quot;&gt;&lt;/span&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;i class=&quot;ico_corner&quot;&gt;&lt;/i&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;mod_fd&quot;&gt; &lt;div class=&quot;mod_404_children&quot;&gt; &lt;ul class=&quot;children_list&quot;&gt; &apos;, p(q, function (a) &#123; r += &apos; &lt;li class=&quot;&apos;, r += c(f == a._id ? &quot;current&quot; : &quot;&quot;), r += &apos;&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;toThis(\&apos;&apos;, r += c(a._id), r += &apos;\&apos;);&quot; title=&quot;&apos;, r += c(a.name), r += &apos;&quot; &gt;&lt;img src=&quot;&apos;, r += c(a.child_pic), r += &apos;&quot;&gt;&lt;/a&gt;&lt;/li&gt; &apos;; &#125;), r += &quot; &lt;/ul&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;&quot;, new k(r); &#125;);&#125;();&lt;/script&gt;&lt;/body&gt;&lt;/html&gt; 哇。为什么markdown不显示代码。。 先不管了，反正我直接把这段代码复制到根目录下source中我新建的page.md下，然后把前面第十行的homepageUrl改成自己主页的地址，改这个的时候也非常头疼，不知道要改成什么(+_+)?，最后我写成了archives，这是博客的分档，因为写home的话，也是显示cannot get/home/，但如果什么都不写的话，就蹦到xw.qq.com去了。总结，这是上面的代码出现的问题。。。肯定是的。 10.4更新找出问题所在。代码没错，在第十行双引号里只加/就行了，直接回调到你的主页。 此致记录hexo历程 分享到：QQ空间新浪微博腾讯微博微信更多 links：添加第三方Algolia搜索功能小图标汇集地（给外链设置图标）]]></content>
-      <categories>
-        <category>Hexo历程</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-        <tag>总览</tag>
-        <tag>小结</tag>
-        <tag>Hexo初级</tag>
-        <tag>404页面制作</tag>
-        <tag>解决方法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[多么想和你见一面]]></title>
-    <url>%2F2017%2F10%2F02%2FMusic-test%2F</url>
-    <content type="text"><![CDATA[作曲 : 陈小霞 作词 : 施立 我来到 你的城市 走过你来时的路 想像着 没我的日子 你是怎样的孤独 拿着你 给的照片 熟悉的那一条街 只是没了你的画面 我们回不到那天 你会不会忽然的出现 在街角的咖啡店 我会带着笑脸 挥手寒暄 和你 坐着聊聊天 我多么想和你见一面 看看你最近改变 不再去说从前 只是寒暄 对你说一句 只是说一句 好久不见 拿着你 给的照片 熟悉的那一条街 只是没了你的画面 我们回不到那天 你会不会忽然的出现 在街角的咖啡店 我会带着笑脸 挥手寒暄 和你 坐着聊聊天 我多么想和你见一面 看看你最近改变 不再去说从前 只是寒暄 对你说一句 只是说一句 好久不见 分享到： QQ空间 新浪微博 腾讯微博 微信 更多]]></content>
-      <categories>
-        <category>音乐</category>
-      </categories>
-      <tags>
-        <tag>总览</tag>
-        <tag>音乐</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[测试。]]></title>
-    <url>%2F2017%2F10%2F01%2F%E6%B5%8B%E8%AF%95%E3%80%82%2F</url>
-    <content type="text"><![CDATA[我就想知道到底怎么回事，啥都没干就给我404？？？ 分割线:10.02ok啦~ 可能原因：next主题更新导致。同时感谢This blog的帮助。]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>总览</tag>
-        <tag>测试</tag>
-        <tag>404错误</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[懒懒懒懒懒]]></title>
-    <url>%2F2017%2F09%2F24%2F%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92o-%CF%89-o%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A%2F</url>
-    <content type="text"><![CDATA[随便写点什么，下雨，从昨天放学开始。 家里装修 = Release 2.5.0 =Released: 2017-07-23 == Major change == VS2017 is used for building TortoiseGitOn x64 versions of Windows, the TortoiseGit context menu and overlays won’t show for pure 32-bit applications in their file-open/save dialogs until you install the 2015 C-runtime for x86.https://www.microsoft.com/en-us/download/details.aspx?id=52685 (select the vc_redist.x86.exe file for download). 特奇怪 分享到：QQ空间新浪微博腾讯微博微信更多]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-        <tag>总览</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[嗯，下课了]]></title>
-    <url>%2F2017%2F09%2F16%2F%E5%97%AF%EF%BC%8C%E4%B8%8B%E8%AF%BE%E4%BA%86%2F</url>
-    <content type="text"><![CDATA[随便记点什么吧考完试回到家看望了奶奶吃了水果………嗯在学校看见了她嗯开心 我在看天时，你若看见我，请叫住我因为，你比天要美丽； 我在看你时，请你不要视而不见为了看你我放弃了天； 天空我把他称为云朵云朵也就变成了天空， 你看那一朵朵天空多美啊！因为他的背景是云； 我不听人们的话，我只听你的人们都喜欢云而我喜欢你————To xin]]></content>
-      <categories>
-        <category>她</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-        <tag>总览</tag>
-        <tag>她</tag>
-        <tag>诗</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[第一个星期(￣▽￣)"]]></title>
-    <url>%2F2017%2F09%2F09%2Ftext-1%2F</url>
-    <content type="text"><![CDATA[放学你们放学了吗？开学一星期，一班陌生的可爱的的同学，很无奈(⊙﹏⊙)，随便更新个博客吧啊啊啊啊啊啊啊啊啊啊啊啊啊。不行啊啊啊啊啊啊啊啊啊啊啊啊啊！！！再来一次aaaaaaaaaaaaaaaaaaaaaa(⊙_⊙)???嗯恩恩恩恩呢讷讷嫩嗯~ o(￣▽￣)o测试一下~~~~就是测试喔！(⊙o⊙)！再次再次强调//////////////////////////////////This is a TEXT!向前进军！ 先熟悉一下上周的程序再说！ 现在程序只能解决正负和R的函数，不能输入根号以及多次幂。还有ax^2+bx+c以内的函数，结果是小数很麻烦。不能准确解决解函数问题。亟待解决 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990//这个程序帮助解决简单的一元二次方程#include &lt;stdio.h&gt;#include &lt;math.h&gt;//#define()后面不加分号“；”#define QUIT 2//函数原型int get_menu_choice(void);int main(void)&#123; int choice = 0; while (choice != QUIT) &#123; //调用菜单选择函数 choice = get_menu_choice(); //选择1将进入解方程 if (choice == 1) &#123; printf(&quot;求一元二次方程ax^2 + bx + c的解\n&quot;); int a, b, c; double x1, x2, dealt; printf(&quot;请依次输入系数a b c(请用空格分隔开):\n&quot;); scanf_s(&quot;%u %u %u&quot;, &amp;a, &amp;b, &amp;c); dealt = b * b - 4 * a * c;//根的判别式 if (a == 0) printf(&quot;a不能为0\n\n\n\n&quot;); else if (dealt &gt; 0) &#123; x1 = (-b + sqrt(dealt)) / (2 * a); x2 = (-b - sqrt(dealt)) / (2 * a); printf(&quot;方程（%d）x^2 + （%d）x + （%d）的解为：\n&quot;, a, b, c); printf(&quot;x1 = %f,x2 = %f\n\n\n\n&quot;, x1, x2); &#125; else if (dealt == 0)// &#123; x1 = x2 = (-b) / (2 * a); printf(&quot;方程（%d）x^2 + （%d）x + （%d）的解为：\n&quot;, a, b, c); printf(&quot;x1=x2=%f\n\n\n\n&quot;, x1); &#125; else //这里是（dealt &lt; 0）的情况，所以并没有实根 printf(&quot;该方程无解\n\n\n\n&quot;); &#125; else puts(&quot;\n你选择离开。&quot;); &#125; return 0;&#125;////////////////函数定义//////////////////////这个函数被调用时将在荧屏上显示两个菜单选项int get_menu_choice(void)&#123; int selection; do &#123; puts(&quot;\n1 - 解一元二次方程。&quot;);// puts(&quot;2 - 离开。&quot;);//选项二 puts(&quot;\n输入你的选择：&quot;); scanf_s(&quot;%d&quot;, &amp;selection); &#125; while (selection &lt; 1 || selection &gt; 2); return selection;&#125; 。。。(o-ωｑ)).oO 困啊困啊苦命的困，(～﹃～)~zZ睡觉，有时间再说吧。。。估计没什么时间更blog了 分享到：QQ空间新浪微博腾讯微博微信更多]]></content>
-      <categories>
-        <category>c语言</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-        <tag>总览</tag>
-        <tag>c语言</tag>
-        <tag>解一元二次方程</tag>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[妥善解决win10各种卡顿问题]]></title>
-    <url>%2F2017%2F09%2F03%2F%E5%A6%A5%E5%96%84%E8%A7%A3%E5%86%B3win10%E5%90%84%E7%A7%8D%E5%8D%A1%E9%A1%BF%E9%97%AE%E9%A2%98%2F</url>
-    <content type="text"><![CDATA[方案一 关闭windows search后台偷偷运行。控制面板-管理工具-服务-windows search禁用，别禁防火墙，可以在高级设置里的“属性”把“域配置文件”“专属配置文件”“公用配置文件”改为关闭状态。 方案二 关闭家庭组，该功能导致硬盘与cpu处于高负荷状态。控制中心-管理工具-服务-Homecroup listener和Homegroup Provider禁用。使用优化软件后win10开不了机的原因是禁用了三个服务，使用优化软件开启：dmwappushsvc. diagnsticsTracking service. coreMessaging. 方案三 清理产生的windows.old文件夹。方案四 设置好Superfetch服务，服务Superfetch启动类型改成延迟启动或者禁用，可避免频繁对硬盘的访问。控制中心-管 理服务-Superfetch-启动类型-自动。 方案五 关闭ipv6，部分网卡驱动开启ipv6会导致开机系统未响应，假死。网络共享中心-网络连接-以太网-属性-取消ipv6. 方案六 设置win10自动登录，win+r netplwiz 取消使用计算机必须密码选项。 方案七 关闭windows安全中心服务，win+r services.msc Enter-找出SecurityCenter，禁用。不要删除系统文件，优化速度明显加快。 方案八 关闭计划任务里的隐藏的自动程序，控制面板-所有控制面板选项-管理工具-任务计划程序-右侧任务列表-禁用不需要的服务。 方案九 加速开机速度，win+r msconfig -引导-勾上无GUI引导。 方案十 win+r gpedit.msc 计算机管理中-模块管理-系统-关机选项-关闭会阻止或取消关机的应用程序的自动终止功能。 方案十一 关闭性能特效（低配置电脑），系统属性-高级-性能-设置-关闭窗口动态。 方案十二 修改窗口颜色用于护眼。win+r regedit 打开注册表 HKEY_CURRENT_USER\CONTROL\PANEL\Colors 选一个需要修改颜色的地方-比如窗口（windows）红绿蓝 这是白色(255 255 255)你可以改为豆绿（204 237 207）完后重启两次。 分享到：QQ空间新浪微博腾讯微博微信更多]]></content>
-      <categories>
-        <category>win10</category>
-      </categories>
-      <tags>
-        <tag>总览</tag>
-        <tag>解决方法</tag>
-        <tag>win10</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[测试测试]]></title>
-    <url>%2F2017%2F09%2F03%2F%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95%2F</url>
-    <content type="text"><![CDATA[这是一篇测试，是否能够解决乱码问题]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-        <tag>总览</tag>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[我的博客第一天]]></title>
-    <url>%2F2017%2F09%2F03%2F%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%A4%A9%2F</url>
-    <content type="text"><![CDATA[………..折腾一个晚上和一上午终于弄好了……………..求抱抱(￣︶￣*)) ////\\，嗯先就这样吧，还有中午好cutexin]]></content>
-      <categories>
-        <category>博客第一天</category>
-      </categories>
-      <tags>
-        <tag>总览</tag>
-        <tag>博客firstday</tag>
-        <tag>o(*￣▽￣*)ブ</tag>
-      </tags>
-  </entry>
+<search> 
+  
+    
+    <entry>
+      <title><![CDATA[A very holiday]]></title>
+      <url>/2017/10/18/A-very-holiday/</url>
+      <content type="html"><![CDATA[<p>碎觉~<br>困死了~<br>加油加油加油(ง •_•)ง</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 日记 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+            <tag> 日记 </tag>
+            
+            <tag> 总览 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Look at the stars]]></title>
+      <url>/2017/10/15/Look-at-the-stars/</url>
+      <content type="html"><![CDATA[<p>Remember to look up at the stars and not down at your feet.Be curious and however difficult life may seem,there is always something you can do and succeed at.</p>
+<p>——Stephen Hawking<br>我在宇宙的一角，我无法触及宇宙的他方，我将被埋在地球上。我认识到我多么渺小，头顶上的云彩也无法触及。可是，触及到了并不怎样，不会发现真理，也没有新思想，我所遵循的旧制每分每秒都在使我难受，但人儿的心里似乎还有别的东西，例如令你欢欣的同类。我想这就是我的世界，存在于主观上的真实的地方。我想我得去发现一些旧的而我却不知道的，新的我不知道的，还未形成我不知道的事了。  我不能一直追随真理，但又不能改变真理，这或许是我的妄想，但这种事谁会去约束你呢，那就妄想下去吧。<br>And hello world.</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 当我还年轻时 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+            <tag> 日记 </tag>
+            
+            <tag> 总览 </tag>
+            
+            <tag> 青春 </tag>
+            
+            <tag> 青年 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[连续阴天20十天，阴天也要快乐]]></title>
+      <url>/2017/10/14/%E8%BF%9E%E7%BB%AD%E9%98%B4%E5%A4%A920%E5%8D%81%E5%A4%A9%EF%BC%8C%E9%98%B4%E5%A4%A9%E4%B9%9F%E8%A6%81%E5%BF%AB%E4%B9%90/</url>
+      <content type="html"><![CDATA[<p>十天后的休息日。<br>休息日。<br>息日<br>日  </p>
+<p>阴天，也要快乐<br>生活要继续<br>坚持要继续<br>坚持什么呢？  自己也迷糊，像是能看见却不能寻找，能触摸却不能得到。<br>Saari umar hum<br>我这一生<br>Mar mar ke jee liye<br>都为别人生活<br>Ek pal to ab humein<br>哪怕只一瞬间<br>Jeene do jeene do<br>让我自由地过。</p>
+<p>我不曾一次的厌世<br>谨此记录我内心原始的思想<br>他属于我，我依赖他，我并不是我，他并不是他。<br>谨此铭记十八周岁前几天的我。<br>希望你能在后面的日子，成年人的日子，仍留一份童心和一份天真<br>让世间多点快乐，有人欢笑的时候，便是忘形吧。<br>亲爱的你，和亲爱的我<br>我就是我，不一样的天空，我所经历的世间令我独一无二，但是也有差不多的人  </p>
+<p>那便是知己。  </p>
+<p>谨此致</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 日记 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+            <tag> 日记 </tag>
+            
+            <tag> 总览 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[2017国庆节总结]]></title>
+      <url>/2017/10/05/11/</url>
+      <content type="html"><![CDATA[<p>总的来说没什么总结。<br>一个多小时后我将前往学校。<br>什么也不用说了。<br>我现在的心情是<br>什么**学校。<br>还是来小小总结一下吧。<br>  <a id="more"></a></p>
+<ul>
+<li>更新了进阶博客</li>
+<li>公益404无法返回homepage解决</li>
+<li>添加algolia搜索</li>
+<li>links</li>
+<li>头像以及头像动态</li>
+<li>社交链接</li>
+<li>背景动态</li>
+<li>分项栏</li>
+<li>打赏</li>
+<li>新增七牛云</li>
+<li>标签以及分类</li>
+<li>社交链接的小图标</li>
+</ul>
+<p>大概就是这些了。貌似也做了不少事情。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 日记 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+            <tag> 日记 </tag>
+            
+            <tag> 总览 </tag>
+            
+            <tag> 小结 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[月饼节]]></title>
+      <url>/2017/10/04/%E6%9C%88%E9%A5%BC%E8%8A%82/</url>
+      <content type="html"><![CDATA[<p>每逢佳节倍思亲。  </p>
+<p>头像问题需要一个网页上的照片，我是baidu上找的，复制url到…上，具体看<a href="http://blog.csdn.net/qq_30242609/article/details/53440869" target="_blank" rel="external">这里</a>或下方。<br>links：<br><a href="http://blog.csdn.net/qq_30242609/article/details/53440869" target="_blank" rel="external">解决之前的头像问题</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 日记 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+            <tag> 日记 </tag>
+            
+            <tag> 总览 </tag>
+            
+            <tag> 头像 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[关于Hexo的404设置以及返回问题小结]]></title>
+      <url>/2017/10/03/%E5%85%B3%E4%BA%8EHexo%E7%9A%84404%E8%AE%BE%E7%BD%AE%E4%BB%A5%E5%8F%8A%E8%BF%94%E5%9B%9E%E9%97%AE%E9%A2%98%E5%B0%8F%E7%BB%93/</url>
+      <content type="html"><![CDATA[<p>w(ﾟДﾟ)w 经过一晚和一上午的揣摩，自己竟然能发现出与网上不同的404页面制作方法，呸~~ 应该是解决404页面设置好后（大多数的教程说是放在主题目录的<code>source</code>下，我呸~~ 我各种<code>source</code>下都放了<code>404.html</code>，可是没一个见效的，把html删掉也不行，各种        <code>hexo g -d</code>以及<code>hexo s -g</code>，本地都不带一点反应？！！  </p>
+<p>伤心欲绝的我含着悲愤的泪睡去，早上&lt;<code>ling chen</code>&gt;跑起来倒挂倒挂，看各种帖子也都无济于事，于是我在chrome的一个报错中貌似发现了什么！！！！  具体我也没有截图，因为这是个小事嘛w(ﾟДﾟ)w只有我这么笨才会404都不会设置。 chrome是这样显示的，（我并没有在本地<code>hexo s -g</code>调试，因为我发现<code>hexo d</code>出去以后的样子隐约与本地有所不同！） 所以嘞，我看见了<code>cannot find/404/</code>，我当时就在想，是不是要去掉<code>404.html</code>中的html，然并无卵用。 那我就在想，是不是要放在blog根文件夹的source下？ 然后我就从主题<code>next</code>文件夹下复制出<code>404</code>，此时type是HTML，也没用。 后来一位网友说需要<code>hexo new page &quot;404&quot;</code>，当时还有点懵，因为跟我所看的教程不一样。我还回复了他<code>。。。。。。。。。</code><br>          <a id="more"></a><br>但是后来实在没法子了，就试了一下。 在blog文件夹下<code>git bash</code>，然后<code>hexo new page &quot;404&quot;</code>，是的，根目录source中出现了<code>md</code>结尾的404文件，但是部署过后。。这不是我要的结果啊。。。 点击公益404只出现了一个博客内的页面”404“ ，于是乎我乘风而行再追击，o((&gt;ω&lt; ))o发现了意想不到的收获！  我把index.html的代码全部复制下来，Pay attention！ 我复制的代码是根据https来写的，具体代码如下（腾讯公益）<br>啊<br><figure class="highlight plain"><figcaption><span>HTML></span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div><div class="line">107</div><div class="line">108</div><div class="line">109</div><div class="line">110</div><div class="line">111</div><div class="line">112</div><div class="line">113</div><div class="line">114</div><div class="line">115</div><div class="line">116</div><div class="line">117</div><div class="line">118</div><div class="line">119</div><div class="line">120</div><div class="line">121</div><div class="line">122</div><div class="line">123</div><div class="line">124</div><div class="line">125</div><div class="line">126</div><div class="line">127</div><div class="line">128</div><div class="line">129</div><div class="line">130</div><div class="line">131</div><div class="line">132</div><div class="line">133</div><div class="line">134</div><div class="line">135</div><div class="line">136</div><div class="line">137</div><div class="line">138</div><div class="line">139</div><div class="line">140</div><div class="line">141</div><div class="line">142</div><div class="line">143</div><div class="line">144</div><div class="line">145</div><div class="line">146</div><div class="line">147</div><div class="line">148</div><div class="line">149</div><div class="line">150</div><div class="line">151</div><div class="line">152</div><div class="line">153</div><div class="line">154</div><div class="line">155</div><div class="line">156</div><div class="line">157</div><div class="line">158</div><div class="line">159</div><div class="line">160</div><div class="line">161</div><div class="line">162</div><div class="line">163</div><div class="line">164</div><div class="line">165</div><div class="line">166</div><div class="line">167</div><div class="line">168</div><div class="line">169</div><div class="line">170</div><div class="line">171</div><div class="line">172</div><div class="line">173</div><div class="line">174</div><div class="line">175</div><div class="line">176</div><div class="line">177</div><div class="line">178</div><div class="line">179</div><div class="line">180</div><div class="line">181</div><div class="line">182</div><div class="line">183</div><div class="line">184</div><div class="line">185</div><div class="line">186</div><div class="line">187</div><div class="line">188</div><div class="line">189</div><div class="line">190</div><div class="line">191</div><div class="line">192</div><div class="line">193</div><div class="line">194</div><div class="line">195</div><div class="line">196</div><div class="line">197</div><div class="line">198</div><div class="line">199</div><div class="line">200</div><div class="line">201</div><div class="line">202</div><div class="line">203</div><div class="line">204</div><div class="line">205</div><div class="line">206</div><div class="line">207</div><div class="line">208</div><div class="line">209</div><div class="line">210</div><div class="line">211</div><div class="line">212</div><div class="line">213</div><div class="line">214</div><div class="line">215</div><div class="line">216</div><div class="line">217</div><div class="line">218</div><div class="line">219</div><div class="line">220</div><div class="line">221</div><div class="line">222</div><div class="line">223</div><div class="line">224</div><div class="line">225</div><div class="line">226</div><div class="line">227</div><div class="line">228</div><div class="line">229</div><div class="line">230</div><div class="line">231</div><div class="line">232</div><div class="line">233</div><div class="line">234</div><div class="line">235</div><div class="line">236</div><div class="line">237</div><div class="line">238</div><div class="line">239</div><div class="line">240</div><div class="line">241</div><div class="line">242</div><div class="line">243</div><div class="line">244</div><div class="line">245</div><div class="line">246</div><div class="line">247</div><div class="line">248</div><div class="line">249</div><div class="line">250</div><div class="line">251</div><div class="line">252</div><div class="line">253</div><div class="line">254</div><div class="line">255</div><div class="line">256</div><div class="line">257</div><div class="line">258</div><div class="line">259</div><div class="line">260</div><div class="line">261</div><div class="line">262</div><div class="line">263</div><div class="line">264</div><div class="line">265</div><div class="line">266</div><div class="line">267</div><div class="line">268</div><div class="line">269</div><div class="line">270</div><div class="line">271</div><div class="line">272</div><div class="line">273</div><div class="line">274</div><div class="line">275</div><div class="line">276</div><div class="line">277</div><div class="line">278</div><div class="line">279</div><div class="line">280</div><div class="line">281</div><div class="line">282</div><div class="line">283</div><div class="line">284</div><div class="line">285</div><div class="line">286</div><div class="line">287</div><div class="line">288</div><div class="line">289</div><div class="line">290</div><div class="line">291</div><div class="line">292</div><div class="line">293</div><div class="line">294</div><div class="line">295</div><div class="line">296</div><div class="line">297</div><div class="line">298</div><div class="line">299</div><div class="line">300</div><div class="line">301</div><div class="line">302</div><div class="line">303</div><div class="line">304</div><div class="line">305</div><div class="line">306</div><div class="line">307</div><div class="line">308</div><div class="line">309</div><div class="line">310</div><div class="line">311</div><div class="line">312</div><div class="line">313</div><div class="line">314</div><div class="line">315</div><div class="line">316</div><div class="line">317</div><div class="line">318</div><div class="line">319</div><div class="line">320</div><div class="line">321</div><div class="line">322</div><div class="line">323</div><div class="line">324</div><div class="line">325</div><div class="line">326</div><div class="line">327</div><div class="line">328</div><div class="line">329</div><div class="line">330</div><div class="line">331</div><div class="line">332</div><div class="line">333</div><div class="line">334</div><div class="line">335</div><div class="line">336</div><div class="line">337</div><div class="line">338</div><div class="line">339</div><div class="line">340</div><div class="line">341</div><div class="line">342</div><div class="line">343</div><div class="line">344</div><div class="line">345</div><div class="line">346</div><div class="line">347</div><div class="line">348</div><div class="line">349</div><div class="line">350</div><div class="line">351</div><div class="line">352</div><div class="line">353</div><div class="line">354</div><div class="line">355</div><div class="line">356</div><div class="line">357</div></pre></td><td class="code"><pre><div class="line">&lt;html&gt;</div><div class="line">&lt;head&gt;</div><div class="line">&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html;charset=utf-8;&quot; /&gt;</div><div class="line">&lt;meta http-equiv=&quot;X-UA-Compatible&quot;   content=&quot;IE=edge,chrome=1&quot; /&gt;</div><div class="line">&lt;meta name=&quot;robots&quot; content=&quot;all&quot; /&gt;</div><div class="line">&lt;meta name=&quot;robots&quot; content=&quot;index,follow&quot; /&gt;</div><div class="line">&lt;/head&gt;</div><div class="line">&lt;body&gt;</div><div class="line">&lt;script type=&quot;text/plain&quot; src=&quot;http://www.qq.com/404/search_children.js&quot;</div><div class="line">      charset=&quot;utf-8&quot; homePageUrl=&quot;/archives/&quot;</div><div class="line">      homePageName=&quot;鍥炲埌鎴戠殑涓婚〉&quot;&gt;</div><div class="line">&lt;/script&gt;</div><div class="line">&lt;script src=&quot;https://qzone.qq.com/gy/404/data.js&quot;   charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</div><div class="line">&lt;script charset=&quot;utf-8&quot;&gt;</div><div class="line">var QZONE = window.QZONE || &#123;&#125;;</div><div class="line">function imagezoom(imgobj, box_w, box_h) &#123;</div><div class="line">  var src_w = imgobj.width;</div><div class="line">  var src_h = imgobj.height;</div><div class="line">  var r1 = src_w / src_h, r2 = box_w / box_h;</div><div class="line">  var dst_w, dst_h;</div><div class="line">  if (r1 &gt; r2) &#123;</div><div class="line">    dst_w = box_w;</div><div class="line">    dst_h = Math.round(dst_w / src_w * src_h);</div><div class="line">  &#125; else &#123;</div><div class="line">    if (r1 &lt; r2) &#123;</div><div class="line">      dst_h = box_h;</div><div class="line">      dst_w = Math.round(dst_h / src_h * src_w);</div><div class="line">    &#125; else &#123;</div><div class="line">      dst_w = box_w;</div><div class="line">      dst_h = box_h;</div><div class="line">    &#125;</div><div class="line">  &#125;</div><div class="line">  imgobj.style.marginLeft = (box_w - dst_w) / 2 + &quot;px&quot;;</div><div class="line">  imgobj.style.marginTop = (box_h - dst_h) / 2 + &quot;px&quot;;</div><div class="line">  imgobj.style.width = dst_w + &quot;px&quot;;</div><div class="line">  imgobj.style.height = dst_h + &quot;px&quot;;</div><div class="line">  imgobj.style.opacity = 1;</div><div class="line">&#125;</div><div class="line">(function (_w, _d) &#123;</div><div class="line">  var ha = _d.head || _d.getElementsByTagName(&quot;head&quot;)[0];</div><div class="line">  var $scope = &#123;&#125;;</div><div class="line">  var current;</div><div class="line">  var tmnow;</div><div class="line">  var chId;</div><div class="line">  var homePageUrl, homePageName;</div><div class="line">  var scs = document.getElementsByTagName(&quot;script&quot;);</div><div class="line">  if (location.href.indexOf(&quot;fm.qq.com&quot;) &gt; -1 || location.href.indexOf(&quot;fm.qzone.qq.com&quot;) &gt; -1) &#123;</div><div class="line">    homePageName = &quot;\u8fd4\u56de\u4f01\u9e45FM&quot;;</div><div class="line">    homePageUrl = &quot;http://fm.qq.com&quot;;</div><div class="line">  &#125; else &#123;</div><div class="line">    if (location.href.indexOf(&quot;qzone.qq.com&quot;) &gt; -1) &#123;</div><div class="line">      homePageName = &quot;\u8fd4\u56de\u6211\u7684\u7a7a\u95f4&quot;;</div><div class="line">      homePageUrl = &quot;http://qzone.qq.com&quot;;</div><div class="line">    &#125; else &#123;</div><div class="line">      homePageName = &quot;\u8fd4\u56de\u817e\u8baf\u7f51&quot;;</div><div class="line">      homePageUrl = &quot;http://www.qq.com&quot;;</div><div class="line">    &#125;</div><div class="line">  &#125;</div><div class="line">  for (var i = 0; i &lt; scs.length; i++) &#123;</div><div class="line">    if (scs[i].src.indexOf(&quot;404/search_children.js&quot;) &gt; -1) &#123;</div><div class="line">      if (scs[i].getAttribute(&quot;homePageUrl&quot;)) &#123;</div><div class="line">        homePageUrl = scs[i].getAttribute(&quot;homePageUrl&quot;);</div><div class="line">      &#125;</div><div class="line">      if (scs[i].getAttribute(&quot;homePageName&quot;)) &#123;</div><div class="line">        homePageName = scs[i].getAttribute(&quot;homePageName&quot;);</div><div class="line">      &#125;</div><div class="line">      break;</div><div class="line">    &#125;</div><div class="line">  &#125;</div><div class="line">  $scope.rettext = homePageName;</div><div class="line">  $scope.retlink = homePageUrl;</div><div class="line">  function getData(srcUrl, callback) &#123;</div><div class="line">    var sc = _d.createElement(&quot;script&quot;);</div><div class="line">    function orc() &#123;</div><div class="line">      if (sc.readyState === &quot;loaded&quot;) &#123;</div><div class="line">        setTimeout(function () &#123;</div><div class="line">          callback &amp;&amp; callback();</div><div class="line">        &#125;, 0);</div><div class="line">      &#125;</div><div class="line">    &#125;</div><div class="line">    if (sc.addEventListener) &#123;</div><div class="line">      if (callback) &#123;</div><div class="line">        sc.addEventListener(&quot;load&quot;, callback, false);</div><div class="line">      &#125;</div><div class="line">    &#125; else &#123;</div><div class="line">      sc.attachEvent(&quot;onreadystatechange&quot;, orc);</div><div class="line">    &#125;</div><div class="line">    ha &amp;&amp; ha.appendChild(sc);</div><div class="line">    sc.src = srcUrl;</div><div class="line">  &#125;</div><div class="line">  function resolveData(d) &#123;</div><div class="line">    var tid, len, ddata = [], tdata;</div><div class="line">    if (&quot;object&quot; == typeof d &amp;&amp; (d.data &amp;&amp; (len = d.data.length))) &#123;</div><div class="line">      for (var i = 0; i &lt; len; i++) &#123;</div><div class="line">        var expire = d.data[i].expire;</div><div class="line">        d.data[i]._id = new Date * Math.random() * Math.random() * 1E7;</div><div class="line">        if (expire &amp;&amp; tmnow * 1E3 &lt; Date.parse(expire.replace(/\s[\s\S]*$/, &quot;&quot;).replace(/\-/g, &quot;/&quot;))) &#123;</div><div class="line">          var _c = d.data[i].city, _p = d.data[i].province;</div><div class="line">          if (_c &amp;&amp; city) &#123;</div><div class="line">            if ((&quot;_&quot; + _c + &quot;_&quot;).indexOf(&quot;_&quot; + city + &quot;_&quot;) &gt; -1) &#123;</div><div class="line">              ddata.push(d.data[i]);</div><div class="line">              continue;</div><div class="line">            &#125;</div><div class="line">          &#125;</div><div class="line">          if (_p &amp;&amp; province) &#123;</div><div class="line">            if ((&quot;_&quot; + _p + &quot;_&quot;).indexOf(&quot;_&quot; + province + &quot;_&quot;) &gt; -1) &#123;</div><div class="line">              ddata.push(d.data[i]);</div><div class="line">            &#125;</div><div class="line">          &#125;</div><div class="line">        &#125;</div><div class="line">      &#125;</div><div class="line">      tid = Math.floor(Math.random() * (ddata.length || len));</div><div class="line">      tdata = (ddata.length ? ddata : d.data)[chId = tid];</div><div class="line">      if (_w.foundjsondata) &#123;</div><div class="line">        tdata.ta = tdata.sex.indexOf(&quot;\u5973&quot;) &gt; -1 ? &quot;\u5979&quot; : &quot;\u4ed6&quot;;</div><div class="line">        tdata.name = &quot;\u201c7\u00b718\u7279\u5927\u62d0\u5356\u5a74\u513f\u6848\u201d\u544a\u7834\uff0c\u88ab\u89e3\u6551\u768415\u540d\u5b69\u5b50\u4e2d\uff0c2\u4eba\u7531\u4eb2\u751f\u7236\u6bcd\u9886\u56de\uff0c\u4ecd\u670913\u540d\u5b69\u5b50\u672a\u627e\u5230\u4eb2\u751f\u7236\u6bcd\uff0c\u88ab\u5b89\u7f6e\u5728\u60e0\u5dde\u5e02\u793e\u4f1a\u798f\u5229\u9662\uff0c&quot; + tdata.ta + &quot;\u662f\u5176\u4e2d\u4e4b\u4e00\u3002&quot;;</div><div class="line">        tdata.url = tdata.url.replace(/#p=(\d&#123;1,2&#125;)/, function (a, n) &#123;</div><div class="line">          return &quot;#p=&quot; + (+n + 1);</div><div class="line">        &#125;);</div><div class="line">        return format(tmpl2, tdata);</div><div class="line">      &#125;</div><div class="line">      if (!tdata.ext1) &#123;</div><div class="line">        tdata.ext1 = &quot;\u4f46\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u5bfb\u627e\u5931\u8e2a\u5b9d\u8d1d&quot;;</div><div class="line">      &#125;</div><div class="line">      return tdata;</div><div class="line">    &#125;</div><div class="line">  &#125;</div><div class="line">  function setTopData(tdata) &#123;</div><div class="line">    current = tdata;</div><div class="line">    $scope.topname = tdata.name;</div><div class="line">    $scope.topgender = tdata.sex;</div><div class="line">    $scope.topbirth = tdata.birth_time;</div><div class="line">    $scope.toplostdate = tdata.lost_time;</div><div class="line">    $scope.toplostplace = tdata.lost_place;</div><div class="line">    $scope.toplostdesc = tdata.child_feature;</div><div class="line">    $scope.toplink = tdata.url;</div><div class="line">    $scope.topimg = tdata.child_pic;</div><div class="line">    $scope.topid = tdata._id;</div><div class="line">    document.body.innerHTML = template(&quot;body&quot;, $scope);</div><div class="line">  &#125;</div><div class="line">  function init(data) &#123;</div><div class="line">    tmnow = data.tm_now * 1E3;</div><div class="line">    var tdata = resolveData(jsondata);</div><div class="line">    $scope.whichin = 0;</div><div class="line">    jsondata.data.splice(chId, 1);</div><div class="line">    $scope.otherdata = [tdata].concat(jsondata.data.slice(0, 5));</div><div class="line">    setTopData(tdata);</div><div class="line">  &#125;</div><div class="line">  var timeout;</div><div class="line">  window._Callback = function (d) &#123;</div><div class="line">    clearTimeout(timeout);</div><div class="line">    init(d);</div><div class="line">  &#125;;</div><div class="line">  timeout = setTimeout(function () &#123;</div><div class="line">    _Callback(&#123; tm_now: (new Date).getTime() / 1E3 &#125;);</div><div class="line">  &#125;, 2E3);</div><div class="line">  _w.share = function (target) &#123;</div><div class="line">    var summary = [&quot;\u80cc\u666f\uff1a&quot;, current.name, &quot;\uff0c\u6027\u522b\uff1a&quot;, current.sex, &quot;\uff0c\u51fa\u751f\u65f6\u95f4\uff1a&quot;, current.birth_time, &quot;\uff0c\u5931\u8e2a\u65f6\u95f4\uff1a&quot;, current.lost_time, &quot;\uff0c\u7279\u5f81\u63cf\u8ff0\uff1a&quot;, current.child_feature].join(&quot;&quot;);</div><div class="line">    if (summary) &#123;</div><div class="line">      summary = &quot;#\u5bfb\u627e\u5931\u8e2a\u7684\u5b9d\u8d1d#&quot; + summary;</div><div class="line">    &#125;</div><div class="line">    var stitle = &quot;\u5931\u8e2a\u7684\u5b9d\u8d1d\u8be6\u60c5&quot;;</div><div class="line">    var desc = &quot;\u5931\u8e2a\u7684\u5b9d\u8d1d\u8981\u56de\u5bb6\uff0c\u5feb\u6765\u53c2\u4e0e\u7231\u5fc3\u7684\u4f20\u9012\u5427\uff01&quot;;</div><div class="line">    var encode = encodeURIComponent;</div><div class="line">    var opts = &#123; &quot;surl&quot;: &quot;http://qzone.qq.com/gy/404/&quot; + current.id + &quot;/lostchild.html&quot;, &quot;site&quot;: &quot;QQ\u7a7a\u95f4&quot;, &quot;summary&quot;: summary || &quot;#\u5b9d\u8d1d\u56de\u5bb6#\u817e\u8baf\u5fd7\u613f\u8005\u7528\u6280\u672f\u70b9\u4eae\u516c\u76ca\uff0c\u8ba9\u6211\u4eec\u4e00\u8d77\u5bfb\u627e\u8d70\u5931\u7684\u513f\u7ae5\u5427\uff01&quot;, &quot;stitle&quot;: stitle, &quot;pics&quot;: current.child_pic, &quot;desc&quot;: desc, &quot;origin_url&quot;: current.url &#125;;</div><div class="line">    var surl = opts.surl || &quot;http://www.qq.com/404/&quot;, summary = opts.summary || &quot;\u8fd9\u4e2a\u662f\u5206\u4eab\u7684\u5185\u5bb9&quot;, stitle = opts.stitle || &quot;\u8fd9\u4e2a\u662f\u5206\u4eab\u7684\u6807\u9898&quot;, pics = opts.pics || &quot;http://qzonestyle.gtimg.cn/qzone_v6/act/img/20120422_qzone_7_years/pop_up/icon-pop-seven-years.png&quot;, site = opts.site || &quot;\u8fd9\u4e2a\u662f\u5206\u4eab\u94fe\u63a5\u7684\u6587\u5b57&quot;, desc = opts.desc || &quot;\u5931\u8e2a\u7684\u5b9d\u8d1d\u8981\u56de\u5bb6\uff0c\u5feb\u6765\u53c2\u4e0e\u7231\u5fc3\u7684\u4f20\u9012\u5427\uff01&quot;,</div><div class="line">      origin_url = opts.origin_url || &quot;http://www.qq.com/404/&quot;;</div><div class="line">    var shareList = &#123;</div><div class="line">      weibo: &#123;</div><div class="line">        method: function (evt) &#123;</div><div class="line">          var w = &quot;http://v.t.qq.com/share/share.php&quot;, q = [&quot;?site=&quot;, encode(surl + &quot;#via=share_t_weib&quot;), &quot;&amp;title=&quot;, encode(summary), &quot;&amp;pic=&quot;, encode(pics), &quot;&amp;url=&quot;, encode(surl)].join(&quot;&quot;), p = [w, q].join(&quot;&quot;);</div><div class="line">          openit(p, &quot;weibo&quot;, &quot;width=700, height=680, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, location=yes, resizable=no, status=no&quot;);</div><div class="line">        &#125;</div><div class="line">      &#125;, qzone: &#123;</div><div class="line">        method: function (evt) &#123;</div><div class="line">          var buff = [], ps = &#123; url: surl + &quot;#via=404-qzoneshare&quot;, desc: desc || &quot;\u5931\u8e2a\u7684\u5b9d\u8d1d\u8981\u56de\u5bb6\uff0c\u5feb\u6765\u53c2\u4e0e\u7231\u5fc3\u7684\u4f20\u9012\u5427\uff01&quot;, summary: summary, title: stitle, pics: pics, site: site &#125;;</div><div class="line">          for (var k in ps) &#123;</div><div class="line">            buff.push(k + &quot;=&quot; + encode(ps[k] || &quot;&quot;));</div><div class="line">          &#125;</div><div class="line">          var w = &quot;http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?&quot; + buff.join(&quot;&amp;&quot;), q = [&quot;#via=share_t_qzone&quot;, &quot;&amp;title=&quot;, encode(summary), &quot;&amp;pic=&quot;, encode(pics), &quot;&amp;url=&quot;, encode(surl)].join(&quot;&quot;), p = [w, q].join(&quot;&quot;);</div><div class="line">          openit(p, &quot;qzone&quot;, &quot;width=700, height=680, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, location=yes, resizable=no, status=no&quot;);</div><div class="line">        &#125;</div><div class="line">      &#125;, sina: &#123;</div><div class="line">        method: function () &#123;</div><div class="line">          var w = &quot;http://v.t.sina.com.cn/share/share.php&quot;, q = [&quot;?url=&quot;, encode(surl + &quot;#via=share_x_weib&quot;), &quot;&amp;title=&quot;, encode(summary), &quot;&amp;source=&quot;, &quot;&amp;sourceUrl=&quot;, surl, &quot;&amp;content=utf-8&quot;, &quot;&amp;pic=&quot;, encode(pics)].join(&quot;&quot;), p = [w, q].join(&quot;&quot;);</div><div class="line">          openit(p, &quot;sina&quot;, &quot;toolbar=0,status=0,resizable=1,width=440,height=430&quot;);</div><div class="line">        &#125;</div><div class="line">      &#125;, kaixin: &#123;</div><div class="line">        method: function () &#123;</div><div class="line">          var n = &quot;http://www.kaixin001.com/repaste/bshare.php?rurl=&quot; + encode(surl + &quot;#via=share_kaixin&quot;) + &quot;&amp;rcontent=&amp;rtitle=&quot; + encode(summary);</div><div class="line">          openit(n, &quot;kaixin&quot;, &quot;toolbar=0,status=0,resizable=1,width=600,height=360&quot;);</div><div class="line">        &#125;</div><div class="line">      &#125;, renren: &#123;</div><div class="line">        method: function () &#123;</div><div class="line">          var n = &quot;http://www.connect.renren.com/share/sharer?title=&quot; + encode(summary) + &quot;&amp;url=&quot; + encode(surl + &quot;#via=share_renren&quot;), p = window.open(n, &quot;rr&quot;, &quot;toolbar=0,status=0,resizable=1,width=510,height=300&quot;);</div><div class="line">          if (p) &#123;</div><div class="line">            p.focus();</div><div class="line">          &#125;</div><div class="line">        &#125;</div><div class="line">      &#125;, weixin: &#123;</div><div class="line">        method: function () &#123;</div><div class="line">          var n = &quot;http://qzone.qq.com/gy/404/page/qrcode.html?url=&quot; + encode(origin_url + &quot;#via=share_weixin&quot;), p = window.open(n, &quot;rr&quot;, &quot;toolbar=0,status=0,resizable=1,width=620,height=430&quot;);</div><div class="line">          if (p) &#123;</div><div class="line">            p.focus();</div><div class="line">          &#125;</div><div class="line">        &#125;</div><div class="line">      &#125;</div><div class="line">    &#125;;</div><div class="line">    var openit = function (u, n, p) &#123;</div><div class="line">      function o() &#123;</div><div class="line">        var z;</div><div class="line">        if (!(z = window.open(u, n, p))) &#123;</div><div class="line">          location.href = u;</div><div class="line">        &#125; else &#123;</div><div class="line">          z.focus();</div><div class="line">        &#125;</div><div class="line">      &#125;</div><div class="line">      o();</div><div class="line">    &#125;;</div><div class="line">    shareList[target] &amp;&amp; shareList[target].method();</div><div class="line">  &#125;;</div><div class="line">  _w.toThis = function (id) &#123;</div><div class="line">    for (var i = 0; i &lt; $scope.otherdata.length; i++) &#123;</div><div class="line">      if ($scope.otherdata[i]._id == id) &#123;</div><div class="line">        setTopData($scope.otherdata[i]);</div><div class="line">        break;</div><div class="line">      &#125;</div><div class="line">    &#125;</div><div class="line">    return false;</div><div class="line">  &#125;;</div><div class="line">  var meta = document.createElement(&quot;meta&quot;);</div><div class="line">  meta.name = &quot;viewport&quot;;</div><div class="line">  meta.content = &quot;width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no&quot;;</div><div class="line">  ha.appendChild(meta);</div><div class="line">  (function registerStyle() &#123;</div><div class="line">    var link = document.createElement(&quot;link&quot;);</div><div class="line">    link.rel = &quot;stylesheet&quot;;</div><div class="line">    link.type = &quot;text/css&quot;;</div><div class="line">    link.href = &quot;https://qzone.qq.com/gy/404/style/404style.css&quot;;</div><div class="line">    ha.appendChild(link);</div><div class="line">  &#125;)();</div><div class="line">  (function initStat() &#123;</div><div class="line">    var qqDomainNameRE = /\.qq\.com$/i, qzoneDomainNameRE = /\bqzone\.qq\.com$/i, qzsDomainNameRE = /\bqzonestyle\.gtimg\.cn$/i;</div><div class="line">    function cb() &#123;</div><div class="line">      var url = location.host;</div><div class="line">      var src = &quot;&quot;;</div><div class="line">      if (qzoneDomainNameRE.test(url)) &#123;</div><div class="line">        src = &quot;new404.qzone&quot;;</div><div class="line">      &#125; else &#123;</div><div class="line">        if (qqDomainNameRE.test(url)) &#123;</div><div class="line">          src = &quot;new404.qq&quot;;</div><div class="line">        &#125; else &#123;</div><div class="line">          if (qzsDomainNameRE.test(url)) &#123;</div><div class="line">            src = &quot;new404.qzonestyle&quot;;</div><div class="line">          &#125; else &#123;</div><div class="line">            src = url.replace(&quot;.&quot;, &quot;_&quot;);</div><div class="line">          &#125;</div><div class="line">        &#125;</div><div class="line">      &#125;</div><div class="line">      _w.TCISD &amp;&amp; (_w.TCISD.pv &amp;&amp; _w.TCISD.pv(&quot;hat.qzone.qq.com&quot;, &quot;/gy/lostchild/&quot; + src));</div><div class="line">    &#125;</div><div class="line">    getData(&quot;https://qzonestyle.gtimg.cn/ac/qzfl/stat.js&quot;, cb);</div><div class="line">  &#125;)();</div><div class="line">&#125;)(window, document);</div><div class="line">!function () &#123;</div><div class="line">  function a(a, b) &#123;</div><div class="line">    return (/string|function/.test(typeof b) ? h : g)(a, b);</div><div class="line">  &#125;</div><div class="line">  function b(a, c) &#123;</div><div class="line">    return &quot;string&quot; != typeof a &amp;&amp; (c = typeof a, &quot;number&quot; === c ? a += &quot;&quot; : a = &quot;function&quot; === c ? b(a.call(a)) : &quot;&quot;), a;</div><div class="line">  &#125;</div><div class="line">  function c(a) &#123;</div><div class="line">    return l[a];</div><div class="line">  &#125;</div><div class="line">  function d(a) &#123;</div><div class="line">    return b(a).replace(/&amp;(?![\w#]+;)|[&lt;&gt;&quot;&apos;]/g, c);</div><div class="line">  &#125;</div><div class="line">  function e(a, b) &#123;</div><div class="line">    if (m(a)) &#123;</div><div class="line">      for (var c = 0, d = a.length; d &gt; c; c++) &#123;</div><div class="line">        b.call(a, a[c], c, a);</div><div class="line">      &#125;</div><div class="line">    &#125; else &#123;</div><div class="line">      for (c in a) &#123;</div><div class="line">        b.call(a, a[c], c);</div><div class="line">      &#125;</div><div class="line">    &#125;</div><div class="line">  &#125;</div><div class="line">  function f(a, b) &#123;</div><div class="line">    var c = /(\/)[^/]+\1\.\.\1/, d = (&quot;./&quot; + a).replace(/[^/]+$/, &quot;&quot;), e = d + b;</div><div class="line">    for (e = e.replace(/\/\.\//g, &quot;/&quot;); e.match(c);) &#123;</div><div class="line">      e = e.replace(c, &quot;/&quot;);</div><div class="line">    &#125;</div><div class="line">    return e;</div><div class="line">  &#125;</div><div class="line">  function g(b, c) &#123;</div><div class="line">    var d = a.get(b) || i(&#123; filename: b, name: &quot;Render Error&quot;, message: &quot;Template not found&quot; &#125;);</div><div class="line">    return c ? d(c) : d;</div><div class="line">  &#125;</div><div class="line">  function h(a, b) &#123;</div><div class="line">    if (&quot;string&quot; == typeof b) &#123;</div><div class="line">      var c = b;</div><div class="line">      b = function () &#123;</div><div class="line">        return new k(c);</div><div class="line">      &#125;;</div><div class="line">    &#125;</div><div class="line">    var d = j[a] = function (c) &#123;</div><div class="line">      try &#123;</div><div class="line">        return new b(c, a) + &quot;&quot;;</div><div class="line">      &#125; catch (d) &#123;</div><div class="line">        return i(d)();</div><div class="line">      &#125;</div><div class="line">    &#125;;</div><div class="line">    return d.prototype = b.prototype = n, d.toString = function () &#123;</div><div class="line">      return b + &quot;&quot;;</div><div class="line">    &#125;, d;</div><div class="line">  &#125;</div><div class="line">  function i(a) &#123;</div><div class="line">    var b = &quot;&#123;Template Error&#125;&quot;, c = a.stack || &quot;&quot;;</div><div class="line">    if (c) &#123;</div><div class="line">      c = c.split(&quot;\n&quot;).slice(0, 2).join(&quot;\n&quot;);</div><div class="line">    &#125; else &#123;</div><div class="line">      for (var d in a) &#123;</div><div class="line">        c += &quot;&lt;&quot; + d + &quot;&gt;\n&quot; + a[d] + &quot;\n\n&quot;;</div><div class="line">      &#125;</div><div class="line">    &#125;</div><div class="line">    return function () &#123;</div><div class="line">      return &quot;object&quot; == typeof console &amp;&amp; console.error(b + &quot;\n\n&quot; + c), b;</div><div class="line">    &#125;;</div><div class="line">  &#125;</div><div class="line">  var j = a.cache = &#123;&#125;, k = this.String, l = &#123; &quot;&lt;&quot;: &quot;&amp;#60;&quot;, &quot;&gt;&quot;: &quot;&amp;#62;&quot;, &apos;&quot;&apos;: &quot;&amp;#34;&quot;, &quot;&apos;&quot;: &quot;&amp;#39;&quot;, &quot;&amp;&quot;: &quot;&amp;#38;&quot; &#125;, m = Array.isArray || function (a) &#123;</div><div class="line">    return &quot;[object Array]&quot; === &#123;&#125;.toString.call(a);</div><div class="line">  &#125;, n = a.utils = &#123;</div><div class="line">    $helpers: &#123;&#125;, $include: function (a, b, c) &#123;</div><div class="line">      return a = f(c, a), g(a, b);</div><div class="line">    &#125;, $string: b, $escape: d, $each: e</div><div class="line">  &#125;, o = a.helpers = n.$helpers;</div><div class="line">  a.get = function (a) &#123;</div><div class="line">    return j[a.replace(/^\.\//, &quot;&quot;)];</div><div class="line">  &#125;, a.helper = function (a, b) &#123;</div><div class="line">    o[a] = b;</div><div class="line">  &#125;, &quot;function&quot; == typeof define ? define(function () &#123;</div><div class="line">    return a;</div><div class="line">  &#125;) : &quot;undefined&quot; != typeof exports ? module.exports = a : this.template = a, a(&quot;body&quot;, function (a) &#123;</div><div class="line">    var b = this, c = (b.$helpers, b.$escape), d = a.retlink, e = a.rettext, f = a.topid, g = a.topimg, h = a.topname, i = a.topgender, j = a.topbirth, l = a.toplostdate, m = a.toplostplace, n = a.toplostdesc, o = a.toplink, p = b.$each, q = a.otherdata, r = (a.otheritem, a.index, &quot;&quot;);</div><div class="line">    return r += &apos;&lt;div class=&quot;mod_404&quot;&gt; &lt;div class=&quot;wrapper&quot; id=&quot;mainWrap&quot;&gt; &lt;div class=&quot;mod_hd&quot;&gt; &lt;h1 class=&quot;title&quot;&gt;&lt;span class=&quot;title_inner&quot;&gt;404\uff0c\u60a8\u8bbf\u95ee\u7684\u9875\u9762\u627e\u4e0d\u56de\u6765\u4e86\uff0c\u4f46\u6211\u4eec\u53ef\u4ee5\u4e00\u8d77\u5e2e\u4ed6\u4eec\u56de\u5bb6\uff01&lt;/span&gt;&lt;/h1&gt; &lt;div class=&quot;desc&quot;&gt;&lt;a href=&quot;&apos;, r += c(d), r += &apos;&quot; class=&quot;desc_link&quot;&gt;&apos;, r += c(e), r += &apos;&lt;/a&gt;&lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;mod_bd&quot;&gt; &lt;div class=&quot;child_box&quot;&gt; &lt;div class=&quot;mod_404_child child_in&quot; data-id=&quot;&apos;,</div><div class="line">      r += c(f), r += &apos;&quot; id=&quot;top_&apos;, r += c(f), r += &apos;&quot;&gt; &lt;div class=&quot;child_main cf&quot;&gt; &lt;div class=&quot;child_avatar&quot;&gt;&lt;img src=&quot;&apos;, r += c(g), r += &apos;&quot; onload=&quot;imagezoom(this, 160, 216);&quot; style=&quot;opacity:0&quot;&gt;&lt;/div&gt; &lt;div class=&quot;child_info&quot;&gt; &lt;div class=&quot;info_name&quot;&gt; &lt;h2&gt;&lt;span class=&quot;name_inner&quot;&gt;&apos;, r += c(h), r += &apos;&lt;/span&gt;&lt;span class=&quot;info_sex&quot;&gt;(&apos;, r += c(i), r += &apos;)&lt;/span&gt;&lt;/h2&gt; &lt;/div&gt; &lt;div class=&quot;info_item info_birth&quot;&gt;&lt;span class=&quot;info_lbl&quot;&gt;\u51fa\u751f\u65e5\u671f\uff1a&lt;/span&gt;&lt;span class=&quot;item_inner&quot;&gt;&apos;, r += c(j),</div><div class="line">      r += &apos;&lt;/span&gt;&lt;/div&gt; &lt;div class=&quot;info_item info_time&quot;&gt;&lt;span class=&quot;info_lbl&quot;&gt;\u5931\u8e2a\u65f6\u95f4\uff1a&lt;/span&gt;&lt;span class=&quot;item_inner&quot;&gt;&apos;, r += c(l), r += &apos;&lt;/span&gt;&lt;/div&gt; &lt;div class=&quot;info_item info_address&quot;&gt;&lt;span class=&quot;info_lbl&quot;&gt;\u5931\u8e2a\u5730\u70b9\uff1a&lt;/span&gt;&lt;span class=&quot;item_inner&quot;&gt;&apos;, r += c(m), r += &apos;&lt;/span&gt;&lt;/div&gt; &lt;div class=&quot;info_item info_desc&quot;&gt;&lt;span class=&quot;info_lbl&quot;&gt;\u5931\u8e2a\u4eba\u7279\u5f81\u63cf\u8ff0\uff1a&lt;/span&gt;&lt;span class=&quot;item_inner&quot;&gt;&apos;, r += c(n), r += &apos;&lt;/span&gt;&lt;/div&gt; &lt;a href=&quot;&apos;,</div><div class="line">      r += c(o), r += &apos;&quot; class=&quot;link_view&quot; title=&quot;\u67e5\u770b\u8be6\u60c5&quot;&gt;&lt;span class=&quot;link_inner&quot;&gt;\u67e5\u770b\u8be6\u60c5&lt;/span&gt;&lt;/a&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;child_bottom cf&quot;&gt; &lt;div class=&quot;bottom_logo&quot;&gt; &lt;ul class=&quot;logo_list&quot;&gt; &lt;li&gt;&lt;a href=&quot;http://e.t.qq.com/Tencent-Volunteers&quot; title=&quot;\u817e\u8baf\u5fd7\u613f\u8005&quot;&gt;&lt;img src=&quot;http://qzone.qq.com/gy/404/style/image/logo_tencentvolunteers.png&quot;&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;http://bbs.baobeihuijia.com/forum.php&quot; title=&quot;\u5b9d\u8d1d\u56de\u5bb6&quot;&gt;&lt;img src=&quot;http://qzone.qq.com/gy/404/style/image/logo_baobeihuijia.png&quot;&gt;&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt; &lt;div class=&quot;bottom_right&quot;&gt; &lt;div class=&quot;mod_share&quot; onmouseover=&quot;this.className += \&apos; mod_share_hover\&apos;;&quot; onmouseout=&quot;this.className = this.className.replace(\&apos; mod_share_hover\&apos;,\&apos;\&apos;)&quot;&gt; &lt;span class=&quot;share_inner&quot;&gt;\u5206\u4eab&lt;/span&gt; &lt;ul class=&quot;share_list&quot;&gt; &lt;li&gt;&lt;a href=&quot;javascript:void(0);&quot; class=&quot;share_link&quot; onclick=&quot;share(\&apos;weibo\&apos;);return false;&quot; title=&quot;\u817e\u8baf\u5fae\u535a&quot;&gt;&lt;span class=&quot;link_inner&quot;&gt;\u817e\u8baf\u5fae\u535a&lt;/span&gt;&lt;i class=&quot;ico_tencentweibo&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;javascript:void(0);&quot; class=&quot;share_link&quot; onclick=&quot;share(\&apos;qzone\&apos;);return false;&quot; title=&quot;QQ\u7a7a\u95f4&quot;&gt;&lt;span class=&quot;link_inner&quot;&gt;QQ\u7a7a\u95f4&lt;/span&gt;&lt;i class=&quot;ico_qzone&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;javascript:void(0);&quot; class=&quot;share_link&quot; onclick=&quot;share(\&apos;sina\&apos;);return false;&quot; title=&quot;\u65b0\u6d6a\u5fae\u535a&quot;&gt;&lt;span class=&quot;link_inner&quot;&gt;\u65b0\u6d6a\u5fae\u535a&lt;/span&gt;&lt;i class=&quot;ico_sinaweibo&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;javascript:void(0);&quot; class=&quot;share_link&quot; onclick=&quot;share(\&apos;weixin\&apos;);return false;&quot; title=&quot;\u5fae\u4fe1&quot;&gt;&lt;span class=&quot;link_inner&quot;&gt;\u5fae\u4fe1&lt;/span&gt;&lt;i class=&quot;ico_weixin&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;span style=&quot;clear: both;&quot;&gt;&lt;/span&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;i class=&quot;ico_corner&quot;&gt;&lt;/i&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;mod_fd&quot;&gt; &lt;div class=&quot;mod_404_children&quot;&gt; &lt;ul class=&quot;children_list&quot;&gt; &apos;,</div><div class="line">      p(q, function (a) &#123;</div><div class="line">        r += &apos; &lt;li class=&quot;&apos;, r += c(f == a._id ? &quot;current&quot; : &quot;&quot;), r += &apos;&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;toThis(\&apos;&apos;, r += c(a._id), r += &apos;\&apos;);&quot; title=&quot;&apos;, r += c(a.name), r += &apos;&quot; &gt;&lt;img src=&quot;&apos;, r += c(a.child_pic), r += &apos;&quot;&gt;&lt;/a&gt;&lt;/li&gt; &apos;;</div><div class="line">      &#125;), r += &quot; &lt;/ul&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;&quot;, new k(r);</div><div class="line">  &#125;);</div><div class="line">&#125;();</div><div class="line">&lt;/script&gt;</div><div class="line">&lt;/body&gt;</div><div class="line">&lt;/html&gt;</div></pre></td></tr></table></figure></p>
+<p>哇。为什么markdown不显示代码。。  先不管了，反正我直接把这段代码复制到根目录下source中我新建的page.md下，然后把前面第十行的<code>homepageUrl</code>改成自己主页的地址，改这个的时候也非常头疼，不知道要改成什么(+_+)?，最后我写成了<code>archives</code>，这是博客的分档，因为写home的话，也是显示<code>cannot get/home/</code>，但如果什么都不写的话，就蹦到xw.qq.com去了。<br>总结，这是上面的代码出现的问题。。。肯定是的。    </p>
+<p>10.4更新<br>找出问题所在。代码没错，在第十行双引号里只加<code>/</code>就行了，直接回调到你的主页。</p>
+<p>   此致记录hexo历程<br><!-- JiaThis Button BEGIN --></p>
+<p><div class="jiathis_style"><br>    <span class="jiathis_txt">分享到：</span><a class="jiathis_button_qzone">QQ空间</a><a class="jiathis_button_tsina">新浪微博</a><a class="jiathis_button_tqq">腾讯微博</a><a class="jiathis_button_weixin">微信</a><a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a><br>    <a class="jiathis_counter_style"></a><br></div></p>
+<p><script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script><br><!-- JiaThis Button END --><br>links：<br><a href="https://jobbym.github.io/2017/01/16/Hexo%E9%9B%86%E6%88%90Algolia%E6%90%9C%E7%B4%A2%E6%8F%92%E4%BB%B6/" target="_blank" rel="external">添加第三方Algolia搜索功能</a><br><a href="http://fontawesome.io/icons/" target="_blank" rel="external">小图标汇集地（给外链设置图标）</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Hexo历程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日记 </tag>
+            
+            <tag> 总览 </tag>
+            
+            <tag> 小结 </tag>
+            
+            <tag> Hexo初级 </tag>
+            
+            <tag> 404页面制作 </tag>
+            
+            <tag> 解决方法 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[多么想和你见一面]]></title>
+      <url>/2017/10/02/Music-test/</url>
+      <content type="html"><![CDATA[<p><img src="https://i.imgur.com/y6jpqOk.jpg" alt="">  </p>
+<script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=2067242&mode=js"></script>  
+
+<p>作曲 : 陈小霞</p>
+<p>作词 : 施立</p>
+<p>我来到 你的城市</p>
+<p>走过你来时的路</p>
+<p>想像着 没我的日子</p>
+<p>你是怎样的孤独</p>
+<a id="more"></a>
+<p>拿着你 给的照片</p>
+<p>熟悉的那一条街</p>
+<p>只是没了你的画面</p>
+<p>我们回不到那天</p>
+<p>你会不会忽然的出现</p>
+<p>在街角的咖啡店</p>
+<p>我会带着笑脸 挥手寒暄</p>
+<p>和你 坐着聊聊天</p>
+<p>我多么想和你见一面</p>
+<p>看看你最近改变</p>
+<p>不再去说从前 只是寒暄</p>
+<p>对你说一句 只是说一句</p>
+<p>好久不见</p>
+<p>拿着你 给的照片</p>
+<p>熟悉的那一条街</p>
+<p>只是没了你的画面</p>
+<p>我们回不到那天</p>
+<p>你会不会忽然的出现</p>
+<p>在街角的咖啡店</p>
+<p>我会带着笑脸 挥手寒暄</p>
+<p>和你 坐着聊聊天</p>
+<p>我多么想和你见一面</p>
+<p>看看你最近改变</p>
+<p>不再去说从前 只是寒暄</p>
+<p>对你说一句 只是说一句</p>
+<p>好久不见<br><!-- JiaThis Button BEGIN --></p>
+<p><div class="jiathis_style"><br>    <span class="jiathis_txt">分享到：</span><br>    <a class="jiathis_button_qzone">QQ空间</a><br>    <a class="jiathis_button_tsina">新浪微博</a><br>    <a class="jiathis_button_tqq">腾讯微博</a><br>    <a class="jiathis_button_weixin">微信</a><br>    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a><br>    <a class="jiathis_counter_style"></a><br></div></p>
+<p><script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script><br><!-- JiaThis Button END --></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 音乐 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 总览 </tag>
+            
+            <tag> 音乐 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[测试。]]></title>
+      <url>/2017/10/01/%E6%B5%8B%E8%AF%95%E3%80%82/</url>
+      <content type="html"><![CDATA[<p>我就想知道到底怎么回事，啥都没干就给我404？？？  </p>
+<hr>
+<p>分割线:10.02<br>ok啦~ 可能原因：next主题更新导致。同时感谢<a href="http://www.chengxinsong.cn" target="_blank" rel="external">This blog</a>的帮助。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 日记 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 总览 </tag>
+            
+            <tag> 测试 </tag>
+            
+            <tag> 404错误 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[懒懒懒懒懒]]></title>
+      <url>/2017/09/24/%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92%E6%87%92o-%CF%89-o%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A%E5%95%8A/</url>
+      <content type="html"><![CDATA[<p>  随便写点什么，下雨，从昨天放学开始。 家里装修</p>
+<hr>
+<p>= Release 2.5.0 =<br>Released: 2017-07-23</p>
+<p>== Major change ==</p>
+<ul>
+<li>VS2017 is used for building TortoiseGit<br>On x64 versions of Windows, the TortoiseGit context menu and overlays won’t show for pure 32-bit applications in their file-open/save dialogs until you install the 2015 C-runtime for x86.<br><a href="https://www.microsoft.com/en-us/download/details.aspx?id=52685" target="_blank" rel="external">https://www.microsoft.com/en-us/download/details.aspx?id=52685</a> (select the vc_redist.x86.exe file for download).  <a id="more"></a>
+</li>
+</ul>
+<p>特奇怪<br><!-- JiaThis Button BEGIN --></p>
+<p><div class="jiathis_style"><br>    <span class="jiathis_txt">分享到：</span><a class="jiathis_button_qzone">QQ空间</a><a class="jiathis_button_tsina">新浪微博</a><a class="jiathis_button_tqq">腾讯微博</a><a class="jiathis_button_weixin">微信</a><a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a><br>    <a class="jiathis_counter_style"></a><br></div></p>
+<p><script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script><br><!-- JiaThis Button END --></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 日记 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日记 </tag>
+            
+            <tag> 总览 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[嗯，下课了]]></title>
+      <url>/2017/09/16/%E5%97%AF%EF%BC%8C%E4%B8%8B%E8%AF%BE%E4%BA%86/</url>
+      <content type="html"><![CDATA[<p>随便记点什么吧<br>考完试回到家<br>看望了奶奶<br>吃了水果<br>………<br>嗯在学校看见了她<br>嗯开心  </p>
+<hr>
+<p>我在看天时，你若看见我，请叫住我<br>因为，你比天要美丽；<br><a id="more"></a></p>
+<p>我在看你时，请你不要视而不见<br>为了看你我放弃了天；  </p>
+<p>天空我把他称为云朵<br>云朵也就变成了天空，  </p>
+<p>你看那一朵朵天空多美啊！<br>因为他的背景是云；  </p>
+<p>我不听人们的话，我只听你的<br>人们都喜欢云<br>而我喜欢你<br>————To xin</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 她 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日记 </tag>
+            
+            <tag> 总览 </tag>
+            
+            <tag> 她 </tag>
+            
+            <tag> 诗 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[第一个星期(￣▽￣)"]]></title>
+      <url>/2017/09/09/text-1/</url>
+      <content type="html"><![CDATA[<p>放学你们放学了吗？<br>开学一星期，一班陌生的可爱的的同学，很无奈(⊙﹏⊙)，随便更新个博客吧<br>啊啊啊啊啊啊啊啊啊啊啊啊啊。<br>不行<br>啊啊啊啊啊啊啊啊啊啊啊啊啊！！！<br>再来一次<br>aaaaaaaaaaaaaaaaaaaaaa(⊙_⊙)???<br><img src="https://i.imgur.com/SjL0N9H.jpg" alt=""><br>嗯恩恩恩恩呢讷讷嫩嗯~ o(￣▽￣)o测试一下~~~~就是测试喔！(⊙o⊙)！再次再次强调//////////////////////////////////This is a TEXT!<br><strong>向前进军！  先熟悉一下上周的程序再说！</strong>  <a id="more"></a> 现在程序只能解决正负和R的函数，不能输入根号以及多次幂。还有<em>ax^2+bx+c</em>以内的函数，结果是小数很麻烦。不能准确解决解函数问题。亟待解决</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div></pre></td><td class="code"><pre><div class="line">//这个程序帮助解决简单的一元二次方程</div><div class="line"></div><div class="line">#include &lt;stdio.h&gt;</div><div class="line">#include &lt;math.h&gt;</div><div class="line"></div><div class="line">//#define()后面不加分号“；”</div><div class="line">#define QUIT 2</div><div class="line"></div><div class="line">//函数原型</div><div class="line">int get_menu_choice(void);</div><div class="line"></div><div class="line"></div><div class="line">int main(void)</div><div class="line">&#123;</div><div class="line">    int choice = 0;</div><div class="line">    while (choice != QUIT)</div><div class="line">    &#123;</div><div class="line">        //调用菜单选择函数</div><div class="line">        choice = get_menu_choice();</div><div class="line"></div><div class="line">        //选择1将进入解方程</div><div class="line">        if (choice == 1)</div><div class="line">        &#123;</div><div class="line"></div><div class="line">            printf(&quot;求一元二次方程ax^2 + bx + c的解\n&quot;);</div><div class="line"></div><div class="line"></div><div class="line">            int a, b, c;</div><div class="line">            double x1, x2, dealt;</div><div class="line"></div><div class="line">            printf(&quot;请依次输入系数a b c(请用空格分隔开):\n&quot;);</div><div class="line">            scanf_s(&quot;%u %u %u&quot;, &amp;a, &amp;b, &amp;c);</div><div class="line"></div><div class="line"></div><div class="line">            dealt = b * b - 4 * a * c;//根的判别式</div><div class="line"></div><div class="line">            if (a == 0)</div><div class="line"></div><div class="line"></div><div class="line">                printf(&quot;a不能为0\n\n\n\n&quot;);</div><div class="line"></div><div class="line"></div><div class="line">            else if (dealt &gt; 0)</div><div class="line">            &#123;</div><div class="line"></div><div class="line"></div><div class="line">                x1 = (-b + sqrt(dealt)) / (2 * a);</div><div class="line">                x2 = (-b - sqrt(dealt)) / (2 * a);</div><div class="line"></div><div class="line">                printf(&quot;方程（%d）x^2 + （%d）x + （%d）的解为：\n&quot;, a, b, c);</div><div class="line">                printf(&quot;x1 = %f,x2 = %f\n\n\n\n&quot;, x1, x2);</div><div class="line">            &#125;</div><div class="line"></div><div class="line">            else if (dealt == 0)//</div><div class="line"></div><div class="line">            &#123;</div><div class="line">                x1 = x2 = (-b) / (2 * a);</div><div class="line">                printf(&quot;方程（%d）x^2 + （%d）x + （%d）的解为：\n&quot;, a, b, c);</div><div class="line">                printf(&quot;x1=x2=%f\n\n\n\n&quot;, x1);</div><div class="line">            &#125;</div><div class="line"></div><div class="line">            else</div><div class="line">                //这里是（dealt &lt; 0）的情况，所以并没有实根</div><div class="line">                printf(&quot;该方程无解\n\n\n\n&quot;);</div><div class="line">        &#125;</div><div class="line">        else</div><div class="line">            puts(&quot;\n你选择离开。&quot;);</div><div class="line"></div><div class="line">    &#125;</div><div class="line"></div><div class="line">    return 0;</div><div class="line">&#125;</div><div class="line"></div><div class="line">////////////////函数定义////////////////////</div><div class="line"></div><div class="line">//这个函数被调用时将在荧屏上显示两个菜单选项</div><div class="line">int get_menu_choice(void)</div><div class="line">&#123;</div><div class="line">    int selection;</div><div class="line"></div><div class="line">    do</div><div class="line">    &#123;</div><div class="line">        puts(&quot;\n1 - 解一元二次方程。&quot;);//</div><div class="line">        puts(&quot;2 - 离开。&quot;);//选项二</div><div class="line">        puts(&quot;\n输入你的选择：&quot;);</div><div class="line"></div><div class="line">        scanf_s(&quot;%d&quot;, &amp;selection);</div><div class="line">    &#125; while (selection &lt; 1 || selection &gt; 2);</div><div class="line">    return selection;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>。。。(o-ωｑ)).oO 困啊困啊苦命的困，(～﹃～)~zZ睡觉，有时间再说吧。。。估计没什么时间更blog了<br><!-- JiaThis Button BEGIN --></p>
+<p><div class="jiathis_style"><br>    <span class="jiathis_txt">分享到：</span><a class="jiathis_button_qzone">QQ空间</a><a class="jiathis_button_tsina">新浪微博</a><a class="jiathis_button_tqq">腾讯微博</a><a class="jiathis_button_weixin">微信</a><a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a><br>    <a class="jiathis_counter_style"></a><br></div></p>
+<p><script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script><br><!-- JiaThis Button END --></p>
+]]></content>
+      
+        <categories>
+            
+            <category> c语言 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日记 </tag>
+            
+            <tag> 总览 </tag>
+            
+            <tag> c语言 </tag>
+            
+            <tag> 解一元二次方程 </tag>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[妥善解决win10各种卡顿问题]]></title>
+      <url>/2017/09/03/%E5%A6%A5%E5%96%84%E8%A7%A3%E5%86%B3win10%E5%90%84%E7%A7%8D%E5%8D%A1%E9%A1%BF%E9%97%AE%E9%A2%98/</url>
+      <content type="html"><![CDATA[<p>方案一</p>
+<p>   关闭windows search后台偷偷运行。控制面板-管理工具-服务-windows search禁用，别禁防火墙，<br>可以在高级设置里的“属性”把“域配置文件”“专属配置文件”“公用配置文件”改为关闭状态。</p>
+<p>方案二<br>   关闭家庭组，该功能导致硬盘与cpu处于高负荷状态。控制中心-管理工具-服务-Homecroup listener和Homegroup Provider禁用。使用优化软件后win10开不了机的原因是禁用了三个服务，使用优化软件开启：dmwappushsvc. diagnsticsTracking service. coreMessaging.</p>
+<p>方案三<br>   清理产生的windows.old文件夹。<br><a id="more"></a><br>方案四<br>   设置好Superfetch服务，服务Superfetch启动类型改成延迟启动或者禁用，可避免频繁对硬盘的访问。控制中心-管 理服务-Superfetch-启动类型-自动。</p>
+<p>方案五</p>
+<p>   关闭ipv6，部分网卡驱动开启ipv6会导致开机系统未响应，假死。网络共享中心-网络连接-以太网-属性-取消ipv6.</p>
+<p>方案六</p>
+<p>   设置win10自动登录，win+r netplwiz 取消使用计算机必须密码选项。</p>
+<p>方案七</p>
+<p>   关闭windows安全中心服务，win+r services.msc  Enter-找出SecurityCenter，禁用。不要删除系统文件，优化速度明显加快。</p>
+<p>方案八</p>
+<p>   关闭计划任务里的隐藏的自动程序，控制面板-所有控制面板选项-管理工具-任务计划程序-右侧任务列表-禁用不需要的服务。</p>
+<p>方案九<br>   加速开机速度，win+r  msconfig  -引导-勾上无GUI引导。</p>
+<p>方案十<br>   win+r gpedit.msc 计算机管理中-模块管理-系统-关机选项-关闭会阻止或取消关机的应用程序的自动终止功能。</p>
+<p>方案十一<br>   关闭性能特效（低配置电脑），系统属性-高级-性能-设置-关闭窗口动态。</p>
+<p>方案十二<br>   修改窗口颜色用于护眼。win+r regedit  打开注册表 HKEY_CURRENT_USER\CONTROL\PANEL\Colors  选一个需要修改颜色的地方-比如窗口（windows）红绿蓝  这是白色(255 255 255)你可以改为豆绿（204 237 207）完后重启两次。<br><!-- JiaThis Button BEGIN --></p>
+<p><div class="jiathis_style"><br>    <span class="jiathis_txt">分享到：</span><a class="jiathis_button_qzone">QQ空间</a><a class="jiathis_button_tsina">新浪微博</a><a class="jiathis_button_tqq">腾讯微博</a><a class="jiathis_button_weixin">微信</a><a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a><br>    <a class="jiathis_counter_style"></a><br></div></p>
+<p><script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script><br><!-- JiaThis Button END --></p>
+]]></content>
+      
+        <categories>
+            
+            <category> win10 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 总览 </tag>
+            
+            <tag> 解决方法 </tag>
+            
+            <tag> win10 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[测试测试]]></title>
+      <url>/2017/09/03/%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95/</url>
+      <content type="html"><![CDATA[<p>这是一篇测试，是否能够解决乱码问题</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 日记 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 日记 </tag>
+            
+            <tag> 总览 </tag>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[我的博客第一天]]></title>
+      <url>/2017/09/03/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%A4%A9/</url>
+      <content type="html"><![CDATA[<p>  ………..折腾一个晚上和一上午终于弄好了……………..<br>求抱抱(￣︶￣*)) ////\\，嗯先就这样吧，还有中午好cutexin</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 博客第一天 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 总览 </tag>
+            
+            <tag> 博客firstday </tag>
+            
+            <tag> o(*￣▽￣*)ブ </tag>
+            
+        </tags>
+        
+    </entry>
+    
+  
+  
 </search>
