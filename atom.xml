@@ -35,11 +35,11 @@
       <category term="日记" scheme="http://yoursite.com/categories/note/"/>
     
     
+      <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
       <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
     
       <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
-    
-      <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -63,11 +63,11 @@
       <category term="当我还年轻时" scheme="http://yoursite.com/categories/%E5%BD%93%E6%88%91%E8%BF%98%E5%B9%B4%E8%BD%BB%E6%97%B6/"/>
     
     
+      <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
       <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
     
       <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
-    
-      <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
       <category term="青春" scheme="http://yoursite.com/tags/%E9%9D%92%E6%98%A5/"/>
     
@@ -99,11 +99,11 @@
       <category term="日记" scheme="http://yoursite.com/categories/note/"/>
     
     
+      <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
       <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
     
       <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
-    
-      <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -141,11 +141,11 @@
       <category term="日记" scheme="http://yoursite.com/categories/note/"/>
     
     
+      <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
       <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
     
       <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
-    
-      <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
       <category term="小结" scheme="http://yoursite.com/tags/%E5%B0%8F%E7%BB%93/"/>
     
@@ -172,11 +172,11 @@
       <category term="日记" scheme="http://yoursite.com/categories/note/"/>
     
     
+      <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
       <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
     
       <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
-    
-      <category term="生活" scheme="http://yoursite.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
       <category term="头像" scheme="http://yoursite.com/tags/%E5%A4%B4%E5%83%8F/"/>
     
@@ -214,11 +214,11 @@
     
       <category term="小结" scheme="http://yoursite.com/tags/%E5%B0%8F%E7%BB%93/"/>
     
+      <category term="解决方法" scheme="http://yoursite.com/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    
       <category term="Hexo初级" scheme="http://yoursite.com/tags/Hexo%E5%88%9D%E7%BA%A7/"/>
     
       <category term="404页面制作" scheme="http://yoursite.com/tags/404%E9%A1%B5%E9%9D%A2%E5%88%B6%E4%BD%9C/"/>
-    
-      <category term="解决方法" scheme="http://yoursite.com/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
     
   </entry>
   
@@ -476,9 +476,9 @@
     
       <category term="总览" scheme="http://yoursite.com/tags/%E6%80%BB%E8%A7%88/"/>
     
-      <category term="解决方法" scheme="http://yoursite.com/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
-    
       <category term="win10" scheme="http://yoursite.com/tags/win10/"/>
+    
+      <category term="解决方法" scheme="http://yoursite.com/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
     
   </entry>
   
