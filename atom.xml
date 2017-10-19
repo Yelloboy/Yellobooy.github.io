@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cutexin.com/"/>
-  <updated>2017-10-19T05:48:13.064Z</updated>
+  <updated>2017-10-19T09:08:08.193Z</updated>
   <id>http://cutexin.com/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Little Hexo experence</title>
+    <link href="http://cutexin.com/2017/10/19/Little-Hexo-experence/"/>
+    <id>http://cutexin.com/2017/10/19/Little-Hexo-experence/</id>
+    <published>2017-10-19T08:36:11.000Z</published>
+    <updated>2017-10-19T09:08:08.193Z</updated>
+    
+    <content type="html"><![CDATA[<p>从八月末到九月初，到现在的这段时间，从接触<code>Hexo</code>到被它所震撼再到开始学习它，一路说不上每天研究，至少一个星期有更一篇blog，也算是坎坎坷坷的走过来了。<br>从<code>hexo</code>初阶-高阶-虽说没来得及记下<code>hexo</code>成长历程，但今天就小做一个总结吧，也不枉在它身上所耗费的时间。<br>从高一接触网页制作时，算是九年级暑假期间，就怀揣着想做一个自己的网站的想法。虽说接触了点<code>dreamweaver</code>但最终也因学业与之无缘，偶然的机会，在学c的同时，听了一点c的歌，看到有人议论说<code>github</code>，本以为是什么恶作剧（虽被说成了交友网站但我并不认同），就注册了它。后来得知它是全球最大的开源代码和程序员聚集地，便使我下定心。<br>在查找怎么用<code>github</code>的同时，发现了<code>github</code>还可以当作一个免费的仓库通过hexo来搭建自己的独立博客，看了几个人的独立博客，使我为之震撼，当晚便通宵完成了<code>hexo</code>的入门建立，当晚也买了个域名，当时也就是这样想的，我有自己的域名就有了自己网站。后来才知道<code>hexo</code>只是一个静态的网页，很多东西都需要第三方插件，但这些并不重要,重要的是它无比强大的博客搭建以及简洁的页面都深深吸引着我。当然买完域名后就犯难了，居然半天无法与<code>github</code>连在一起，后来知道需要<code>@</code>和<code>www</code>的解析，以及弄好域名后显示404。没记错的话是缺少<code>index file</code>，后来便有了<a href="http://cutexin.com/2017/09/03/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E5%A4%A9/">我的博客第一天</a>，当时的心情大概不差吧。<br>于是过了两天便去了学校，一连学校的日子，回到家初貌似忘掉了点滴细节，不过没关，继续钻。其中还有一段乱码的经历，不过也都解决了。还有个问题就是，404公益页面的跳转，在<a href="http://cutexin.com/2017/10/03/%E5%85%B3%E4%BA%8EHexo%E7%9A%84404%E8%AE%BE%E7%BD%AE%E4%BB%A5%E5%8F%8A%E8%BF%94%E5%9B%9E%E9%97%AE%E9%A2%98%E5%B0%8F%E7%BB%93/">关于Hexo的404设置以及返回问题小结</a>中都有说到，其实现在还令我不解的是，映射到404.html后，点击404链接时，总是会先显示博客的一个空白页面才跳转到404公益页面，可能哪个细节没注意至今也没发现。慢慢地，还有#表示未开启。真是坑坏我啦，根本没人告诉我嘛，导致menu界面半天出不来，我能有什么办法？只能怪脑子太笨~以及后来的各种细节问题。<br>到最后，我都快忘了我到底建立博客干嘛来着。不是要一个鲜艳的界面，而是记录自己的点点滴滴而已。不要深陷其中。<br>还有为了学hexo都忘了还有c++要学了。总而言之，如今博客做的适可而止了，虽说没什么自己的特色全是照抄的，但我会在后续继续探索hexo，也算是一个目标！当中也有头脑发热时候，但这都不要紧，人怎么可能被打败呢。未知领域等着我，不，我在追。给明天的自己一个拥抱。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;从八月末到九月初，到现在的这段时间，从接触&lt;code&gt;Hexo&lt;/code&gt;到被它所震撼再到开始学习它，一路说不上每天研究，至少一个星期有更一篇blog，也算是坎坎坷坷的走过来了。&lt;br&gt;从&lt;code&gt;hexo&lt;/code&gt;初阶-高阶-虽说没来得及记下&lt;code&gt;hexo&lt;
+    
+    </summary>
+    
+      <category term="Hexo历程" scheme="http://cutexin.com/categories/Hexo%E5%8E%86%E7%A8%8B/"/>
+    
+    
+      <category term="日记" scheme="http://cutexin.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+      <category term="总览" scheme="http://cutexin.com/tags/%E6%80%BB%E8%A7%88/"/>
+    
+      <category term="hexo初级" scheme="http://cutexin.com/tags/hexo%E5%88%9D%E7%BA%A7/"/>
+    
+  </entry>
   
   <entry>
     <title>A very holiday</title>
@@ -217,11 +244,11 @@
     
       <category term="小结" scheme="http://cutexin.com/tags/%E5%B0%8F%E7%BB%93/"/>
     
-      <category term="解决方法" scheme="http://cutexin.com/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
-    
       <category term="Hexo初级" scheme="http://cutexin.com/tags/Hexo%E5%88%9D%E7%BA%A7/"/>
     
       <category term="404页面制作" scheme="http://cutexin.com/tags/404%E9%A1%B5%E9%9D%A2%E5%88%B6%E4%BD%9C/"/>
+    
+      <category term="解决方法" scheme="http://cutexin.com/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
     
   </entry>
   
@@ -479,9 +506,9 @@
     
       <category term="总览" scheme="http://cutexin.com/tags/%E6%80%BB%E8%A7%88/"/>
     
-      <category term="win10" scheme="http://cutexin.com/tags/win10/"/>
-    
       <category term="解决方法" scheme="http://cutexin.com/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    
+      <category term="win10" scheme="http://cutexin.com/tags/win10/"/>
     
   </entry>
   

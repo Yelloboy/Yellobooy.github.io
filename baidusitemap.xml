@@ -3,6 +3,30 @@
 
 
     
+  <url>
+    <loc>http://cutexin.com/2017/10/19/Little-Hexo-experence/</loc>
+    <lastmod>2017-10-19T09:08:08.193Z</lastmod>
+    <data>
+        <display>
+        <title>Little Hexo experence</title>
+        <pubTime>2017-10-19T08:36:11.000Z</pubTime>
+        
+        <tag>日记</tag>
+         
+        <tag>总览</tag>
+         
+        <tag>hexo初级</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo历程" url="http://cutexin.com/categories/Hexo%E5%8E%86%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
     
   <url>
@@ -139,9 +163,9 @@
         
         <tag>总览</tag>
          
-        <tag>win10</tag>
-         
         <tag>解决方法</tag>
+         
+        <tag>win10</tag>
          
          
            
@@ -167,11 +191,11 @@
          
         <tag>小结</tag>
          
-        <tag>解决方法</tag>
-         
         <tag>Hexo初级</tag>
          
         <tag>404页面制作</tag>
+         
+        <tag>解决方法</tag>
          
          
            
