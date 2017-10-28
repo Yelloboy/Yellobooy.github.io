@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://cutexin.com/2017/10/28/XVIII/</loc>
+    <lastmod>2017-10-28T14:19:32.021Z</lastmod>
+    <data>
+        <display>
+        <title>XVIII</title>
+        <pubTime>2017-10-27T16:00:01.000Z</pubTime>
+        
+        <tag>日记</tag>
+         
+         
+           
+             
+              <breadCrumb title="日记" url="http://cutexin.com/categories/note/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://cutexin.com/2017/10/20/liezixueshe/</loc>
     <lastmod>2017-10-20T02:24:39.514Z</lastmod>
     <data>
@@ -196,9 +216,9 @@
         
         <tag>总览</tag>
          
-        <tag>解决方法</tag>
-         
         <tag>win10</tag>
+         
+        <tag>解决方法</tag>
          
          
            
@@ -224,11 +244,11 @@
          
         <tag>小结</tag>
          
+        <tag>解决方法</tag>
+         
         <tag>Hexo初级</tag>
          
         <tag>404页面制作</tag>
-         
-        <tag>解决方法</tag>
          
          
            
