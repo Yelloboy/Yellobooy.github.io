@@ -5,15 +5,39 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cutexin.com/"/>
-  <updated>2017-11-18T16:09:36.500Z</updated>
+  <updated>2017-11-26T03:31:35.204Z</updated>
   <id>http://cutexin.com/</id>
   
   <author>
-    <name>Gabriel</name>
+    <name>Gabriel Yi</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>I see</title>
+    <link href="http://cutexin.com/2017/11/26/en/"/>
+    <id>http://cutexin.com/2017/11/26/en/</id>
+    <published>2017-11-26T03:29:18.000Z</published>
+    <updated>2017-11-26T03:31:35.204Z</updated>
+    
+    <content type="html"><![CDATA[<p>New thoughts.<br>It never wait for you.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;New thoughts.&lt;br&gt;It never wait for you.&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="note" scheme="http://cutexin.com/categories/note/"/>
+    
+    
+      <category term="note" scheme="http://cutexin.com/tags/note/"/>
+    
+  </entry>
   
   <entry>
     <title>It&#39;s 11.18</title>
@@ -356,11 +380,11 @@
     
       <category term="小结" scheme="http://cutexin.com/tags/%E5%B0%8F%E7%BB%93/"/>
     
+      <category term="解决方法" scheme="http://cutexin.com/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    
       <category term="Hexo初级" scheme="http://cutexin.com/tags/Hexo%E5%88%9D%E7%BA%A7/"/>
     
       <category term="404页面制作" scheme="http://cutexin.com/tags/404%E9%A1%B5%E9%9D%A2%E5%88%B6%E4%BD%9C/"/>
-    
-      <category term="解决方法" scheme="http://cutexin.com/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
     
   </entry>
   
@@ -618,9 +642,9 @@
     
       <category term="总览" scheme="http://cutexin.com/tags/%E6%80%BB%E8%A7%88/"/>
     
-      <category term="解决方法" scheme="http://cutexin.com/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
-    
       <category term="win10" scheme="http://cutexin.com/tags/win10/"/>
+    
+      <category term="解决方法" scheme="http://cutexin.com/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
     
   </entry>
   
