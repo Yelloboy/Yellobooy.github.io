@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>YelloBoy&#39;s blog</title>
-  <subtitle>R.A.U.</subtitle>
+  <subtitle>Time flying</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cutexin.com/"/>
@@ -9,7 +9,7 @@
   <id>http://cutexin.com/</id>
   
   <author>
-    <name>胡一鸣</name>
+    <name>Gabriel</name>
     
   </author>
   
