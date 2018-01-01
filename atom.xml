@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cutexin.com/"/>
-  <updated>2017-12-03T05:21:08.992Z</updated>
+  <updated>2018-01-01T05:09:11.690Z</updated>
   <id>http://cutexin.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2018</title>
+    <link href="http://cutexin.com/2018/01/01/2018/"/>
+    <id>http://cutexin.com/2018/01/01/2018/</id>
+    <published>2018-01-01T05:07:09.000Z</published>
+    <updated>2018-01-01T05:09:11.690Z</updated>
+    
+    <content type="html"><![CDATA[<p>����2018�ˣ�ϣ��ϣ�����ڡ�</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;����2018�ˣ�ϣ��ϣ�����ڡ�&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="note" scheme="http://cutexin.com/categories/note/"/>
+    
+    
+      <category term="note" scheme="http://cutexin.com/tags/note/"/>
+    
+  </entry>
   
   <entry>
     <title>QAQ</title>
@@ -163,11 +187,11 @@
       <category term="日记" scheme="http://cutexin.com/categories/%E5%BD%93%E6%88%91%E8%BF%98%E5%B9%B4%E8%BD%BB%E6%97%B6/note/"/>
     
     
-      <category term="生活" scheme="http://cutexin.com/tags/%E7%94%9F%E6%B4%BB/"/>
-    
       <category term="日记" scheme="http://cutexin.com/tags/%E6%97%A5%E8%AE%B0/"/>
     
       <category term="总览" scheme="http://cutexin.com/tags/%E6%80%BB%E8%A7%88/"/>
+    
+      <category term="生活" scheme="http://cutexin.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
       <category term="青春" scheme="http://cutexin.com/tags/%E9%9D%92%E6%98%A5/"/>
     
@@ -227,11 +251,11 @@
       <category term="日记" scheme="http://cutexin.com/categories/note/"/>
     
     
-      <category term="生活" scheme="http://cutexin.com/tags/%E7%94%9F%E6%B4%BB/"/>
-    
       <category term="日记" scheme="http://cutexin.com/tags/%E6%97%A5%E8%AE%B0/"/>
     
       <category term="总览" scheme="http://cutexin.com/tags/%E6%80%BB%E8%A7%88/"/>
+    
+      <category term="生活" scheme="http://cutexin.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -255,11 +279,11 @@
       <category term="当我还年轻时" scheme="http://cutexin.com/categories/%E5%BD%93%E6%88%91%E8%BF%98%E5%B9%B4%E8%BD%BB%E6%97%B6/"/>
     
     
-      <category term="生活" scheme="http://cutexin.com/tags/%E7%94%9F%E6%B4%BB/"/>
-    
       <category term="日记" scheme="http://cutexin.com/tags/%E6%97%A5%E8%AE%B0/"/>
     
       <category term="总览" scheme="http://cutexin.com/tags/%E6%80%BB%E8%A7%88/"/>
+    
+      <category term="生活" scheme="http://cutexin.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
       <category term="青春" scheme="http://cutexin.com/tags/%E9%9D%92%E6%98%A5/"/>
     
@@ -291,11 +315,11 @@
       <category term="日记" scheme="http://cutexin.com/categories/note/"/>
     
     
-      <category term="生活" scheme="http://cutexin.com/tags/%E7%94%9F%E6%B4%BB/"/>
-    
       <category term="日记" scheme="http://cutexin.com/tags/%E6%97%A5%E8%AE%B0/"/>
     
       <category term="总览" scheme="http://cutexin.com/tags/%E6%80%BB%E8%A7%88/"/>
+    
+      <category term="生活" scheme="http://cutexin.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -333,11 +357,11 @@
       <category term="日记" scheme="http://cutexin.com/categories/note/"/>
     
     
-      <category term="生活" scheme="http://cutexin.com/tags/%E7%94%9F%E6%B4%BB/"/>
-    
       <category term="日记" scheme="http://cutexin.com/tags/%E6%97%A5%E8%AE%B0/"/>
     
       <category term="总览" scheme="http://cutexin.com/tags/%E6%80%BB%E8%A7%88/"/>
+    
+      <category term="生活" scheme="http://cutexin.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
       <category term="小结" scheme="http://cutexin.com/tags/%E5%B0%8F%E7%BB%93/"/>
     
@@ -364,11 +388,11 @@
       <category term="日记" scheme="http://cutexin.com/categories/note/"/>
     
     
-      <category term="生活" scheme="http://cutexin.com/tags/%E7%94%9F%E6%B4%BB/"/>
-    
       <category term="日记" scheme="http://cutexin.com/tags/%E6%97%A5%E8%AE%B0/"/>
     
       <category term="总览" scheme="http://cutexin.com/tags/%E6%80%BB%E8%A7%88/"/>
+    
+      <category term="生活" scheme="http://cutexin.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
       <category term="头像" scheme="http://cutexin.com/tags/%E5%A4%B4%E5%83%8F/"/>
     
@@ -671,34 +695,6 @@
       <category term="解决方法" scheme="http://cutexin.com/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
     
       <category term="win10" scheme="http://cutexin.com/tags/win10/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>测试测试</title>
-    <link href="http://cutexin.com/2017/09/03/%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95/"/>
-    <id>http://cutexin.com/2017/09/03/测试测试/</id>
-    <published>2017-09-03T06:24:26.000Z</published>
-    <updated>2017-10-03T00:49:30.458Z</updated>
-    
-    <content type="html"><![CDATA[<p>这是一篇测试，是否能够解决乱码问题</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这是一篇测试，是否能够解决乱码问题&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="日记" scheme="http://cutexin.com/categories/note/"/>
-    
-    
-      <category term="日记" scheme="http://cutexin.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-      <category term="总览" scheme="http://cutexin.com/tags/%E6%80%BB%E8%A7%88/"/>
-    
-      <category term="测试" scheme="http://cutexin.com/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
