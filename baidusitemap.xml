@@ -4,6 +4,48 @@
 
     
   <url>
+    <loc>http://cutexin.com/2018/01/08/%E5%85%B3%E4%BA%8E%E5%9C%86%E9%94%A5%E4%B8%8E%E6%9B%B2%E7%BA%BF/</loc>
+    <lastmod>2018-01-22T13:19:45.439Z</lastmod>
+    <data>
+        <display>
+        <title>Conic and curve</title>
+        <pubTime>2018-01-08T13:18:13.000Z</pubTime>
+        
+        <tag>note</tag>
+         
+        <tag>Math</tag>
+         
+         
+           
+             
+              <breadCrumb title="Math" url="http://cutexin.com/categories/Math/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://cutexin.com/2018/01/22/Go/</loc>
+    <lastmod>2018-01-22T13:17:53.546Z</lastmod>
+    <data>
+        <display>
+        <title>Go</title>
+        <pubTime>2018-01-22T13:14:52.000Z</pubTime>
+        
+        <tag>note</tag>
+         
+         
+           
+             
+              <breadCrumb title="note" url="http://cutexin.com/categories/note/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://cutexin.com/2018/01/01/2018/</loc>
     <lastmod>2018-01-01T05:15:34.267Z</lastmod>
     <data>
@@ -315,9 +357,9 @@
         
         <tag>总览</tag>
          
-        <tag>解决方法</tag>
-         
         <tag>win10</tag>
+         
+        <tag>解决方法</tag>
          
          
            
@@ -343,11 +385,11 @@
          
         <tag>小结</tag>
          
+        <tag>解决方法</tag>
+         
         <tag>Hexo初级</tag>
          
         <tag>404页面制作</tag>
-         
-        <tag>解决方法</tag>
          
          
            

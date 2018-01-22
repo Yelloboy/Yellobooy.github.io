@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Go]]></title>
+    <url>%2F2018%2F01%2F22%2FGo%2F</url>
+    <content type="text"><![CDATA[Just don’t think too much about, which is always terrible to everything.]]></content>
+      <categories>
+        <category>note</category>
+      </categories>
+      <tags>
+        <tag>note</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Conic and curve]]></title>
+    <url>%2F2018%2F01%2F08%2F%E5%85%B3%E4%BA%8E%E5%9C%86%E9%94%A5%E4%B8%8E%E6%9B%B2%E7%BA%BF%2F</url>
+    <content type="text"><![CDATA[x²/a²+y²/b²=1Ax+By+C=0 &lt; &gt;x²+&lt; &gt;y²+c=0If del yso, x1+x2=-a/b=-a]]></content>
+      <categories>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>note</tag>
+        <tag>Math</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[2018]]></title>
     <url>%2F2018%2F01%2F01%2F2018%2F</url>
     <content type="text"><![CDATA[Here’s 2018.]]></content>
@@ -172,9 +195,9 @@
         <tag>日记</tag>
         <tag>总览</tag>
         <tag>小结</tag>
+        <tag>解决方法</tag>
         <tag>Hexo初级</tag>
         <tag>404页面制作</tag>
-        <tag>解决方法</tag>
       </tags>
   </entry>
   <entry>
@@ -252,8 +275,8 @@
       </categories>
       <tags>
         <tag>总览</tag>
-        <tag>解决方法</tag>
         <tag>win10</tag>
+        <tag>解决方法</tag>
       </tags>
   </entry>
   <entry>
