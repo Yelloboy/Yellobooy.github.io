@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[月食]]></title>
+    <url>%2F2018%2F01%2F31%2F%E6%9C%88%E9%A3%9F%2F</url>
+    <content type="text"><![CDATA[留一个纪念吧。 毕竟152年见一次，说不准以后会有什么事情发生呢。 22:0022:27]]></content>
+      <categories>
+        <category>note</category>
+      </categories>
+      <tags>
+        <tag>note</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Go]]></title>
     <url>%2F2018%2F01%2F22%2FGo%2F</url>
     <content type="text"><![CDATA[Just don’t think too much about, which is always terrible to everything.]]></content>
@@ -94,9 +105,9 @@
         <category>日记</category>
       </categories>
       <tags>
+        <tag>生活</tag>
         <tag>日记</tag>
         <tag>总览</tag>
-        <tag>生活</tag>
         <tag>青春</tag>
         <tag>青年</tag>
         <tag>诗</tag>
@@ -123,9 +134,9 @@
         <category>日记</category>
       </categories>
       <tags>
+        <tag>生活</tag>
         <tag>日记</tag>
         <tag>总览</tag>
-        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -136,9 +147,9 @@
         <category>当我还年轻时</category>
       </categories>
       <tags>
+        <tag>生活</tag>
         <tag>日记</tag>
         <tag>总览</tag>
-        <tag>生活</tag>
         <tag>青春</tag>
         <tag>青年</tag>
       </tags>
@@ -151,9 +162,9 @@
         <category>日记</category>
       </categories>
       <tags>
+        <tag>生活</tag>
         <tag>日记</tag>
         <tag>总览</tag>
-        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -164,9 +175,9 @@
         <category>日记</category>
       </categories>
       <tags>
+        <tag>生活</tag>
         <tag>日记</tag>
         <tag>总览</tag>
-        <tag>生活</tag>
         <tag>小结</tag>
       </tags>
   </entry>
@@ -178,9 +189,9 @@
         <category>日记</category>
       </categories>
       <tags>
+        <tag>生活</tag>
         <tag>日记</tag>
         <tag>总览</tag>
-        <tag>生活</tag>
         <tag>头像</tag>
       </tags>
   </entry>
@@ -195,9 +206,9 @@
         <tag>日记</tag>
         <tag>总览</tag>
         <tag>小结</tag>
-        <tag>解决方法</tag>
         <tag>Hexo初级</tag>
         <tag>404页面制作</tag>
+        <tag>解决方法</tag>
       </tags>
   </entry>
   <entry>
@@ -275,8 +286,8 @@
       </categories>
       <tags>
         <tag>总览</tag>
-        <tag>win10</tag>
         <tag>解决方法</tag>
+        <tag>win10</tag>
       </tags>
   </entry>
   <entry>
